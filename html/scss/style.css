@@ -448,6 +448,22 @@ body {
 .iconsp-question {
   background-position: -150px -30px; }
 
+/* line 50, ../../jade/scss/_icons.scss */
+.iconsp-guid-res {
+  background-position: -124px -30px; }
+
+/* line 53, ../../jade/scss/_icons.scss */
+.iconsp-guid-paid {
+  background-position: 0px -76px; }
+
+/* line 56, ../../jade/scss/_icons.scss */
+.iconsp-guid-account {
+  background-position: -102px -55px; }
+
+/* line 59, ../../jade/scss/_icons.scss */
+.iconsp-guid-walk {
+  background-position: -102px -30px; }
+
 @font-face {
   font-family: "aurora";
   src: url("fonts//utm_aurora-webfont.eot");
@@ -457,7 +473,7 @@ body {
 /* line 8, ../../jade/scss/_common.scss */
 body {
   background: url("img/bg-body.jpg") repeat;
-  color: white;
+  color: #FFF;
   font-family: 'Roboto', sans-serif;
   font-weight: 400; }
 
@@ -502,7 +518,7 @@ h4 {
   padding: 5px;
   border-radius: 5px;
   border: 0;
-  color: white; }
+  color: #FFF; }
 
 /* line 63, ../../jade/scss/_common.scss */
 .btn-orange {
@@ -572,7 +588,7 @@ select {
 /* line 57, ../../jade/scss/_bxslider.scss */
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url(img/bx_loader.gif) center center no-repeat white;
+  background: url(img/bx_loader.gif) center center no-repeat #fff;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -701,7 +717,7 @@ select {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #666666 \9;
+  background: #666 \9;
   background: rgba(80, 80, 80, 0.75);
   width: 100%; }
 
@@ -874,3 +890,58 @@ article.news {
     /* line 51, ../../jade/scss/_home.scss */
     article.news .news-type:hover {
       background: #e74c3c; }
+
+/* line 1, ../../jade/scss/_help.scss */
+.help-page {
+  margin: 20px auto;
+  font-family: 'Roboto'; }
+  /* line 5, ../../jade/scss/_help.scss */
+  .help-page .help-menu li {
+    background: #b7b7b7;
+    margin: 10px 0px;
+    border-radius: 5px;
+    padding: 9px 0px;
+    font-size: 14px;
+    color: #333333; }
+    /* line 12, ../../jade/scss/_help.scss */
+    .help-page .help-menu li span {
+      font-weight: 500; }
+      /* line 14, ../../jade/scss/_help.scss */
+      .help-page .help-menu li span i {
+        float: left;
+        margin: 0 20px; }
+  /* line 20, ../../jade/scss/_help.scss */
+  .help-page .help-menu li:first-child {
+    margin-top: 0px; }
+  /* line 24, ../../jade/scss/_help.scss */
+  .help-page .help-right {
+    background: #e1e1e1;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    margin-bottom: 30px; }
+    /* line 29, ../../jade/scss/_help.scss */
+    .help-page .help-right p {
+      color: #333333;
+      font-size: 13px;
+      line-height: 20px;
+      padding: 5px 15px; }
+    /* line 35, ../../jade/scss/_help.scss */
+    .help-page .help-right h4.title-help {
+      margin: 20px 0px;
+      font-weight: bold;
+      padding: 5px 15px;
+      color: #333333;
+      font-size: 13px; }
+    /* line 42, ../../jade/scss/_help.scss */
+    .help-page .help-right h3 {
+      background: #b7b7b7;
+      color: #000000;
+      font-weight: bolder;
+      border-radius: 5px 5px 0px 0px;
+      font-size: 16px;
+      border-bottom: 1px solid #a5a5a5;
+      padding: 5px 15px;
+      box-shadow: 0px 1px 0px 0px #c3c3c3;
+      text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */
