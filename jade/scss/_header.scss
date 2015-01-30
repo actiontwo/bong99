@@ -1,0 +1,77 @@
+#header {
+  padding: 10px 0 0 0;
+
+  form#login-bar {
+    margin-bottom: 10px;
+    text-align: right;
+    .form-input {
+      display: inline;
+      margin-right: 3px;
+      position: relative;
+      .icon-input {
+        position: absolute;
+        right: 2px;
+      }
+    }
+  }
+
+  .register-bar {
+    font-size: 13px;
+    text-align: right;
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      font-family: 'Helvetica Neue', sans-serif;
+      margin-left: 5px;
+      .btn {
+        padding: 5px 19px;
+        img {
+          position: relative;
+          top: 3px;
+          margin-left: 5px;
+        }
+        i {
+          position: relative;
+          top: 3px;
+          left: -4px;
+        }
+      }
+    }
+    button {
+      padding: 5px 15px;
+    }
+    .flag-active {
+      opacity: 1 !important;
+    }
+
+    .flag {
+      opacity: 0.7;
+    }
+  }
+
+  #top-menu {
+    border-bottom: 2px solid $orange;
+    ul {
+      background: $orange;
+      width: 820px;
+      margin: 10px auto 0;
+      text-transform: uppercase;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-weight: 800;
+      padding: 0 5px;
+      position: relative;
+      top: 2px;
+      li {
+        display: inline-block;
+        text-align: center;
+        padding: 2px 0px;
+        &:hover {
+          background: #000;
+        }
+        a {
+          padding: 5px 17px;
+        }
+      }
+    }
+  }
+}

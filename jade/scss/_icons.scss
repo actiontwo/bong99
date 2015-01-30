@@ -1,0 +1,49 @@
+[class*='iconsp-'] {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background: url('img/icon-sprite.png') no-repeat;
+}
+
+[class*='-medium-'] {
+  height: 30px;
+  width: 30px;
+}
+
+[class*='-large-'] {
+  height: 87px;
+  width: 87px;
+}
+
+.iconsp-medium-facebook {
+  background-position: 0 0;
+}
+
+.iconsp-medium-line {
+  background-position: -30px 0;
+}
+
+.iconsp-medium-skype {
+  background-position: -60px 0;
+}
+
+.iconsp-medium-viber {
+  background-position: -90px 0;
+}
+
+.iconsp-medium-yahoo {
+  background-position: -120px 0;
+}
+
+.iconsp-medium-zalo {
+  background-position: -150px 0;
+}
+
+.iconsp-comment {
+  background-position: -180px -36px;
+  height: 13px;
+  width: 14px;
+}
+.iconsp-question{
+  background-position: -150px -30px;
+}

@@ -1,5 +1,5 @@
 $fontPath: 'fonts/';
-$robotoRegular: 'roboto-regular';
+$aurora: 'aurora';
 
 @mixin fontFace($shortNameFont, $fontName) {
   font-family: $shortNameFont;
@@ -13,5 +13,5 @@ $robotoRegular: 'roboto-regular';
 }
 
 @font-face {
-  @include fontFace($robotoBold, 'roboto-bold-webfont');
+  @include fontFace($aurora, 'utm_aurora-webfont');
 }

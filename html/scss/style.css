@@ -55,3 +55,822 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+/*
+	Variable Grid System.
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+/*
+  Forces backgrounds to span full width,
+  even if there is horizontal scrolling.
+  Increase this if your layout is wider.
+
+  Note: IE6 works fine without this fix.
+*/
+/* line 17, ../../jade/scss/_grid.scss */
+body {
+  min-width: 1032px; }
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+/* line 23, ../../jade/scss/_grid.scss */
+.container_12 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1032px; }
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+/* line 33, ../../jade/scss/_grid.scss */
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px; }
+
+/* line 54, ../../jade/scss/_grid.scss */
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11,
+.push_12, .pull_12 {
+  position: relative; }
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+/* line 73, ../../jade/scss/_grid.scss */
+.alpha {
+  margin-left: 0; }
+
+/* line 77, ../../jade/scss/_grid.scss */
+.omega {
+  margin-right: 0; }
+
+/* Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 85, ../../jade/scss/_grid.scss */
+.container_12 .grid_1 {
+  width: 76px; }
+
+/* line 89, ../../jade/scss/_grid.scss */
+.container_12 .grid_2 {
+  width: 162px; }
+
+/* line 93, ../../jade/scss/_grid.scss */
+.container_12 .grid_3 {
+  width: 248px; }
+
+/* line 97, ../../jade/scss/_grid.scss */
+.container_12 .grid_4 {
+  width: 334px; }
+
+/* line 101, ../../jade/scss/_grid.scss */
+.container_12 .grid_5 {
+  width: 420px; }
+
+/* line 105, ../../jade/scss/_grid.scss */
+.container_12 .grid_6 {
+  width: 506px; }
+
+/* line 109, ../../jade/scss/_grid.scss */
+.container_12 .grid_7 {
+  width: 592px; }
+
+/* line 113, ../../jade/scss/_grid.scss */
+.container_12 .grid_8 {
+  width: 678px; }
+
+/* line 117, ../../jade/scss/_grid.scss */
+.container_12 .grid_9 {
+  width: 764px; }
+
+/* line 121, ../../jade/scss/_grid.scss */
+.container_12 .grid_10 {
+  width: 850px; }
+
+/* line 125, ../../jade/scss/_grid.scss */
+.container_12 .grid_11 {
+  width: 936px; }
+
+/* line 129, ../../jade/scss/_grid.scss */
+.container_12 .grid_12 {
+  width: 1022px; }
+
+/* Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 140, ../../jade/scss/_grid.scss */
+.container_12 .prefix_1 {
+  padding-left: 86px; }
+
+/* line 144, ../../jade/scss/_grid.scss */
+.container_12 .prefix_2 {
+  padding-left: 172px; }
+
+/* line 148, ../../jade/scss/_grid.scss */
+.container_12 .prefix_3 {
+  padding-left: 258px; }
+
+/* line 152, ../../jade/scss/_grid.scss */
+.container_12 .prefix_4 {
+  padding-left: 344px; }
+
+/* line 156, ../../jade/scss/_grid.scss */
+.container_12 .prefix_5 {
+  padding-left: 430px; }
+
+/* line 160, ../../jade/scss/_grid.scss */
+.container_12 .prefix_6 {
+  padding-left: 516px; }
+
+/* line 164, ../../jade/scss/_grid.scss */
+.container_12 .prefix_7 {
+  padding-left: 602px; }
+
+/* line 168, ../../jade/scss/_grid.scss */
+.container_12 .prefix_8 {
+  padding-left: 688px; }
+
+/* line 172, ../../jade/scss/_grid.scss */
+.container_12 .prefix_9 {
+  padding-left: 774px; }
+
+/* line 176, ../../jade/scss/_grid.scss */
+.container_12 .prefix_10 {
+  padding-left: 860px; }
+
+/* line 180, ../../jade/scss/_grid.scss */
+.container_12 .prefix_11 {
+  padding-left: 946px; }
+
+/* Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 190, ../../jade/scss/_grid.scss */
+.container_12 .suffix_1 {
+  padding-right: 86px; }
+
+/* line 194, ../../jade/scss/_grid.scss */
+.container_12 .suffix_2 {
+  padding-right: 172px; }
+
+/* line 198, ../../jade/scss/_grid.scss */
+.container_12 .suffix_3 {
+  padding-right: 258px; }
+
+/* line 202, ../../jade/scss/_grid.scss */
+.container_12 .suffix_4 {
+  padding-right: 344px; }
+
+/* line 206, ../../jade/scss/_grid.scss */
+.container_12 .suffix_5 {
+  padding-right: 430px; }
+
+/* line 210, ../../jade/scss/_grid.scss */
+.container_12 .suffix_6 {
+  padding-right: 516px; }
+
+/* line 214, ../../jade/scss/_grid.scss */
+.container_12 .suffix_7 {
+  padding-right: 602px; }
+
+/* line 218, ../../jade/scss/_grid.scss */
+.container_12 .suffix_8 {
+  padding-right: 688px; }
+
+/* line 222, ../../jade/scss/_grid.scss */
+.container_12 .suffix_9 {
+  padding-right: 774px; }
+
+/* line 226, ../../jade/scss/_grid.scss */
+.container_12 .suffix_10 {
+  padding-right: 860px; }
+
+/* line 230, ../../jade/scss/_grid.scss */
+.container_12 .suffix_11 {
+  padding-right: 946px; }
+
+/* Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 240, ../../jade/scss/_grid.scss */
+.container_12 .push_1 {
+  left: 86px; }
+
+/* line 244, ../../jade/scss/_grid.scss */
+.container_12 .push_2 {
+  left: 172px; }
+
+/* line 248, ../../jade/scss/_grid.scss */
+.container_12 .push_3 {
+  left: 258px; }
+
+/* line 252, ../../jade/scss/_grid.scss */
+.container_12 .push_4 {
+  left: 344px; }
+
+/* line 256, ../../jade/scss/_grid.scss */
+.container_12 .push_5 {
+  left: 430px; }
+
+/* line 260, ../../jade/scss/_grid.scss */
+.container_12 .push_6 {
+  left: 516px; }
+
+/* line 264, ../../jade/scss/_grid.scss */
+.container_12 .push_7 {
+  left: 602px; }
+
+/* line 268, ../../jade/scss/_grid.scss */
+.container_12 .push_8 {
+  left: 688px; }
+
+/* line 272, ../../jade/scss/_grid.scss */
+.container_12 .push_9 {
+  left: 774px; }
+
+/* line 276, ../../jade/scss/_grid.scss */
+.container_12 .push_10 {
+  left: 860px; }
+
+/* line 280, ../../jade/scss/_grid.scss */
+.container_12 .push_11 {
+  left: 946px; }
+
+/* Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+/* line 290, ../../jade/scss/_grid.scss */
+.container_12 .pull_1 {
+  left: -86px; }
+
+/* line 294, ../../jade/scss/_grid.scss */
+.container_12 .pull_2 {
+  left: -172px; }
+
+/* line 298, ../../jade/scss/_grid.scss */
+.container_12 .pull_3 {
+  left: -258px; }
+
+/* line 302, ../../jade/scss/_grid.scss */
+.container_12 .pull_4 {
+  left: -344px; }
+
+/* line 306, ../../jade/scss/_grid.scss */
+.container_12 .pull_5 {
+  left: -430px; }
+
+/* line 310, ../../jade/scss/_grid.scss */
+.container_12 .pull_6 {
+  left: -516px; }
+
+/* line 314, ../../jade/scss/_grid.scss */
+.container_12 .pull_7 {
+  left: -602px; }
+
+/* line 318, ../../jade/scss/_grid.scss */
+.container_12 .pull_8 {
+  left: -688px; }
+
+/* line 322, ../../jade/scss/_grid.scss */
+.container_12 .pull_9 {
+  left: -774px; }
+
+/* line 326, ../../jade/scss/_grid.scss */
+.container_12 .pull_10 {
+  left: -860px; }
+
+/* line 330, ../../jade/scss/_grid.scss */
+.container_12 .pull_11 {
+  left: -946px; }
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+/* line 342, ../../jade/scss/_grid.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+/* line 353, ../../jade/scss/_grid.scss */
+.clearfix:before,
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+
+/* line 363, ../../jade/scss/_grid.scss */
+.clearfix:after {
+  clear: both; }
+
+/*
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
+*/
+/* line 372, ../../jade/scss/_grid.scss */
+.clearfix {
+  zoom: 1; }
+
+/* line 1, ../../jade/scss/_icons.scss */
+[class*='iconsp-'] {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background: url("img/icon-sprite.png") no-repeat; }
+
+/* line 8, ../../jade/scss/_icons.scss */
+[class*='-medium-'] {
+  height: 30px;
+  width: 30px; }
+
+/* line 13, ../../jade/scss/_icons.scss */
+[class*='-large-'] {
+  height: 87px;
+  width: 87px; }
+
+/* line 18, ../../jade/scss/_icons.scss */
+.iconsp-medium-facebook {
+  background-position: 0 0; }
+
+/* line 22, ../../jade/scss/_icons.scss */
+.iconsp-medium-line {
+  background-position: -30px 0; }
+
+/* line 26, ../../jade/scss/_icons.scss */
+.iconsp-medium-skype {
+  background-position: -60px 0; }
+
+/* line 30, ../../jade/scss/_icons.scss */
+.iconsp-medium-viber {
+  background-position: -90px 0; }
+
+/* line 34, ../../jade/scss/_icons.scss */
+.iconsp-medium-yahoo {
+  background-position: -120px 0; }
+
+/* line 38, ../../jade/scss/_icons.scss */
+.iconsp-medium-zalo {
+  background-position: -150px 0; }
+
+/* line 42, ../../jade/scss/_icons.scss */
+.iconsp-comment {
+  background-position: -180px -36px;
+  height: 13px;
+  width: 14px; }
+
+/* line 47, ../../jade/scss/_icons.scss */
+.iconsp-question {
+  background-position: -150px -30px; }
+
+@font-face {
+  font-family: "aurora";
+  src: url("fonts//utm_aurora-webfont.eot");
+  src: url("fonts//utm_aurora-webfont.eot?#iefix") format("embedded-opentype"), url("fonts//utm_aurora-webfont.woff") format("woff"), url("fonts//utm_aurora-webfont.ttf") format("truetype"), url("fonts//utm_aurora-webfont.svg#aurora") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 8, ../../jade/scss/_common.scss */
+body {
+  background: url("img/bg-body.jpg") repeat;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+/* line 20, ../../jade/scss/_common.scss */
+header {
+  background: url("img/bg-header.jpg") repeat; }
+
+/* line 24, ../../jade/scss/_common.scss */
+footer {
+  background: url("img/bg-footer.jpg") repeat;
+  padding: 15px 0 30px 0; }
+
+/* line 29, ../../jade/scss/_common.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 22px; }
+
+/* line 36, ../../jade/scss/_common.scss */
+h1 {
+  font-size: 22px;
+  line-height: 24px; }
+
+/* line 41, ../../jade/scss/_common.scss */
+h2 {
+  font-size: 20px;
+  line-height: 22px; }
+
+/* line 46, ../../jade/scss/_common.scss */
+h3 {
+  font-size: 16px;
+  line-height: 20px; }
+
+/* line 51, ../../jade/scss/_common.scss */
+h4 {
+  font-size: 13px;
+  line-height: 18px; }
+
+/* line 56, ../../jade/scss/_common.scss */
+.btn {
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  color: white; }
+
+/* line 63, ../../jade/scss/_common.scss */
+.btn-orange {
+  background: #e74c3c; }
+
+/* line 67, ../../jade/scss/_common.scss */
+.btn-blue {
+  background: #34495e; }
+
+/* line 71, ../../jade/scss/_common.scss */
+input,
+textarea,
+select {
+  border-radius: 3px;
+  border: 0;
+  padding: 7px;
+  color: #757575;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500; }
+
+/* line 82, ../../jade/scss/_common.scss */
+.bg-blue {
+  background: #223851; }
+
+/* line 86, ../../jade/scss/_common.scss */
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
+  color: #757575; }
+
+/**
+ * BxSlider v4.1.2 - Fully loaded, responsive content slider
+ * http://bxslider.com
+ *
+ * Written by: Steven Wanderski, 2014
+ * http://stevenwanderski.com
+ * (while drinking Belgian ales and listening to jazz)
+ *
+ * CEO and founder of bxCreative, LTD
+ * http://bxcreative.com
+ */
+/** RESET AND LAYOUT
+===================================*/
+/* line 17, ../../jade/scss/_bxslider.scss */
+.bx-wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  *zoom: 1; }
+
+/* line 24, ../../jade/scss/_bxslider.scss */
+.bx-wrapper img {
+  max-width: 100%;
+  display: block; }
+
+/** THEME
+===================================*/
+/* line 48, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%; }
+
+/* LOADER */
+/* line 57, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-loading {
+  min-height: 50px;
+  background: url(img/bx_loader.gif) center center no-repeat white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000; }
+
+/* PAGER */
+/* line 70, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: Arial;
+  font-weight: bold;
+  color: #666;
+  padding-top: 20px; }
+
+/* line 79, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline; }
+
+/* line 86, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #666;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 99, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+  background: #000; }
+
+/* DIRECTION CONTROLS (NEXT / PREV) */
+/* line 106, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-prev {
+  left: 10px;
+  background: url(img/controls.png) no-repeat 0 -32px; }
+
+/* line 111, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-next {
+  right: 10px;
+  background: url(img/controls.png) no-repeat -43px -32px; }
+
+/* line 116, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-prev:hover {
+  background-position: 0 0; }
+
+/* line 120, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-next:hover {
+  background-position: -43px 0; }
+
+/* line 124, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  z-index: 9999; }
+
+/* line 135, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-direction a.disabled {
+  display: none; }
+
+/* AUTO CONTROLS (START / STOP) */
+/* line 141, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-auto {
+  text-align: center; }
+
+/* line 145, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-start {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  background: url(img/controls.png) -86px -11px no-repeat;
+  margin: 0 3px; }
+
+/* line 155, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+  background-position: -86px 0; }
+
+/* line 160, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-stop {
+  display: block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  background: url(img/controls.png) -86px -44px no-repeat;
+  margin: 0 3px; }
+
+/* line 170, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+  background-position: -86px -33px; }
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+/* line 177, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: left;
+  width: 80%; }
+
+/* line 182, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 35px; }
+
+/* IMAGE CAPTIONS */
+/* line 189, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666666 \9;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%; }
+
+/* line 198, ../../jade/scss/_bxslider.scss */
+.bx-wrapper .bx-caption span {
+  color: #fff;
+  font-family: Arial;
+  display: block;
+  font-size: .85em;
+  padding: 10px; }
+
+/* line 1, ../../jade/scss/_header.scss */
+#header {
+  padding: 10px 0 0 0; }
+  /* line 4, ../../jade/scss/_header.scss */
+  #header form#login-bar {
+    margin-bottom: 10px;
+    text-align: right; }
+    /* line 7, ../../jade/scss/_header.scss */
+    #header form#login-bar .form-input {
+      display: inline;
+      margin-right: 3px;
+      position: relative; }
+      /* line 11, ../../jade/scss/_header.scss */
+      #header form#login-bar .form-input .icon-input {
+        position: absolute;
+        right: 2px; }
+  /* line 18, ../../jade/scss/_header.scss */
+  #header .register-bar {
+    font-size: 13px;
+    text-align: right; }
+    /* line 21, ../../jade/scss/_header.scss */
+    #header .register-bar li {
+      display: inline-block;
+      vertical-align: middle;
+      font-family: 'Helvetica Neue', sans-serif;
+      margin-left: 5px; }
+      /* line 26, ../../jade/scss/_header.scss */
+      #header .register-bar li .btn {
+        padding: 5px 19px; }
+        /* line 28, ../../jade/scss/_header.scss */
+        #header .register-bar li .btn img {
+          position: relative;
+          top: 3px;
+          margin-left: 5px; }
+        /* line 33, ../../jade/scss/_header.scss */
+        #header .register-bar li .btn i {
+          position: relative;
+          top: 3px;
+          left: -4px; }
+    /* line 40, ../../jade/scss/_header.scss */
+    #header .register-bar button {
+      padding: 5px 15px; }
+    /* line 43, ../../jade/scss/_header.scss */
+    #header .register-bar .flag-active {
+      opacity: 1 !important; }
+    /* line 47, ../../jade/scss/_header.scss */
+    #header .register-bar .flag {
+      opacity: 0.7; }
+  /* line 52, ../../jade/scss/_header.scss */
+  #header #top-menu {
+    border-bottom: 2px solid #e74c3c; }
+    /* line 54, ../../jade/scss/_header.scss */
+    #header #top-menu ul {
+      background: #e74c3c;
+      width: 820px;
+      margin: 10px auto 0;
+      text-transform: uppercase;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-weight: 800;
+      padding: 0 5px;
+      position: relative;
+      top: 2px; }
+      /* line 64, ../../jade/scss/_header.scss */
+      #header #top-menu ul li {
+        display: inline-block;
+        text-align: center;
+        padding: 2px 0px; }
+        /* line 68, ../../jade/scss/_header.scss */
+        #header #top-menu ul li:hover {
+          background: #000; }
+        /* line 71, ../../jade/scss/_header.scss */
+        #header #top-menu ul li a {
+          padding: 5px 17px; }
+
+/* line 1, ../../jade/scss/_footer.scss */
+section#info-footer {
+  padding: 20px 0 0;
+  border-bottom: 1px solid #525252;
+  border-top: 1px solid #525252; }
+  /* line 5, ../../jade/scss/_footer.scss */
+  section#info-footer .content li {
+    display: inline-block; }
+  /* line 8, ../../jade/scss/_footer.scss */
+  section#info-footer .title {
+    color: #bdbdbd;
+    margin-bottom: 15px; }
+  /* line 14, ../../jade/scss/_footer.scss */
+  section#info-footer .payment-method .content img {
+    width: 68px;
+    padding: 0 5px; }
+  /* line 21, ../../jade/scss/_footer.scss */
+  section#info-footer .social-media .content {
+    width: 182px;
+    margin: 15px 0; }
+    /* line 24, ../../jade/scss/_footer.scss */
+    section#info-footer .social-media .content li {
+      padding-right: 14px;
+      margin-bottom: 10px; }
+
+/* line 30, ../../jade/scss/_footer.scss */
+section#copyright {
+  text-align: center;
+  font-size: 13px;
+  color: #bdbdbd;
+  line-height: 15px;
+  padding: 10px 0; }
+
+/* line 1, ../../jade/scss/_home.scss */
+section#main-slider img {
+  width: 100%; }
+
+/* line 4, ../../jade/scss/_home.scss */
+.home-page {
+  padding-top: 10px;
+  background: url("img/bg-home.jpg") repeat; }
+
+/* line 9, ../../jade/scss/_home.scss */
+article.news {
+  text-transform: uppercase;
+  font-size: 30px;
+  border-radius: 2px;
+  border: 2px solid #222d39;
+  margin-bottom: 10px;
+  font-family: "aurora"; }
+  /* line 17, ../../jade/scss/_home.scss */
+  article.news figure {
+    position: relative; }
+    /* line 19, ../../jade/scss/_home.scss */
+    article.news figure img {
+      width: 100%; }
+    /* line 22, ../../jade/scss/_home.scss */
+    article.news figure .news-image {
+      display: block;
+      line-height: 0; }
+    /* line 27, ../../jade/scss/_home.scss */
+    article.news figure .news-title {
+      background: rgba(0, 0, 0, 0.7);
+      display: block;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      font-size: 22px;
+      color: #e4b31e;
+      min-height: 60px;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center; }
+  /* line 41, ../../jade/scss/_home.scss */
+  article.news .news-type {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 8px;
+    border: 1px solid #303030; }
+    /* line 47, ../../jade/scss/_home.scss */
+    article.news .news-type a {
+      display: block;
+      font-size: 20px; }
+    /* line 51, ../../jade/scss/_home.scss */
+    article.news .news-type:hover {
+      background: #e74c3c; }
