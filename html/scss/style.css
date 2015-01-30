@@ -944,4 +944,46 @@ article.news {
       box-shadow: 0px 1px 0px 0px #c3c3c3;
       text-transform: uppercase; }
 
+/* line 2, ../../jade/scss/_sport.scss */
+.sport_page img {
+  max-width: 100%; }
+/* line 5, ../../jade/scss/_sport.scss */
+.sport_page .banner_header {
+  margin-bottom: 5px; }
+/* line 8, ../../jade/scss/_sport.scss */
+.sport_page .credit-paid {
+  padding: 25px 45px;
+  background: #34495e;
+  border-radius: 5px; }
+  /* line 12, ../../jade/scss/_sport.scss */
+  .sport_page .credit-paid ul {
+    width: 50%;
+    margin-bottom: 25px;
+    float: left; }
+    /* line 16, ../../jade/scss/_sport.scss */
+    .sport_page .credit-paid ul li {
+      padding: 0 0 10px 0px;
+      font-size: 16px;
+      font-weight: 500; }
+      /* line 20, ../../jade/scss/_sport.scss */
+      .sport_page .credit-paid ul li i {
+        border: 1px solid red;
+        width: 6px;
+        height: 5px;
+        margin-top: 5px;
+        display: block;
+        background: red;
+        float: left;
+        border-radius: 50%;
+        margin-right: 20px; }
+  /* line 34, ../../jade/scss/_sport.scss */
+  .sport_page .credit-paid .require span {
+    font-size: 14px;
+    color: #e74c3c;
+    margin-top: 22px;
+    display: block; }
+/* line 43, ../../jade/scss/_sport.scss */
+.sport_page .sport_right img {
+  margin-bottom: 5px; }
+
 /*# sourceMappingURL=style.css.map */
