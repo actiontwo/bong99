@@ -412,55 +412,129 @@ body {
 /* line 13, ../../jade/scss/_icons.scss */
 [class*='-large-'] {
   height: 87px;
-  width: 87px; }
+  width: 87px;
+  background: url("img/icon-sprite-social.png") no-repeat;
+  cursor: pointer; }
 
-/* line 18, ../../jade/scss/_icons.scss */
+/* line 20, ../../jade/scss/_icons.scss */
+.iconsp-large-phone {
+  background-position: 0 0; }
+
+/* line 23, ../../jade/scss/_icons.scss */
+.iconsp-large-phone:hover {
+  background-position: 0 -87px; }
+
+/* line 27, ../../jade/scss/_icons.scss */
+.iconsp-large-viber {
+  background-position: -87px 0; }
+
+/* line 30, ../../jade/scss/_icons.scss */
+.iconsp-large-viber:hover {
+  background-position: -87px -87px; }
+
+/* line 34, ../../jade/scss/_icons.scss */
+.iconsp-large-email {
+  background-position: -174px 0; }
+
+/* line 37, ../../jade/scss/_icons.scss */
+.iconsp-large-email:hover {
+  background-position: -174px -87px; }
+
+/* line 41, ../../jade/scss/_icons.scss */
+.iconsp-large-facebook {
+  background-position: -261px 0; }
+
+/* line 44, ../../jade/scss/_icons.scss */
+.iconsp-large-facebook:hover {
+  background-position: -261px -87px; }
+
+/* line 48, ../../jade/scss/_icons.scss */
+.iconsp-large-zalo {
+  background-position: -348px 0; }
+
+/* line 51, ../../jade/scss/_icons.scss */
+.iconsp-large-zalo:hover {
+  background-position: -348px -87px; }
+
+/* line 55, ../../jade/scss/_icons.scss */
+.iconsp-large-penguin {
+  background-position: -435px 0; }
+
+/* line 58, ../../jade/scss/_icons.scss */
+.iconsp-large-penguin:hover {
+  background-position: -435px -87px; }
+
+/* line 62, ../../jade/scss/_icons.scss */
+.iconsp-large-wechat {
+  background-position: -522px 0; }
+
+/* line 65, ../../jade/scss/_icons.scss */
+.iconsp-large-wechat:hover {
+  background-position: -522px -87px; }
+
+/* line 69, ../../jade/scss/_icons.scss */
+.iconsp-large-skype {
+  background-position: -609px 0; }
+
+/* line 72, ../../jade/scss/_icons.scss */
+.iconsp-large-skype:hover {
+  background-position: -609px -87px; }
+
+/* line 76, ../../jade/scss/_icons.scss */
+.iconsp-large-yahoo {
+  background-position: -696px 0; }
+
+/* line 79, ../../jade/scss/_icons.scss */
+.iconsp-large-yahoo:hover {
+  background-position: -696px -87px; }
+
+/* line 83, ../../jade/scss/_icons.scss */
 .iconsp-medium-facebook {
   background-position: 0 0; }
 
-/* line 22, ../../jade/scss/_icons.scss */
+/* line 87, ../../jade/scss/_icons.scss */
 .iconsp-medium-line {
   background-position: -30px 0; }
 
-/* line 26, ../../jade/scss/_icons.scss */
+/* line 91, ../../jade/scss/_icons.scss */
 .iconsp-medium-skype {
   background-position: -60px 0; }
 
-/* line 30, ../../jade/scss/_icons.scss */
+/* line 95, ../../jade/scss/_icons.scss */
 .iconsp-medium-viber {
   background-position: -90px 0; }
 
-/* line 34, ../../jade/scss/_icons.scss */
+/* line 99, ../../jade/scss/_icons.scss */
 .iconsp-medium-yahoo {
   background-position: -120px 0; }
 
-/* line 38, ../../jade/scss/_icons.scss */
+/* line 103, ../../jade/scss/_icons.scss */
 .iconsp-medium-zalo {
   background-position: -150px 0; }
 
-/* line 42, ../../jade/scss/_icons.scss */
+/* line 107, ../../jade/scss/_icons.scss */
 .iconsp-comment {
   background-position: -180px -36px;
   height: 13px;
   width: 14px; }
 
-/* line 47, ../../jade/scss/_icons.scss */
+/* line 112, ../../jade/scss/_icons.scss */
 .iconsp-question {
   background-position: -150px -30px; }
 
-/* line 50, ../../jade/scss/_icons.scss */
+/* line 115, ../../jade/scss/_icons.scss */
 .iconsp-guid-res {
   background-position: -124px -30px; }
 
-/* line 53, ../../jade/scss/_icons.scss */
+/* line 118, ../../jade/scss/_icons.scss */
 .iconsp-guid-paid {
   background-position: 0px -76px; }
 
-/* line 56, ../../jade/scss/_icons.scss */
+/* line 121, ../../jade/scss/_icons.scss */
 .iconsp-guid-account {
   background-position: -102px -55px; }
 
-/* line 59, ../../jade/scss/_icons.scss */
+/* line 124, ../../jade/scss/_icons.scss */
 .iconsp-guid-walk {
   background-position: -102px -30px; }
 
@@ -985,5 +1059,62 @@ article.news {
 /* line 43, ../../jade/scss/_sport.scss */
 .sport_page .sport_right img {
   margin-bottom: 5px; }
+
+/* line 1, ../../jade/scss/_contact.scss */
+.contact-page {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: #232f3b;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 0px #252525; }
+  /* line 10, ../../jade/scss/_contact.scss */
+  .contact-page h3.title {
+    display: block;
+    background: #b7b7b7;
+    color: #000000;
+    font-weight: bolder;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 16px;
+    padding: 5px 15px;
+    box-shadow: 0px 1px 0px 0px #c3c3c3;
+    text-transform: uppercase; }
+  /* line 22, ../../jade/scss/_contact.scss */
+  .contact-page .contact-map iframe {
+    width: 90%;
+    margin: 24px; }
+  /* line 29, ../../jade/scss/_contact.scss */
+  .contact-page .contact-content figure#logo {
+    border-bottom: 1px solid #FFFFFF;
+    padding: 24px 0 20px 0;
+    margin-bottom: 18px; }
+  /* line 34, ../../jade/scss/_contact.scss */
+  .contact-page .contact-content > p {
+    margin-bottom: 20px; }
+  /* line 37, ../../jade/scss/_contact.scss */
+  .contact-page .contact-content .company-address {
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 20px;
+    margin-bottom: 20px; }
+    /* line 41, ../../jade/scss/_contact.scss */
+    .contact-page .contact-content .company-address label {
+      display: block;
+      margin-bottom: 10px; }
+    /* line 45, ../../jade/scss/_contact.scss */
+    .contact-page .contact-content .company-address p {
+      color: #e74c3c; }
+  /* line 50, ../../jade/scss/_contact.scss */
+  .contact-page .contact-content .social > div {
+    display: inline-block;
+    width: 98px;
+    text-align: center;
+    margin-bottom: 20px; }
+    /* line 55, ../../jade/scss/_contact.scss */
+    .contact-page .contact-content .social > div span {
+      display: block;
+      font-size: 11px;
+      color: #e74c3c; }
 
 /*# sourceMappingURL=style.css.map */
