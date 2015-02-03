@@ -584,7 +584,7 @@ body {
 /* line 8, ../../jade/scss/_common.scss */
 body {
   background: url("img/bg-body.jpg") repeat;
-  color: white;
+  color: #FFF;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   -webkit-text-size-adjust: 100%; }
@@ -630,7 +630,7 @@ h4 {
   padding: 5px;
   border-radius: 5px;
   border: 0;
-  color: white; }
+  color: #FFF; }
 
 /* line 59, ../../jade/scss/_common.scss */
 .btn-orange {
@@ -714,7 +714,7 @@ select {
 /* line 57, ../../jade/scss/_bxslider.scss */
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url(img/bx_loader.gif) center center no-repeat white;
+  background: url(img/bx_loader.gif) center center no-repeat #fff;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -843,7 +843,7 @@ select {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #666666 \9;
+  background: #666 \9;
   background: rgba(80, 80, 80, 0.75);
   width: 100%; }
 
@@ -1322,7 +1322,7 @@ h3.title {
     display: inline-block; }
   /* line 75, ../../jade/scss/_member_new.scss */
   .form-control .select-style {
-    background: url(img/polygon.png) no-repeat 94% white;
+    background: url(img/polygon.png) no-repeat 94% #fff;
     display: inline-block;
     border-radius: 3px; }
   /* line 80, ../../jade/scss/_member_new.scss */
@@ -1446,7 +1446,7 @@ h3.title {
       margin-bottom: 10px; }
       /* line 26, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control .select-style {
-        background: url(img/polygon.png) no-repeat 98% white; }
+        background: url(img/polygon.png) no-repeat 98% #fff; }
       /* line 29, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.birthday {
         width: 100%;
@@ -1458,7 +1458,7 @@ h3.title {
           padding-left: 16px; }
         /* line 37, ../../jade/scss/_signin_signup.scss */
         .signin-page .signin-content .form-control.birthday .select-style {
-          background: url(img/polygon.png) no-repeat 94% white;
+          background: url(img/polygon.png) no-repeat 94% #fff;
           margin-right: 10px; }
       /* line 43, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.credit label {
@@ -1662,3 +1662,137 @@ h3.title {
     /* line 74, ../../jade/scss/_account_info.scss */
     .account-info-page .account-info-content .account-info-left {
       margin-right: 44px; }
+
+/* line 1, ../../jade/scss/_casino.scss */
+.casino-page {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif; }
+  /* line 4, ../../jade/scss/_casino.scss */
+  .casino-page img {
+    width: 100%; }
+  /* line 7, ../../jade/scss/_casino.scss */
+  .casino-page .casino-banner {
+    position: relative; }
+    /* line 9, ../../jade/scss/_casino.scss */
+    .casino-page .casino-banner .play-download {
+      position: absolute;
+      top: 64px;
+      right: 104px;
+      text-transform: uppercase;
+      text-align: center; }
+      /* line 15, ../../jade/scss/_casino.scss */
+      .casino-page .casino-banner .play-download h2 {
+        font-size: 90px;
+        display: block;
+        line-height: 72px; }
+      /* line 20, ../../jade/scss/_casino.scss */
+      .casino-page .casino-banner .play-download a {
+        color: #000;
+        display: block;
+        border-radius: 23px;
+        width: 250px;
+        margin: 0 auto;
+        padding: 12px 0;
+        font-size: 30px;
+        margin-top: 20px; }
+        /* line 29, ../../jade/scss/_casino.scss */
+        .casino-page .casino-banner .play-download a:nth-child(2) {
+          text-shadow: 0px 2px 2px #C2931B;
+          box-shadow: 0px 2px 0px #92760b;
+          background: -moz-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%);
+          /* ff3.6+ */
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe100), color-stop(100%, #ff9e00));
+          /* safari4+,chrome */
+          background: -webkit-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%);
+          /* safari5.1+,chrome10+ */
+          background: -o-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%);
+          /* opera 11.10+ */
+          background: -ms-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%);
+          /* ie10+ */
+          background: linear-gradient(180deg, #ffe100 0%, #ff9e00 100%);
+          /* w3c */
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe100', endColorstr='#ff9e00', GradientType=0);
+          /* ie6-9 */ }
+        /* line 40, ../../jade/scss/_casino.scss */
+        .casino-page .casino-banner .play-download a:nth-child(3) {
+          text-shadow: 0px 2px 2px #6ca800;
+          box-shadow: 0px 2px 0px #5b6600;
+          background: -moz-linear-gradient(270deg, #c7ee00 0%, #65c600 100%);
+          /* ff3.6+ */
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c7ee00), color-stop(100%, #65c600));
+          /* safari4+,chrome */
+          background: -webkit-linear-gradient(270deg, #c7ee00 0%, #65c600 100%);
+          /* safari5.1+,chrome10+ */
+          background: -o-linear-gradient(270deg, #c7ee00 0%, #65c600 100%);
+          /* opera 11.10+ */
+          background: -ms-linear-gradient(270deg, #c7ee00 0%, #65c600 100%);
+          /* ie10+ */
+          background: linear-gradient(180deg, #c7ee00 0%, #65c600 100%);
+          /* w3c */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7ee00', endColorstr='#65c600',GradientType=0 );
+          /* ie6-9 */ }
+  /* line 55, ../../jade/scss/_casino.scss */
+  .casino-page .casino-content .game {
+    position: relative;
+    margin-top: 8px; }
+    /* line 58, ../../jade/scss/_casino.scss */
+    .casino-page .casino-content .game .game-info {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 188px;
+      padding: 10px; }
+      /* line 64, ../../jade/scss/_casino.scss */
+      .casino-page .casino-content .game .game-info h4.title {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 6px; }
+      /* line 69, ../../jade/scss/_casino.scss */
+      .casino-page .casino-content .game .game-info p {
+        line-height: 17px;
+        border-bottom: 1px solid #fff;
+        color: #dddddd;
+        text-align: justify;
+        margin-bottom: 10px;
+        padding-bottom: 10px; }
+      /* line 77, ../../jade/scss/_casino.scss */
+      .casino-page .casino-content .game .game-info a {
+        position: relative;
+        display: block;
+        width: 150px;
+        border-radius: 23px;
+        text-align: center;
+        padding: 6px 0;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: bold;
+        font-size: 16px;
+        text-shadow: 0px 2px 2px #C2931B;
+        box-shadow: 0px 2px 0px #92760b;
+        background: -moz-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%);
+        /* ff3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe100), color-stop(100%, #ff9e00));
+        /* safari4+,chrome */
+        background: -webkit-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%);
+        /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%);
+        /* opera 11.10+ */
+        background: -ms-linear-gradient(270deg, #ffe100 0%, #ff9e00 100%);
+        /* ie10+ */
+        background: linear-gradient(180deg, #ffe100 0%, #ff9e00 100%);
+        /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe100', endColorstr='#ff9e00', GradientType=0);
+        /* ie6-9 */ }
+        /* line 97, ../../jade/scss/_casino.scss */
+        .casino-page .casino-content .game .game-info a:after {
+          position: absolute;
+          content: '';
+          width: 0;
+          height: 0;
+          border-top: 10px solid rgba(2, 1, 1, 0);
+          border-left: 10px solid #000;
+          right: 16px;
+          top: 11px;
+          transform: rotate(224deg); }
+
+/*# sourceMappingURL=style.css.map */
