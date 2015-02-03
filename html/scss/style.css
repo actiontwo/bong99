@@ -547,7 +547,7 @@ body {
 /* line 8, ../../jade/scss/_common.scss */
 body {
   background: url("img/bg-body.jpg") repeat;
-  color: #FFF;
+  color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 400; }
 
@@ -592,7 +592,7 @@ h4 {
   padding: 5px;
   border-radius: 5px;
   border: 0;
-  color: #FFF; }
+  color: white; }
 
 /* line 63, ../../jade/scss/_common.scss */
 .btn-orange {
@@ -662,7 +662,7 @@ select {
 /* line 57, ../../jade/scss/_bxslider.scss */
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url(img/bx_loader.gif) center center no-repeat #fff;
+  background: url(img/bx_loader.gif) center center no-repeat white;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -791,7 +791,7 @@ select {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #666 \9;
+  background: #666666 \9;
   background: rgba(80, 80, 80, 0.75);
   width: 100%; }
 
@@ -1170,7 +1170,7 @@ article.news {
           width: 100%; }
       /* line 53, ../../jade/scss/_exchange.scss */
       .exchange-page .exchange-content .form-control .select-style {
-        background: url(img/polygon.png) no-repeat 94% #fff;
+        background: url(img/polygon.png) no-repeat 94% white;
         display: inline-block;
         border-radius: 3px; }
       /* line 58, ../../jade/scss/_exchange.scss */
@@ -1207,5 +1207,3 @@ article.news {
       /* line 89, ../../jade/scss/_exchange.scss */
       .exchange-page .exchange-content .form-control.birthday div select {
         width: 100%; }
-
-/*# sourceMappingURL=style.css.map */
