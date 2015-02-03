@@ -515,52 +515,63 @@ body {
 /* line 107, ../../jade/scss/_icons.scss */
 .iconsp-medium-question {
   background-position: -125px -55px;
-  cursor: pointer; }
+  cursor: pointer;
+  width: 25px; }
 
-/* line 112, ../../jade/scss/_icons.scss */
+/* line 113, ../../jade/scss/_icons.scss */
 .iconsp-medium-refresh {
   background-position: -98px -78px;
   cursor: pointer; }
 
-/* line 117, ../../jade/scss/_icons.scss */
+/* line 118, ../../jade/scss/_icons.scss */
+.iconsp-medium-comment {
+  background-position: -147px -54px;
+  cursor: pointer; }
+
+/* line 123, ../../jade/scss/_icons.scss */
+.iconsp-medium-dropdown {
+  background-position: -173px -55px;
+  cursor: pointer; }
+
+/* line 128, ../../jade/scss/_icons.scss */
 .iconsp-comment {
   background-position: -180px -36px;
   height: 13px;
   width: 14px; }
 
-/* line 122, ../../jade/scss/_icons.scss */
+/* line 133, ../../jade/scss/_icons.scss */
 .iconsp-question {
   background-position: -150px -30px; }
 
-/* line 125, ../../jade/scss/_icons.scss */
+/* line 136, ../../jade/scss/_icons.scss */
 .iconsp-guid-res {
   background-position: -124px -30px; }
 
-/* line 129, ../../jade/scss/_icons.scss */
+/* line 140, ../../jade/scss/_icons.scss */
 .iconsp-guid-paid {
   background-position: 0px -76px; }
 
-/* line 132, ../../jade/scss/_icons.scss */
+/* line 143, ../../jade/scss/_icons.scss */
 .iconsp-guid-account {
   background-position: -102px -55px; }
 
-/* line 135, ../../jade/scss/_icons.scss */
+/* line 146, ../../jade/scss/_icons.scss */
 .iconsp-guid-walk {
   background-position: -102px -30px; }
 
-/* line 138, ../../jade/scss/_icons.scss */
+/* line 149, ../../jade/scss/_icons.scss */
 .iconsp-money-white {
   background-position: 0 -56px; }
 
-/* line 141, ../../jade/scss/_icons.scss */
+/* line 152, ../../jade/scss/_icons.scss */
 .iconsp-tranfer-white {
   background-position: -75px -56px; }
 
-/* line 144, ../../jade/scss/_icons.scss */
+/* line 155, ../../jade/scss/_icons.scss */
 .iconsp-list-white {
   background-position: -25px -56px; }
 
-/* line 147, ../../jade/scss/_icons.scss */
+/* line 158, ../../jade/scss/_icons.scss */
 .iconsp-user-white {
   background-position: -50px -56px; }
 
@@ -1171,49 +1182,38 @@ article.news {
   margin-bottom: 30px;
   border-radius: 5px;
   box-shadow: 0px 1px 0px 0px #252525; }
-  /* line 10, ../../jade/scss/_contact.scss */
-  .contact-page h3.title {
-    display: block;
-    background: #b7b7b7;
-    color: #000000;
-    font-weight: bolder;
-    border-radius: 5px 5px 0px 0px;
-    font-size: 16px;
-    padding: 5px 15px;
-    box-shadow: 0px 1px 0px 0px #c3c3c3;
-    text-transform: uppercase; }
-  /* line 22, ../../jade/scss/_contact.scss */
+  /* line 11, ../../jade/scss/_contact.scss */
   .contact-page .contact-map iframe {
     width: 90%;
     margin: 24px;
     height: 522px; }
-  /* line 30, ../../jade/scss/_contact.scss */
+  /* line 19, ../../jade/scss/_contact.scss */
   .contact-page .contact-content figure#logo {
     border-bottom: 1px solid #FFFFFF;
     padding: 24px 0 20px 0;
     margin-bottom: 18px; }
-  /* line 35, ../../jade/scss/_contact.scss */
+  /* line 24, ../../jade/scss/_contact.scss */
   .contact-page .contact-content > p {
     margin-bottom: 20px; }
-  /* line 38, ../../jade/scss/_contact.scss */
+  /* line 27, ../../jade/scss/_contact.scss */
   .contact-page .contact-content .company-address {
     border-bottom: 1px solid #FFFFFF;
     padding-bottom: 20px;
     margin-bottom: 20px; }
-    /* line 42, ../../jade/scss/_contact.scss */
+    /* line 31, ../../jade/scss/_contact.scss */
     .contact-page .contact-content .company-address label {
       display: block;
       margin-bottom: 10px; }
-    /* line 46, ../../jade/scss/_contact.scss */
+    /* line 35, ../../jade/scss/_contact.scss */
     .contact-page .contact-content .company-address p {
       color: #e74c3c; }
-  /* line 51, ../../jade/scss/_contact.scss */
+  /* line 40, ../../jade/scss/_contact.scss */
   .contact-page .contact-content .social > div {
     display: inline-block;
     width: 98px;
     text-align: center;
     margin-bottom: 20px; }
-    /* line 56, ../../jade/scss/_contact.scss */
+    /* line 45, ../../jade/scss/_contact.scss */
     .contact-page .contact-content .social > div span {
       display: block;
       font-size: 11px;
@@ -1265,11 +1265,14 @@ h3.title {
   font-weight: bolder;
   border-radius: 5px 5px 0px 0px;
   font-size: 16px;
-  padding: 10px 15px;
+  padding: 10px 0 10px 15px;
   box-shadow: 0px 1px 0px 0px #c3c3c3;
   text-transform: uppercase; }
+  /* line 53, ../../jade/scss/_member_new.scss */
+  h3.title i {
+    float: right; }
 
-/* line 55, ../../jade/scss/_member_new.scss */
+/* line 58, ../../jade/scss/_member_new.scss */
 .line {
   border-bottom: 3px solid #cccccc;
   margin: 18px 0;
@@ -1277,26 +1280,26 @@ h3.title {
   width: 310px;
   border-top: 1px solid #999999; }
 
-/* line 63, ../../jade/scss/_member_new.scss */
+/* line 66, ../../jade/scss/_member_new.scss */
 .form-control {
   margin-bottom: 6px; }
-  /* line 65, ../../jade/scss/_member_new.scss */
+  /* line 68, ../../jade/scss/_member_new.scss */
   .form-control label {
     width: 148px;
     display: inline-block; }
-  /* line 69, ../../jade/scss/_member_new.scss */
+  /* line 72, ../../jade/scss/_member_new.scss */
   .form-control .select-style {
     background: url(img/polygon.png) no-repeat 94% #fff;
     display: inline-block;
     border-radius: 3px; }
-  /* line 74, ../../jade/scss/_member_new.scss */
+  /* line 77, ../../jade/scss/_member_new.scss */
   .form-control input {
     width: 150px;
     height: 28px;
     padding: 0;
     border: 1px solid #bdbdbd;
     padding: 0 5px; }
-  /* line 81, ../../jade/scss/_member_new.scss */
+  /* line 84, ../../jade/scss/_member_new.scss */
   .form-control select {
     background: transparent;
     -webkit-appearance: none;
@@ -1304,7 +1307,7 @@ h3.title {
     width: 161px;
     height: 28px;
     border: 1px solid #bdbdbd; }
-  /* line 89, ../../jade/scss/_member_new.scss */
+  /* line 92, ../../jade/scss/_member_new.scss */
   .form-control .btn-submit {
     width: 90px;
     color: #fff;
@@ -1475,6 +1478,93 @@ h3.title {
           cursor: pointer; }
     /* line 30, ../../jade/scss/_bet_history.scss */
     .bet-history-page .bet-history-content .bet-history-left {
+      margin-right: 44px; }
+
+/* line 1, ../../jade/scss/_account_info.scss */
+.account-info-page {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #636363;
+  line-height: 22px;
+  background-color: #e1e1e1;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 0px #252525; }
+  /* line 11, ../../jade/scss/_account_info.scss */
+  .account-info-page .account-info-content {
+    padding: 20px; }
+    /* line 13, ../../jade/scss/_account_info.scss */
+    .account-info-page .account-info-content .account-info-left,
+    .account-info-page .account-info-content .account-info-right {
+      width: 470px;
+      display: inline-block;
+      vertical-align: top; }
+      /* line 18, ../../jade/scss/_account_info.scss */
+      .account-info-page .account-info-content .account-info-left li,
+      .account-info-page .account-info-content .account-info-right li {
+        padding: 10px 0;
+        border-top: 1px solid #ccc; }
+        /* line 21, ../../jade/scss/_account_info.scss */
+        .account-info-page .account-info-content .account-info-left li .edit,
+        .account-info-page .account-info-content .account-info-right li .edit {
+          float: right;
+          margin-right: 20px;
+          color: #e74c3c; }
+        /* line 26, ../../jade/scss/_account_info.scss */
+        .account-info-page .account-info-content .account-info-left li:first-child,
+        .account-info-page .account-info-content .account-info-right li:first-child {
+          border-top: none;
+          padding-top: 0; }
+        /* line 30, ../../jade/scss/_account_info.scss */
+        .account-info-page .account-info-content .account-info-left li .comment,
+        .account-info-page .account-info-content .account-info-right li .comment {
+          float: right;
+          position: relative; }
+          /* line 33, ../../jade/scss/_account_info.scss */
+          .account-info-page .account-info-content .account-info-left li .comment i,
+          .account-info-page .account-info-content .account-info-right li .comment i {
+            margin-right: 16px;
+            cursor: pointer; }
+          /* line 37, ../../jade/scss/_account_info.scss */
+          .account-info-page .account-info-content .account-info-left li .comment p,
+          .account-info-page .account-info-content .account-info-right li .comment p {
+            position: absolute;
+            border: 1px solid #ccc;
+            width: 140px;
+            text-align: center;
+            background: #fff;
+            border-radius: 3px;
+            padding: 4px;
+            line-height: 20px;
+            top: -55px;
+            left: -67px; }
+            /* line 48, ../../jade/scss/_account_info.scss */
+            .account-info-page .account-info-content .account-info-left li .comment p:after,
+            .account-info-page .account-info-content .account-info-right li .comment p:after {
+              position: absolute;
+              content: '';
+              width: 0;
+              height: 0;
+              border-bottom: 12px solid transparent;
+              border-right: 12px solid #FFFFFF;
+              right: 60px;
+              bottom: -5px;
+              transform: rotate(135deg); }
+            /* line 59, ../../jade/scss/_account_info.scss */
+            .account-info-page .account-info-content .account-info-left li .comment p:before,
+            .account-info-page .account-info-content .account-info-right li .comment p:before {
+              position: absolute;
+              content: '';
+              width: 0;
+              height: 0;
+              border-bottom: 12px solid transparent;
+              border-right: 12px solid #cccccc;
+              right: 60px;
+              bottom: -7px;
+              transform: rotate(135deg); }
+    /* line 74, ../../jade/scss/_account_info.scss */
+    .account-info-page .account-info-content .account-info-left {
       margin-right: 44px; }
 
 /*# sourceMappingURL=style.css.map */

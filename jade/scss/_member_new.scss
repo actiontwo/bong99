@@ -47,9 +47,12 @@ h3.title {
   font-weight: bolder;
   border-radius: 5px 5px 0px 0px;
   font-size: 16px;
-  padding: 10px 15px;
+  padding: 10px 0 10px 15px;
   box-shadow: 0px 1px 0px 0px #c3c3c3;
   text-transform: uppercase;
+  i {
+    float: right;
+  }
 }
 
 .line {
