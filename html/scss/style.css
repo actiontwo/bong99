@@ -1018,28 +1018,28 @@ article.news {
       box-shadow: 0px 1px 0px 0px #c3c3c3;
       text-transform: uppercase; }
 
-/* line 2, ../../jade/scss/_sport.scss */
+/* line 2, ../../jade/scss/_daily.scss */
 .sport_page img {
   max-width: 100%; }
-/* line 5, ../../jade/scss/_sport.scss */
+/* line 5, ../../jade/scss/_daily.scss */
 .sport_page .banner_header {
   margin-bottom: 5px; }
-/* line 8, ../../jade/scss/_sport.scss */
+/* line 8, ../../jade/scss/_daily.scss */
 .sport_page .credit-paid {
   padding: 25px 45px;
   background: #34495e;
   border-radius: 5px; }
-  /* line 12, ../../jade/scss/_sport.scss */
+  /* line 12, ../../jade/scss/_daily.scss */
   .sport_page .credit-paid ul {
     width: 50%;
     margin-bottom: 25px;
     float: left; }
-    /* line 16, ../../jade/scss/_sport.scss */
+    /* line 16, ../../jade/scss/_daily.scss */
     .sport_page .credit-paid ul li {
       padding: 0 0 10px 0px;
       font-size: 16px;
       font-weight: 500; }
-      /* line 20, ../../jade/scss/_sport.scss */
+      /* line 20, ../../jade/scss/_daily.scss */
       .sport_page .credit-paid ul li i {
         border: 1px solid red;
         width: 6px;
@@ -1050,13 +1050,13 @@ article.news {
         float: left;
         border-radius: 50%;
         margin-right: 20px; }
-  /* line 34, ../../jade/scss/_sport.scss */
+  /* line 34, ../../jade/scss/_daily.scss */
   .sport_page .credit-paid .require span {
     font-size: 14px;
     color: #e74c3c;
     margin-top: 22px;
     display: block; }
-/* line 43, ../../jade/scss/_sport.scss */
+/* line 43, ../../jade/scss/_daily.scss */
 .sport_page .sport_right img {
   margin-bottom: 5px; }
 
@@ -1117,7 +1117,7 @@ article.news {
       font-size: 11px;
       color: #e74c3c; }
 
-/* line 1, ../../jade/scss/_exchange.scss */
+/* line 1, ../../jade/scss/_member_new.scss */
 .exchange-page {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
@@ -1128,7 +1128,7 @@ article.news {
   margin-bottom: 100px;
   border-radius: 5px;
   box-shadow: 0px 1px 0px 0px #252525; }
-  /* line 11, ../../jade/scss/_exchange.scss */
+  /* line 11, ../../jade/scss/_member_new.scss */
   .exchange-page h3.title {
     display: block;
     background: #b7b7b7;
@@ -1139,48 +1139,48 @@ article.news {
     padding: 10px 15px;
     box-shadow: 0px 1px 0px 0px #c3c3c3;
     text-transform: uppercase; }
-  /* line 22, ../../jade/scss/_exchange.scss */
+  /* line 22, ../../jade/scss/_member_new.scss */
   .exchange-page .exchange-content {
     padding: 18px 18px 48px 18px; }
-    /* line 24, ../../jade/scss/_exchange.scss */
+    /* line 24, ../../jade/scss/_member_new.scss */
     .exchange-page .exchange-content h4.sub-title {
       font-size: 14px;
       color: #333333;
       text-transform: uppercase; }
-    /* line 30, ../../jade/scss/_exchange.scss */
+    /* line 30, ../../jade/scss/_member_new.scss */
     .exchange-page .exchange-content .line input {
       width: 294px; }
-    /* line 34, ../../jade/scss/_exchange.scss */
+    /* line 34, ../../jade/scss/_member_new.scss */
     .exchange-page .exchange-content .grid_4 {
       width: 322px; }
-    /* line 37, ../../jade/scss/_exchange.scss */
+    /* line 37, ../../jade/scss/_member_new.scss */
     .exchange-page .exchange-content .form-control {
       margin-bottom: 6px; }
-      /* line 39, ../../jade/scss/_exchange.scss */
+      /* line 39, ../../jade/scss/_member_new.scss */
       .exchange-page .exchange-content .form-control label {
         width: 148px;
         display: inline-block; }
-      /* line 44, ../../jade/scss/_exchange.scss */
+      /* line 44, ../../jade/scss/_member_new.scss */
       .exchange-page .exchange-content .form-control .bank-list div {
         display: inline-block;
         width: 56px;
         padding-right: 5px; }
-        /* line 48, ../../jade/scss/_exchange.scss */
+        /* line 48, ../../jade/scss/_member_new.scss */
         .exchange-page .exchange-content .form-control .bank-list div img {
           width: 100%; }
-      /* line 53, ../../jade/scss/_exchange.scss */
+      /* line 53, ../../jade/scss/_member_new.scss */
       .exchange-page .exchange-content .form-control .select-style {
         background: url(img/polygon.png) no-repeat 94% white;
         display: inline-block;
         border-radius: 3px; }
-      /* line 58, ../../jade/scss/_exchange.scss */
+      /* line 58, ../../jade/scss/_member_new.scss */
       .exchange-page .exchange-content .form-control input {
         width: 150px;
         height: 28px;
         padding: 0;
         border: 1px solid #bdbdbd;
         padding: 0 5px; }
-      /* line 65, ../../jade/scss/_exchange.scss */
+      /* line 65, ../../jade/scss/_member_new.scss */
       .exchange-page .exchange-content .form-control select {
         background: transparent;
         -webkit-appearance: none;
@@ -1188,7 +1188,7 @@ article.news {
         width: 161px;
         height: 28px;
         border: 1px solid #bdbdbd; }
-      /* line 73, ../../jade/scss/_exchange.scss */
+      /* line 73, ../../jade/scss/_member_new.scss */
       .exchange-page .exchange-content .form-control .btn-submit {
         width: 90px;
         color: #fff;
@@ -1200,10 +1200,10 @@ article.news {
         border-radius: 3px;
         position: relative;
         left: 150px; }
-    /* line 86, ../../jade/scss/_exchange.scss */
+    /* line 86, ../../jade/scss/_member_new.scss */
     .exchange-page .exchange-content .form-control.birthday div {
       width: 15%;
       margin-right: 5px; }
-      /* line 89, ../../jade/scss/_exchange.scss */
+      /* line 89, ../../jade/scss/_member_new.scss */
       .exchange-page .exchange-content .form-control.birthday div select {
         width: 100%; }
