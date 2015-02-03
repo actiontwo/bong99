@@ -84,3 +84,9 @@ select {
 :-ms-input-placeholder {
   color: #757575;
 }
+
+.main-body {
+  background: url('img/bg-body.jpg') repeat;
+  position: relative;
+  z-index: 2;
+}

@@ -640,6 +640,12 @@ select {
 :-ms-input-placeholder {
   color: #757575; }
 
+/* line 88, ../../jade/scss/_common.scss */
+.main-body {
+  background: url("img/bg-body.jpg") repeat;
+  position: relative;
+  z-index: 2; }
+
 /**
  * BxSlider v4.1.2 - Fully loaded, responsive content slider
  * http://bxslider.com
@@ -881,8 +887,9 @@ select {
       font-weight: 800;
       padding: 0 5px;
       position: relative;
-      top: 2px; }
-      /* line 65, ../../jade/scss/_header.scss */
+      top: 2px;
+      display: table; }
+      /* line 66, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:before, #header #top-menu .main-menu:after {
         content: '';
         height: 27px;
@@ -893,62 +900,62 @@ select {
         display: inline-block;
         top: 2px;
         z-index: 0; }
-      /* line 79, ../../jade/scss/_header.scss */
+      /* line 80, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:after {
         left: -6.5px;
         transform: rotateZ(25deg); }
-      /* line 83, ../../jade/scss/_header.scss */
+      /* line 84, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:before {
         right: -6.5px;
         transform: rotateZ(-25deg); }
-      /* line 88, ../../jade/scss/_header.scss */
+      /* line 89, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu li {
-        display: inline-block;
+        display: table-cell;
         text-align: center;
         padding: 2px 0px;
         z-index: 3;
         position: relative; }
-        /* line 95, ../../jade/scss/_header.scss */
+        /* line 96, ../../jade/scss/_header.scss */
         #header #top-menu .main-menu li a {
-          padding: 5px 17px; }
-      /* line 99, ../../jade/scss/_header.scss */
+          padding: 5px 0; }
+      /* line 100, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu li:hover,
       #header #top-menu .main-menu .active-menu {
         background: #34495e; }
-  /* line 105, ../../jade/scss/_header.scss */
+  /* line 106, ../../jade/scss/_header.scss */
   #header .wrapper-sub-menu {
     position: absolute;
     width: 100%;
     z-index: 10;
     left: 0;
     top: 28px; }
-  /* line 112, ../../jade/scss/_header.scss */
+  /* line 113, ../../jade/scss/_header.scss */
   #header .sub-menu {
     display: none;
     width: 853px;
     margin: 0 auto;
     background: #34495e;
     box-sizing: border-box; }
-    /* line 118, ../../jade/scss/_header.scss */
+    /* line 119, ../../jade/scss/_header.scss */
     #header .sub-menu li {
       display: table-cell;
       text-align: center; }
-      /* line 121, ../../jade/scss/_header.scss */
+      /* line 122, ../../jade/scss/_header.scss */
       #header .sub-menu li * {
         vertical-align: middle; }
-      /* line 124, ../../jade/scss/_header.scss */
+      /* line 125, ../../jade/scss/_header.scss */
       #header .sub-menu li a {
         padding: 10px 0;
         display: block;
         font-size: 14px;
         white-space: nowrap; }
-        /* line 129, ../../jade/scss/_header.scss */
+        /* line 130, ../../jade/scss/_header.scss */
         #header .sub-menu li a span {
           padding-left: 12px; }
-        /* line 132, ../../jade/scss/_header.scss */
+        /* line 133, ../../jade/scss/_header.scss */
         #header .sub-menu li a:hover {
           color: #e74c3c; }
-          /* line 134, ../../jade/scss/_header.scss */
+          /* line 135, ../../jade/scss/_header.scss */
           #header .sub-menu li a:hover i {
             background-position-y: -30px; }
 
@@ -1058,7 +1065,7 @@ article.news {
 
 /* line 1, ../../jade/scss/_help.scss */
 .help-page {
-  margin: 20px auto;
+  padding: 20px 0;
   font-family: 'Roboto'; }
   /* line 5, ../../jade/scss/_help.scss */
   .help-page .help-menu li {
@@ -1156,12 +1163,14 @@ article.news {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 22px;
-  background-color: #232f3b;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   border-radius: 5px;
   box-shadow: 0px 1px 0px 0px #252525; }
-  /* line 10, ../../jade/scss/_contact.scss */
+  /* line 9, ../../jade/scss/_contact.scss */
+  .contact-page .content-contact-page {
+    background-color: #232f3b; }
+  /* line 12, ../../jade/scss/_contact.scss */
   .contact-page h3.title {
     display: block;
     background: #b7b7b7;
@@ -1172,55 +1181,54 @@ article.news {
     padding: 5px 15px;
     box-shadow: 0px 1px 0px 0px #c3c3c3;
     text-transform: uppercase; }
-  /* line 22, ../../jade/scss/_contact.scss */
+  /* line 24, ../../jade/scss/_contact.scss */
   .contact-page .contact-map iframe {
     width: 90%;
     margin: 24px; }
-  /* line 29, ../../jade/scss/_contact.scss */
+  /* line 31, ../../jade/scss/_contact.scss */
   .contact-page .contact-content figure#logo {
     border-bottom: 1px solid #FFFFFF;
     padding: 24px 0 20px 0;
     margin-bottom: 18px; }
-  /* line 34, ../../jade/scss/_contact.scss */
+  /* line 36, ../../jade/scss/_contact.scss */
   .contact-page .contact-content > p {
     margin-bottom: 20px; }
-  /* line 37, ../../jade/scss/_contact.scss */
+  /* line 39, ../../jade/scss/_contact.scss */
   .contact-page .contact-content .company-address {
     border-bottom: 1px solid #FFFFFF;
     padding-bottom: 20px;
     margin-bottom: 20px; }
-    /* line 41, ../../jade/scss/_contact.scss */
+    /* line 43, ../../jade/scss/_contact.scss */
     .contact-page .contact-content .company-address label {
       display: block;
       margin-bottom: 10px; }
-    /* line 45, ../../jade/scss/_contact.scss */
+    /* line 47, ../../jade/scss/_contact.scss */
     .contact-page .contact-content .company-address p {
       color: #e74c3c; }
-  /* line 50, ../../jade/scss/_contact.scss */
+  /* line 52, ../../jade/scss/_contact.scss */
   .contact-page .contact-content .social > div {
     display: inline-block;
     width: 98px;
     text-align: center;
     margin-bottom: 20px; }
-    /* line 55, ../../jade/scss/_contact.scss */
+    /* line 57, ../../jade/scss/_contact.scss */
     .contact-page .contact-content .social > div span {
       display: block;
       font-size: 11px;
       color: #e74c3c; }
 
 /* line 1, ../../jade/scss/_member_new.scss */
-.exchange-page {
+.widraw-page {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   color: #636363;
   line-height: 22px;
-  background-color: #e1e1e1;
-  margin-top: 20px;
-  margin-bottom: 100px;
+  padding-top: 20px;
+  padding-bottom: 100px;
   border-radius: 5px;
   box-shadow: 0px 1px 0px 0px #252525; }
   /* line 11, ../../jade/scss/_member_new.scss */
-  .exchange-page h3.title {
+  .widraw-page h3.title {
     display: block;
     background: #b7b7b7;
     color: #000000;
@@ -1231,56 +1239,57 @@ article.news {
     box-shadow: 0px 1px 0px 0px #c3c3c3;
     text-transform: uppercase; }
   /* line 22, ../../jade/scss/_member_new.scss */
-  .exchange-page .exchange-content {
+  .widraw-page .content-widraw-page {
+    background-color: #e1e1e1;
     padding: 18px 18px 48px 18px; }
-    /* line 24, ../../jade/scss/_member_new.scss */
-    .exchange-page .exchange-content h4.sub-title {
+    /* line 27, ../../jade/scss/_member_new.scss */
+    .widraw-page .content-widraw-page h4.sub-title {
       font-size: 14px;
       color: #333333;
       text-transform: uppercase; }
-    /* line 30, ../../jade/scss/_member_new.scss */
-    .exchange-page .exchange-content .line input {
+    /* line 33, ../../jade/scss/_member_new.scss */
+    .widraw-page .content-widraw-page .line input {
       width: 294px; }
-    /* line 34, ../../jade/scss/_member_new.scss */
-    .exchange-page .exchange-content .grid_4 {
-      width: 322px; }
     /* line 37, ../../jade/scss/_member_new.scss */
-    .exchange-page .exchange-content .form-control {
+    .widraw-page .content-widraw-page .grid_4 {
+      width: 322px; }
+    /* line 40, ../../jade/scss/_member_new.scss */
+    .widraw-page .content-widraw-page .form-control {
       margin-bottom: 6px; }
-      /* line 39, ../../jade/scss/_member_new.scss */
-      .exchange-page .exchange-content .form-control label {
+      /* line 42, ../../jade/scss/_member_new.scss */
+      .widraw-page .content-widraw-page .form-control label {
         width: 148px;
         display: inline-block; }
-      /* line 44, ../../jade/scss/_member_new.scss */
-      .exchange-page .exchange-content .form-control .bank-list div {
+      /* line 47, ../../jade/scss/_member_new.scss */
+      .widraw-page .content-widraw-page .form-control .bank-list div {
         display: inline-block;
         width: 56px;
         padding-right: 5px; }
-        /* line 48, ../../jade/scss/_member_new.scss */
-        .exchange-page .exchange-content .form-control .bank-list div img {
+        /* line 51, ../../jade/scss/_member_new.scss */
+        .widraw-page .content-widraw-page .form-control .bank-list div img {
           width: 100%; }
-      /* line 53, ../../jade/scss/_member_new.scss */
-      .exchange-page .exchange-content .form-control .select-style {
+      /* line 56, ../../jade/scss/_member_new.scss */
+      .widraw-page .content-widraw-page .form-control .select-style {
         background: url(img/polygon.png) no-repeat 94% white;
         display: inline-block;
         border-radius: 3px; }
-      /* line 58, ../../jade/scss/_member_new.scss */
-      .exchange-page .exchange-content .form-control input {
+      /* line 61, ../../jade/scss/_member_new.scss */
+      .widraw-page .content-widraw-page .form-control input {
         width: 150px;
         height: 28px;
         padding: 0;
         border: 1px solid #bdbdbd;
         padding: 0 5px; }
-      /* line 65, ../../jade/scss/_member_new.scss */
-      .exchange-page .exchange-content .form-control select {
+      /* line 68, ../../jade/scss/_member_new.scss */
+      .widraw-page .content-widraw-page .form-control select {
         background: transparent;
         -webkit-appearance: none;
         -moz-appearance: none;
         width: 161px;
         height: 28px;
         border: 1px solid #bdbdbd; }
-      /* line 73, ../../jade/scss/_member_new.scss */
-      .exchange-page .exchange-content .form-control .btn-submit {
+      /* line 76, ../../jade/scss/_member_new.scss */
+      .widraw-page .content-widraw-page .form-control .btn-submit {
         width: 90px;
         color: #fff;
         background: #e74c3c;
@@ -1291,10 +1300,10 @@ article.news {
         border-radius: 3px;
         position: relative;
         left: 150px; }
-    /* line 86, ../../jade/scss/_member_new.scss */
-    .exchange-page .exchange-content .form-control.birthday div {
+    /* line 89, ../../jade/scss/_member_new.scss */
+    .widraw-page .content-widraw-page .form-control.birthday div {
       width: 15%;
       margin-right: 5px; }
-      /* line 89, ../../jade/scss/_member_new.scss */
-      .exchange-page .exchange-content .form-control.birthday div select {
+      /* line 92, ../../jade/scss/_member_new.scss */
+      .widraw-page .content-widraw-page .form-control.birthday div select {
         width: 100%; }

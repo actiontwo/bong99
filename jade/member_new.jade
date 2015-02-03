@@ -2,125 +2,126 @@ extends layout
 block title
   title Bong99 | Exchange
 block main
-  .container_12.exchange-page
-    h3.title Nạp & Rút Tiền
-    .exchange-content
-      .grid_4.exchange-left
-        h4.sub-title Nạp Tiền
-        .line
-         input#slider1(type="range" min="100" max="500" step="10")
-        form
-          .form-control
-            label Chọn tài khoản cá cược
-            .select-style
-              select
-                option
-          .form-control
-            label Chọn ngân hàng
-            .select-style
-              select
-                option
-          .form-control
-            label Tên người gửi
-            input(type="text", name="")
-          .form-control
-            label Số tiền
-            input(type="text", name="")
-          .form-control
-            label Mã giao dịch
-            input(type="text", name="")
-          .form-control
-            label
-            div.btn-submit Nạp Tiền
-      .grid_4.exchange-middle
-        h4.sub-title Nạp Tiền Trực Tuyến
-        .line
-          input#slider1(type="range" min="100" max="500" step="10")
-        form
-          .form-control
-            label Chọn tài khoản cá cược
-            .select-style
-              select
-                option
-          .form-control
-            label Số tài khoản
-            input(type="text", name="")
-          .form-control
-            label Tên người gửi
-            input(type="text", name="")
-          .form-control
-            label Số tiền
-            input(type="text", name="")
-          .form-control
-            label Chỉ chấp nhận 5 ngân hàng:
-            .bank-list
-              div
-                img(src='images/vietcombank.png' width='' height='' alt='bong99')
-              div
-                img(src='images/acb.png' width='' height='' alt='bong99')
-              div
-                img(src='images/donga.png' width='' height='' alt='bong99')
-              div
-                img(src='images/bidv.png' width='' height='' alt='bong99')
-              div
-                img(src='images/vietinbank.png' width='' height='' alt='bong99')
-          .form-control
-            label
-            div.btn-submit Nạp Tiền
-      .grid_4.exchange-right
-        h4.sub-title Rút Tiền
-        .line
-          input#slider1(type="range" min="100" max="500" step="10")
-        form
-          .form-control
-            label Chọn tài khoản cá cược
-            .select-style
-              select
-                option
-          .form-control
-            label Chọn ngân hàng
-            .select-style
-              select
-                option
-          .form-control
-            label Tên người nhận
-            input(type="text", name="")
-          .form-control
-            label Số tài khoản
-            input(type="text", name="")
-          .form-control
-            label Số tiền
-            input(type="text", name="")
-          .form-control.birthday
-            label Xác nhận ngày sinh:
-            .select-style
-              select
-                option 1
-                option 2
-                option 3
-                option 4
-                option 5
-                option 6
-                option 7
-                option 8
-                option 9
-            .select-style
-              select
-                option 1
-                option 2
-                option 3
-                option 4
-                option 5
-                option 6
-            .select-style
-              select
-                option 1990
-                option 1991
-                option 1992
-                option 1993
-                option 1994
-                option 1995
-          .form-control
-            label
-            div.btn-submit Nạp Tiền
-      .clearfix
+  .container_12
+    .widraw-page
+      h3.title Nạp & Rút Tiền
+      .content-widraw-page
+        .grid_4.exchange-left
+          h4.sub-title Nạp Tiền
+          .line
+           input#slider1(type="range" min="100" max="500" step="10")
+          form
+            .form-control
+              label Chọn tài khoản cá cược
+              .select-style
+                select
+                  option
+            .form-control
+              label Chọn ngân hàng
+              .select-style
+                select
+                  option
+            .form-control
+              label Tên người gửi
+              input(type="text", name="")
+            .form-control
+              label Số tiền
+              input(type="text", name="")
+            .form-control
+              label Mã giao dịch
+              input(type="text", name="")
+            .form-control
+              label
+              div.btn-submit Nạp Tiền
+        .grid_4.exchange-middle
+          h4.sub-title Nạp Tiền Trực Tuyến
+          .line
+            input#slider1(type="range" min="100" max="500" step="10")
+          form
+            .form-control
+              label Chọn tài khoản cá cược
+              .select-style
+                select
+                  option
+            .form-control
+              label Số tài khoản
+              input(type="text", name="")
+            .form-control
+              label Tên người gửi
+              input(type="text", name="")
+            .form-control
+              label Số tiền
+              input(type="text", name="")
+            .form-control
+              label Chỉ chấp nhận 5 ngân hàng:
+              .bank-list
+                div
+                  img(src='images/vietcombank.png' width='' height='' alt='bong99')
+                div
+                  img(src='images/acb.png' width='' height='' alt='bong99')
+                div
+                  img(src='images/donga.png' width='' height='' alt='bong99')
+                div
+                  img(src='images/bidv.png' width='' height='' alt='bong99')
+                div
+                  img(src='images/vietinbank.png' width='' height='' alt='bong99')
+            .form-control
+              label
+              div.btn-submit Nạp Tiền
+        .grid_4.exchange-right
+          h4.sub-title Rút Tiền
+          .line
+            input#slider1(type="range" min="100" max="500" step="10")
+          form
+            .form-control
+              label Chọn tài khoản cá cược
+              .select-style
+                select
+                  option
+            .form-control
+              label Chọn ngân hàng
+              .select-style
+                select
+                  option
+            .form-control
+              label Tên người nhận
+              input(type="text", name="")
+            .form-control
+              label Số tài khoản
+              input(type="text", name="")
+            .form-control
+              label Số tiền
+              input(type="text", name="")
+            .form-control.birthday
+              label Xác nhận ngày sinh:
+              .select-style
+                select
+                  option 1
+                  option 2
+                  option 3
+                  option 4
+                  option 5
+                  option 6
+                  option 7
+                  option 8
+                  option 9
+              .select-style
+                select
+                  option 1
+                  option 2
+                  option 3
+                  option 4
+                  option 5
+                  option 6
+              .select-style
+                select
+                  option 1990
+                  option 1991
+                  option 1992
+                  option 1993
+                  option 1994
+                  option 1995
+            .form-control
+              label
+              div.btn-submit Nạp Tiền
+        .clearfix

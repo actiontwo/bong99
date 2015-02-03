@@ -2,11 +2,13 @@
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 22px;
-  background-color: #232f3b;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   border-radius: 5px;
   box-shadow: 0px 1px 0px 0px #252525;
+  .content-contact-page{
+    background-color: #232f3b;
+  }
   h3.title {
     display: block;
     background: #b7b7b7;
