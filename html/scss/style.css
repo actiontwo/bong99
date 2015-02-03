@@ -1463,54 +1463,97 @@ h3.title {
       /* line 43, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.credit label {
         vertical-align: top; }
-      /* line 46, ../../jade/scss/_signin_signup.scss */
+      /* line 47, ../../jade/scss/_signin_signup.scss */
+      .signin-page .signin-content .form-control.credit .checkbox-style .icon-checkbox {
+        background: url("img/icon-sprite.png") no-repeat -183px -15px; }
+      /* line 50, ../../jade/scss/_signin_signup.scss */
+      .signin-page .signin-content .form-control.credit .checkbox-style .checkbox-text {
+        margin-left: 5px; }
+        /* line 52, ../../jade/scss/_signin_signup.scss */
+        .signin-page .signin-content .form-control.credit .checkbox-style .checkbox-text p {
+          display: inline-block; }
+      /* line 56, ../../jade/scss/_signin_signup.scss */
+      .signin-page .signin-content .form-control.credit .checkbox-style .checkbox-input:checked + .icon-checkbox {
+        background-position: -183px 0px; }
+      /* line 60, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.credit .credit-list {
         display: inline-block;
         width: 246px; }
-        /* line 49, ../../jade/scss/_signin_signup.scss */
+        /* line 63, ../../jade/scss/_signin_signup.scss */
         .signin-page .signin-content .form-control.credit .credit-list div {
           margin-bottom: 6px; }
-          /* line 51, ../../jade/scss/_signin_signup.scss */
+          /* line 65, ../../jade/scss/_signin_signup.scss */
           .signin-page .signin-content .form-control.credit .credit-list div input {
             width: 13px;
             height: 13px; }
-          /* line 55, ../../jade/scss/_signin_signup.scss */
+          /* line 69, ../../jade/scss/_signin_signup.scss */
           .signin-page .signin-content .form-control.credit .credit-list div p {
             display: inline-block;
             color: #000000;
             font-size: 13px; }
-            /* line 59, ../../jade/scss/_signin_signup.scss */
+            /* line 73, ../../jade/scss/_signin_signup.scss */
             .signin-page .signin-content .form-control.credit .credit-list div p:last-child {
               color: #999999;
               font-size: 12px; }
-      /* line 67, ../../jade/scss/_signin_signup.scss */
+      /* line 81, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.get-info {
         color: #000; }
-        /* line 69, ../../jade/scss/_signin_signup.scss */
+        /* line 84, ../../jade/scss/_signin_signup.scss */
+        .signin-page .signin-content .form-control.get-info .checkbox-style .icon-checkbox {
+          background: url("img/icon-sprite.png") no-repeat -180px -92px; }
+        /* line 87, ../../jade/scss/_signin_signup.scss */
+        .signin-page .signin-content .form-control.get-info .checkbox-style .checkbox-input:checked + .icon-checkbox {
+          background-position: -180px -78px; }
+        /* line 91, ../../jade/scss/_signin_signup.scss */
         .signin-page .signin-content .form-control.get-info input {
           width: 13px;
           height: 13px;
           vertical-align: top; }
-        /* line 74, ../../jade/scss/_signin_signup.scss */
+        /* line 98, ../../jade/scss/_signin_signup.scss */
+        .signin-page .signin-content .form-control.get-info div:last-child label .icon-checkbox {
+          margin-top: -68px; }
+        /* line 103, ../../jade/scss/_signin_signup.scss */
         .signin-page .signin-content .form-control.get-info p {
           display: inline-block;
           width: 355px; }
-        /* line 79, ../../jade/scss/_signin_signup.scss */
+        /* line 108, ../../jade/scss/_signin_signup.scss */
         .signin-page .signin-content .form-control.get-info span:nth-child(1), .signin-page .signin-content .form-control.get-info span:nth-child(3) {
           color: #e74c3c; }
-      /* line 85, ../../jade/scss/_signin_signup.scss */
+      /* line 114, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.btn-submit {
         width: 146px; }
-      /* line 89, ../../jade/scss/_signin_signup.scss */
+      /* line 118, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.capcha > div {
         margin: 10px 0 30px 150px; }
-      /* line 93, ../../jade/scss/_signin_signup.scss */
+      /* line 122, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control input {
         width: 246px; }
-      /* line 96, ../../jade/scss/_signin_signup.scss */
+      /* line 125, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control select {
         width: 257px;
         text-transform: uppercase; }
+  /* line 131, ../../jade/scss/_signin_signup.scss */
+  .signin-page .checkbox-style {
+    width: 100%; }
+    /* line 133, ../../jade/scss/_signin_signup.scss */
+    .signin-page .checkbox-style * {
+      vertical-align: middle;
+      cursor: pointer; }
+    /* line 137, ../../jade/scss/_signin_signup.scss */
+    .signin-page .checkbox-style .checkbox-input {
+      display: none; }
+    /* line 140, ../../jade/scss/_signin_signup.scss */
+    .signin-page .checkbox-style .icon-checkbox {
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      background: url("img/icon-sprite.png") no-repeat -180px -92px; }
+    /* line 146, ../../jade/scss/_signin_signup.scss */
+    .signin-page .checkbox-style .checkbox-text {
+      margin-left: 10px; }
+    /* line 149, ../../jade/scss/_signin_signup.scss */
+    .signin-page .checkbox-style .checkbox-input:checked + .icon-checkbox {
+      background-position: -180px -78px; }
 
 /* line 1, ../../jade/scss/_history.scss */
 .history-page {
