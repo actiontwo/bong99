@@ -536,17 +536,33 @@ body {
 .iconsp-guid-res {
   background-position: -124px -30px; }
 
-/* line 128, ../../jade/scss/_icons.scss */
+/* line 129, ../../jade/scss/_icons.scss */
 .iconsp-guid-paid {
   background-position: 0px -76px; }
 
-/* line 131, ../../jade/scss/_icons.scss */
+/* line 132, ../../jade/scss/_icons.scss */
 .iconsp-guid-account {
   background-position: -102px -55px; }
 
-/* line 134, ../../jade/scss/_icons.scss */
+/* line 135, ../../jade/scss/_icons.scss */
 .iconsp-guid-walk {
   background-position: -102px -30px; }
+
+/* line 138, ../../jade/scss/_icons.scss */
+.iconsp-money-white {
+  background-position: 0 -56px; }
+
+/* line 141, ../../jade/scss/_icons.scss */
+.iconsp-tranfer-white {
+  background-position: -75px -56px; }
+
+/* line 144, ../../jade/scss/_icons.scss */
+.iconsp-list-white {
+  background-position: -25px -56px; }
+
+/* line 147, ../../jade/scss/_icons.scss */
+.iconsp-user-white {
+  background-position: -50px -56px; }
 
 @font-face {
   font-family: "aurora";
@@ -561,58 +577,58 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400; }
 
-/* line 20, ../../jade/scss/_common.scss */
+/* line 15, ../../jade/scss/_common.scss */
 header {
   background: url("img/bg-header.jpg") repeat; }
 
-/* line 24, ../../jade/scss/_common.scss */
+/* line 19, ../../jade/scss/_common.scss */
 footer {
   background: url("img/bg-footer.jpg") repeat;
   padding: 15px 0 30px 0; }
 
-/* line 29, ../../jade/scss/_common.scss */
+/* line 24, ../../jade/scss/_common.scss */
 a {
   color: inherit;
   text-decoration: none;
   font-size: 13px;
   line-height: 22px; }
 
-/* line 36, ../../jade/scss/_common.scss */
+/* line 31, ../../jade/scss/_common.scss */
 h1 {
   font-size: 22px;
   line-height: 24px; }
 
-/* line 41, ../../jade/scss/_common.scss */
+/* line 36, ../../jade/scss/_common.scss */
 h2 {
   font-size: 20px;
   line-height: 22px; }
 
-/* line 46, ../../jade/scss/_common.scss */
+/* line 41, ../../jade/scss/_common.scss */
 h3 {
   font-size: 16px;
   line-height: 20px; }
 
-/* line 51, ../../jade/scss/_common.scss */
+/* line 46, ../../jade/scss/_common.scss */
 h4 {
   font-size: 13px;
   line-height: 18px; }
 
-/* line 56, ../../jade/scss/_common.scss */
+/* line 51, ../../jade/scss/_common.scss */
 .btn {
   padding: 5px;
   border-radius: 5px;
   border: 0;
   color: #FFF; }
 
-/* line 63, ../../jade/scss/_common.scss */
+/* line 58, ../../jade/scss/_common.scss */
 .btn-orange {
   background: #e74c3c; }
 
-/* line 67, ../../jade/scss/_common.scss */
+/* line 62, ../../jade/scss/_common.scss */
 .btn-blue {
   background: #34495e; }
 
-/* line 71, ../../jade/scss/_common.scss */
+/* line 66, ../../jade/scss/_common.scss */
 input,
 textarea,
 select {
@@ -623,11 +639,11 @@ select {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 500; }
 
-/* line 82, ../../jade/scss/_common.scss */
+/* line 77, ../../jade/scss/_common.scss */
 .bg-blue {
   background: #223851; }
 
-/* line 86, ../../jade/scss/_common.scss */
+/* line 81, ../../jade/scss/_common.scss */
 ::-webkit-input-placeholder,
 :-moz-placeholder,
 ::-moz-placeholder,
@@ -665,7 +681,7 @@ select {
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
-  bottom: -30px;
+  bottom: 0;
   width: 100%; }
 
 /* LOADER */
@@ -699,7 +715,7 @@ select {
 
 /* line 86, ../../jade/scss/_bxslider.scss */
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
+  background: #fff;
   text-indent: -9999px;
   display: block;
   width: 10px;
@@ -713,7 +729,7 @@ select {
 /* line 99, ../../jade/scss/_bxslider.scss */
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-  background: #000; }
+  background: #e74c3c; }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 /* line 106, ../../jade/scss/_bxslider.scss */
@@ -863,9 +879,10 @@ select {
       opacity: 0.7; }
   /* line 52, ../../jade/scss/_header.scss */
   #header #top-menu {
-    border-bottom: 2px solid #e74c3c; }
-    /* line 54, ../../jade/scss/_header.scss */
-    #header #top-menu ul {
+    border-bottom: 2px solid #e74c3c;
+    position: relative; }
+    /* line 55, ../../jade/scss/_header.scss */
+    #header #top-menu .main-menu {
       background: #e74c3c;
       width: 820px;
       margin: 10px auto 0;
@@ -875,17 +892,75 @@ select {
       padding: 0 5px;
       position: relative;
       top: 2px; }
-      /* line 64, ../../jade/scss/_header.scss */
-      #header #top-menu ul li {
+      /* line 65, ../../jade/scss/_header.scss */
+      #header #top-menu .main-menu:before, #header #top-menu .main-menu:after {
+        content: '';
+        height: 27px;
+        width: 14px;
+        background: #e74c3c;
+        position: absolute;
+        z-index: 3;
+        display: inline-block;
+        top: 2px;
+        z-index: 0; }
+      /* line 79, ../../jade/scss/_header.scss */
+      #header #top-menu .main-menu:after {
+        left: -6.5px;
+        transform: rotateZ(25deg); }
+      /* line 83, ../../jade/scss/_header.scss */
+      #header #top-menu .main-menu:before {
+        right: -6.5px;
+        transform: rotateZ(-25deg); }
+      /* line 88, ../../jade/scss/_header.scss */
+      #header #top-menu .main-menu li {
         display: inline-block;
         text-align: center;
-        padding: 2px 0px; }
-        /* line 68, ../../jade/scss/_header.scss */
-        #header #top-menu ul li:hover {
-          background: #000; }
-        /* line 71, ../../jade/scss/_header.scss */
-        #header #top-menu ul li a {
+        padding: 2px 0px;
+        z-index: 3;
+        position: relative; }
+        /* line 95, ../../jade/scss/_header.scss */
+        #header #top-menu .main-menu li a {
           padding: 5px 17px; }
+      /* line 99, ../../jade/scss/_header.scss */
+      #header #top-menu .main-menu li:hover,
+      #header #top-menu .main-menu .active-menu {
+        background: #34495e; }
+  /* line 105, ../../jade/scss/_header.scss */
+  #header .wrapper-sub-menu {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    left: 0;
+    top: 28px; }
+  /* line 112, ../../jade/scss/_header.scss */
+  #header .sub-menu {
+    display: none;
+    width: 853px;
+    margin: 0 auto;
+    background: #34495e;
+    box-sizing: border-box; }
+    /* line 118, ../../jade/scss/_header.scss */
+    #header .sub-menu li {
+      display: table-cell;
+      text-align: center; }
+      /* line 121, ../../jade/scss/_header.scss */
+      #header .sub-menu li * {
+        vertical-align: middle; }
+      /* line 124, ../../jade/scss/_header.scss */
+      #header .sub-menu li a {
+        padding: 10px 0;
+        display: block;
+        font-size: 14px;
+        white-space: nowrap; }
+        /* line 129, ../../jade/scss/_header.scss */
+        #header .sub-menu li a span {
+          padding-left: 12px; }
+        /* line 132, ../../jade/scss/_header.scss */
+        #header .sub-menu li a:hover {
+          color: #e74c3c; }
+          /* line 134, ../../jade/scss/_header.scss */
+          #header .sub-menu li a:hover i {
+            background-position-y: -30px; }
 
 /* line 1, ../../jade/scss/_footer.scss */
 section#info-footer {
@@ -924,54 +999,70 @@ section#copyright {
 section#main-slider img {
   width: 100%; }
 
-/* line 4, ../../jade/scss/_home.scss */
+/* line 5, ../../jade/scss/_home.scss */
 .home-page {
   padding-top: 10px;
   background: url("img/bg-home.jpg") repeat; }
 
-/* line 9, ../../jade/scss/_home.scss */
+/* line 10, ../../jade/scss/_home.scss */
 article.news {
   text-transform: uppercase;
   font-size: 30px;
   border-radius: 2px;
   border: 2px solid #222d39;
-  margin-bottom: 10px;
-  font-family: "aurora"; }
-  /* line 17, ../../jade/scss/_home.scss */
+  margin-bottom: 10px; }
+  /* line 18, ../../jade/scss/_home.scss */
   article.news figure {
     position: relative; }
-    /* line 19, ../../jade/scss/_home.scss */
+    /* line 20, ../../jade/scss/_home.scss */
     article.news figure img {
       width: 100%; }
-    /* line 22, ../../jade/scss/_home.scss */
+    /* line 23, ../../jade/scss/_home.scss */
     article.news figure .news-image {
       display: block;
       line-height: 0; }
-    /* line 27, ../../jade/scss/_home.scss */
+    /* line 28, ../../jade/scss/_home.scss */
     article.news figure .news-title {
       background: rgba(0, 0, 0, 0.7);
       display: block;
       position: absolute;
       width: 100%;
       bottom: 0;
-      font-size: 22px;
+      font-size: 15px;
       color: #e4b31e;
       min-height: 60px;
       padding: 10px;
       box-sizing: border-box;
       text-align: center; }
-  /* line 41, ../../jade/scss/_home.scss */
+  /* line 42, ../../jade/scss/_home.scss */
   article.news .news-type {
     text-align: center;
     font-size: 20px;
     font-weight: 800;
     padding: 8px;
-    border: 1px solid #303030; }
-    /* line 47, ../../jade/scss/_home.scss */
+    border: 1px solid #303030;
+    position: relative; }
+    /* line 49, ../../jade/scss/_home.scss */
+    article.news .news-type:hover:before, article.news .news-type:hover:after {
+      border-bottom: 41px solid #404040;
+      border-left: 36px solid transparent;
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      background: transparent;
+      right: -3px; }
+    /* line 60, ../../jade/scss/_home.scss */
+    article.news .news-type:hover:before {
+      border-bottom: 42px solid #222d39;
+      border-left: 37px solid transparent;
+      right: -2px;
+      top: -3px; }
+    /* line 66, ../../jade/scss/_home.scss */
     article.news .news-type a {
       display: block;
       font-size: 20px; }
-    /* line 51, ../../jade/scss/_home.scss */
+    /* line 70, ../../jade/scss/_home.scss */
     article.news .news-type:hover {
       background: #e74c3c; }
 

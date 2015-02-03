@@ -51,7 +51,8 @@
 
   #top-menu {
     border-bottom: 2px solid $orange;
-    ul {
+    position: relative;
+    .main-menu {
       background: $orange;
       width: 820px;
       margin: 10px auto 0;
@@ -61,15 +62,78 @@
       padding: 0 5px;
       position: relative;
       top: 2px;
+      &:before,
+      &:after {
+        content: '';
+        height: 27px;
+        width: 14px;
+        background: #e74c3c;
+        position: absolute;
+
+        z-index: 3;
+        display: inline-block;
+        top: 2px;
+
+        z-index: 0;
+      }
+      &:after {
+        left: -6.5px;
+        transform: rotateZ(25deg);
+      }
+      &:before {
+
+        right: -6.5px;
+        transform: rotateZ(-25deg);
+      }
       li {
         display: inline-block;
         text-align: center;
         padding: 2px 0px;
-        &:hover {
-          background: #000;
-        }
+        z-index: 3;
+        position: relative;
+
         a {
           padding: 5px 17px;
+        }
+      }
+      li:hover,
+      .active-menu {
+        background: $blue;
+      }
+    }
+  }
+  .wrapper-sub-menu {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    left: 0;
+    top: 28px;
+  }
+  .sub-menu {
+    display: none;
+    width: 853px;
+    margin: 0 auto;
+    background: $blue;
+    box-sizing: border-box;
+    li {
+      display: table-cell;
+      text-align: center;
+      * {
+        vertical-align: middle;
+      }
+      a {
+        padding: 10px 0;
+        display: block;
+        font-size: 14px;
+        white-space: nowrap;
+        span {
+          padding-left: 12px;
+        }
+        &:hover {
+          color: $orange;
+          i {
+            background-position-y: -30px;
+          }
         }
       }
     }

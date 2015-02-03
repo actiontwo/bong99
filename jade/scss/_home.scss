@@ -1,7 +1,8 @@
 section#main-slider img {
   width: 100%;
 }
-.home-page{
+
+.home-page {
   padding-top: 10px;
   background: url('img/bg-home.jpg') repeat;
 }
@@ -12,7 +13,7 @@ article.news {
   border-radius: 2px;
   border: 2px solid #222d39;
   margin-bottom: 10px;
-  font-family: $aurora;
+  //  font-family: $aurora;
 
   figure {
     position: relative;
@@ -30,7 +31,7 @@ article.news {
       position: absolute;
       width: 100%;
       bottom: 0;
-      font-size: 22px;
+      font-size: 15px;
       color: $yellow;
       min-height: 60px;
       padding: 10px;
@@ -44,11 +45,29 @@ article.news {
     font-weight: 800;
     padding: 8px;
     border: 1px solid #303030;
-    a{
+    position: relative;
+    &:hover:before,
+    &:hover:after {
+      border-bottom: 41px solid #404040;
+      border-left: 36px solid transparent;
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      background: transparent;
+      right: -3px;
+    }
+    &:hover:before {
+      border-bottom: 42px solid #222d39;
+      border-left: 37px solid transparent;
+      right: -2px;
+      top: -3px;
+    }
+    a {
       display: block;
       font-size: 20px;
     }
-    &:hover{
+    &:hover {
       background: $orange;
     }
   }

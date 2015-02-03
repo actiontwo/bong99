@@ -18,7 +18,7 @@ html(lang='en')
       .container_12
         .grid_3
           figure#logo
-            a(href='home.html'): img(src='images/logo.png' width='' height='' alt='bong99')
+            a(href='index.html'): img(src='images/logo.png' width='' height='' alt='bong99')
         .grid_6.push_3
           form#login-bar(action='/' method='post')
             .form-input
@@ -40,16 +40,31 @@ html(lang='en')
       .clearfix
       nav#top-menu
         .container_12
-          ul
-            li: a(href='sports.html') sports
+          ul.main-menu
+            li: a(href='daily.html') sports
             li: a(href='casino.html') casino
             li: a(href='help.html') trợ giúp
             li: a(href='about-us.html') về chúng tôi
-            li: a(href='.html') trách nhiệm
-            li: a(href='responsibility.html') riêng tư
-            li: a(href='private.html') liên hệ
-            li: a(href='contact.html') đại lý
-        .clearfix
+            li: a(href='reponsibility.html') trách nhiệm
+            li(data-menu='menu-id-1'): a(href='javascript:void(0)') riêng tư
+            li(data-menu='menu-id-2'): a(href='private.html') liên hệ
+            li: a(href='daily.html') đại lý
+        .container_12
+          .wrapper-sub-menu
+            ul#menu-id-1.sub-menu
+              li: a(href='widthraw-money.html')
+                i.iconsp-money-white
+                span Nạp tiền, rút tiền
+              li: a(href='tranfer_history.html')
+                i.iconsp-tranfer-white
+                span Lịch sử giao dịch
+              li: a(href='bet_daily_history.html')
+                i.iconsp-list-white
+                span Lịch sử cá cược hằng ngày
+              li: a(href='accounting.html')
+                i.iconsp-user-white
+                span Thông tin tài
+          .clearfix
     block slider
 
     block main
