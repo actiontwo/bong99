@@ -3,3 +3,4 @@ node_modules/
 psd/
 doc/
 .sass-cache/
+.DS_Store
