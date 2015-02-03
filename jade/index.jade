@@ -12,20 +12,21 @@ block main
   section.home-page
     .container_12
       - var object = {}
-      - object['sports'] = 'ỉ lệ cược cao nhất giao diện dễ nhìn dễ'
-      - object['casino'] = 'đầy đủ các trò chơi sòng bài thực và ảo'
-      - object['trợ giúp'] = 'bạn tìm hiểu cách đăng ký & sử dụng 388bet, bong88?'
-      - object['hoa hồng'] = 'hoa hồng cực  cách tính hoa hồng x5 x6'
-      - object['liên hệ'] = 'hỗ trợ chuyên nghiệp & nhanh chóng hotline 09xxxxxxx yahoo hotro'
-      - object['đại lý'] = 'bạn muốn làm giàu'
+      - object['sports'] = [{'title':'Tỉ lệ cược cao nhất giao diện dễ nhìn dễ','images':'banner-news_01'},{'title':'That la de nhin','images':'banner-news_07'}]
+      - object['casino'] = [{'title':'đầy đủ các trò chơi sòng bài thực và ảo','images':'banner-news_02'},{'title':'Ao dieu vo cung','images':'banner-news_08'}]
+      - object['trợ giúp'] = [{'title':'bạn tìm hiểu cách đăng ký & sử dụng 388bet, bong88?','images':'banner-news_03'},{'title':'Rat de dang dang ky','images':'banner-left-1'}]
+      - object['hoa hồng'] = [{'title':'hoa hồng cực  cách tính hoa hồng x5 x6','images':'banner-news_04'},{'title':'That la cao qua di','images':'banner-left-2'}]
+      - object['liên hệ'] = [{'title':'hỗ trợ chuyên nghiệp & nhanh chóng hotline 09xxxxxxx yahoo hotro','images':'banner-news_05'},{'title':'Call me now','images':'banner-left-3'}]
+      - object['đại lý'] = [{'title':'bạn muốn làm giàu','images':'banner-news_06'},{'title':'Tat nhien roi','images':'banner-left-4'}]
       each val , index in object
         .grid_4
           article.news
-            figure
-              a.news-image(href='#')
-                img(src='images/banner1.png' height='204' width='328')
-              a.news-title(href='#')
-                = val
+            each items in val
+              figure.figure-news
+                a.news-image(href='#')
+                  img(src='images/#{items.images}.jpg' height='204' width='328')
+                a.news-title(href='#')
+                  = items.title
             .news-type.bg-blue
               a(href='#')= index
     .clearfix

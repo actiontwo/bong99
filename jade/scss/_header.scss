@@ -62,10 +62,35 @@
       padding: 0 5px;
       position: relative;
       top: 2px;
+      &:before,
+      &:after {
+        content: '';
+        height: 27px;
+        width: 14px;
+        background: #e74c3c;
+        position: absolute;
+
+        z-index: 3;
+        display: inline-block;
+        top: 2px;
+
+        z-index: 0;
+      }
+      &:after {
+        left: -6.5px;
+        transform: rotateZ(25deg);
+      }
+      &:before {
+
+        right: -6.5px;
+        transform: rotateZ(-25deg);
+      }
       li {
         display: inline-block;
         text-align: center;
         padding: 2px 0px;
+        z-index: 3;
+        position: relative;
 
         a {
           padding: 5px 17px;
@@ -82,10 +107,11 @@
     width: 100%;
     z-index: 10;
     left: 0;
+    top: 28px;
   }
   .sub-menu {
     display: none;
-    width: 830px;
+    width: 853px;
     margin: 0 auto;
     background: $blue;
     box-sizing: border-box;
