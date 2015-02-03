@@ -66,25 +66,21 @@
       &:before,
       &:after {
         content: '';
-        height: 27px;
-        width: 14px;
-        background: #e74c3c;
+        height: 1px;
+        width: 1px;
         position: absolute;
-
-        z-index: 3;
         display: inline-block;
-        top: 2px;
+        top: 0;
+        border-top: 25px solid transparent;
 
-        z-index: 0;
       }
       &:after {
-        left: -6.5px;
-        transform: rotateZ(25deg);
+        border-left: 12px solid $orange;
+        right: -13px;
       }
       &:before {
-
-        right: -6.5px;
-        transform: rotateZ(-25deg);
+        border-right: 12px solid $orange;
+        left: -13px;
       }
       li {
         display: table-cell;

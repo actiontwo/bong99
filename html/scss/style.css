@@ -892,70 +892,68 @@ select {
       /* line 66, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:before, #header #top-menu .main-menu:after {
         content: '';
-        height: 27px;
-        width: 14px;
-        background: #e74c3c;
+        height: 1px;
+        width: 1px;
         position: absolute;
-        z-index: 3;
         display: inline-block;
-        top: 2px;
-        z-index: 0; }
-      /* line 80, ../../jade/scss/_header.scss */
+        top: 0;
+        border-top: 25px solid transparent; }
+      /* line 77, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:after {
-        left: -6.5px;
-        transform: rotateZ(25deg); }
-      /* line 84, ../../jade/scss/_header.scss */
+        border-left: 12px solid #e74c3c;
+        right: -13px; }
+      /* line 81, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:before {
-        right: -6.5px;
-        transform: rotateZ(-25deg); }
-      /* line 89, ../../jade/scss/_header.scss */
+        border-right: 12px solid #e74c3c;
+        left: -13px; }
+      /* line 85, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu li {
         display: table-cell;
         text-align: center;
         padding: 2px 0px;
         z-index: 3;
         position: relative; }
-        /* line 96, ../../jade/scss/_header.scss */
+        /* line 92, ../../jade/scss/_header.scss */
         #header #top-menu .main-menu li a {
           padding: 5px 0; }
-      /* line 100, ../../jade/scss/_header.scss */
+      /* line 96, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu li:hover,
       #header #top-menu .main-menu .active-menu {
         background: #34495e; }
-  /* line 106, ../../jade/scss/_header.scss */
+  /* line 102, ../../jade/scss/_header.scss */
   #header .wrapper-sub-menu {
     position: absolute;
     width: 100%;
     z-index: 10;
     left: 0;
     top: 28px; }
-  /* line 113, ../../jade/scss/_header.scss */
+  /* line 109, ../../jade/scss/_header.scss */
   #header .sub-menu {
     display: none;
     width: 853px;
     margin: 0 auto;
     background: #34495e;
     box-sizing: border-box; }
-    /* line 119, ../../jade/scss/_header.scss */
+    /* line 115, ../../jade/scss/_header.scss */
     #header .sub-menu li {
       display: table-cell;
       text-align: center; }
-      /* line 122, ../../jade/scss/_header.scss */
+      /* line 118, ../../jade/scss/_header.scss */
       #header .sub-menu li * {
         vertical-align: middle; }
-      /* line 125, ../../jade/scss/_header.scss */
+      /* line 121, ../../jade/scss/_header.scss */
       #header .sub-menu li a {
         padding: 10px 0;
         display: block;
         font-size: 14px;
         white-space: nowrap; }
-        /* line 130, ../../jade/scss/_header.scss */
+        /* line 126, ../../jade/scss/_header.scss */
         #header .sub-menu li a span {
           padding-left: 12px; }
-        /* line 133, ../../jade/scss/_header.scss */
+        /* line 129, ../../jade/scss/_header.scss */
         #header .sub-menu li a:hover {
           color: #e74c3c; }
-          /* line 135, ../../jade/scss/_header.scss */
+          /* line 131, ../../jade/scss/_header.scss */
           #header .sub-menu li a:hover i {
             background-position-y: -30px; }
 
@@ -1307,3 +1305,66 @@ article.news {
       /* line 92, ../../jade/scss/_member_new.scss */
       .widraw-page .content-widraw-page .form-control.birthday div select {
         width: 100%; }
+
+/* line 1, ../../jade/scss/_sport.scss */
+#banner-sport {
+  position: relative; }
+  /* line 3, ../../jade/scss/_sport.scss */
+  #banner-sport img {
+    width: 100%; }
+
+/* line 8, ../../jade/scss/_sport.scss */
+.sport-page {
+  padding: 15px 0 35px 0; }
+  /* line 11, ../../jade/scss/_sport.scss */
+  .sport-page aside.sport_right img {
+    width: 100%; }
+  /* line 14, ../../jade/scss/_sport.scss */
+  .sport-page iframe#iframe {
+    width: 100%;
+    height: 405px; }
+  /* line 18, ../../jade/scss/_sport.scss */
+  .sport-page .desc-info {
+    font-size: 11px;
+    line-height: 15px;
+    background: #34495e; }
+    /* line 22, ../../jade/scss/_sport.scss */
+    .sport-page .desc-info a {
+      font-size: 11px; }
+      /* line 24, ../../jade/scss/_sport.scss */
+      .sport-page .desc-info a:hover {
+        color: #e74c3c; }
+  /* line 29, ../../jade/scss/_sport.scss */
+  .sport-page .iframe {
+    background: #223851; }
+  /* line 32, ../../jade/scss/_sport.scss */
+  .sport-page .iframe,
+  .sport-page .desc-info {
+    padding: 15px; }
+  /* line 37, ../../jade/scss/_sport.scss */
+  .sport-page aside.account-trial {
+    border: 1px solid #e74c3c; }
+  /* line 41, ../../jade/scss/_sport.scss */
+  .sport-page h3.title-account-trial {
+    background: #e74c3c;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 11px; }
+  /* line 48, ../../jade/scss/_sport.scss */
+  .sport-page .content-account-trial {
+    font-size: 12px; }
+    /* line 50, ../../jade/scss/_sport.scss */
+    .sport-page .content-account-trial li {
+      padding: 5px 10px; }
+      /* line 52, ../../jade/scss/_sport.scss */
+      .sport-page .content-account-trial li span:first-child {
+        padding-right: 10px; }
+      /* line 55, ../../jade/scss/_sport.scss */
+      .sport-page .content-account-trial li p {
+        margin-bottom: 5px; }
+      /* line 58, ../../jade/scss/_sport.scss */
+      .sport-page .content-account-trial li:nth-child(odd) {
+        background: #34495e; }
+      /* line 61, ../../jade/scss/_sport.scss */
+      .sport-page .content-account-trial li:nth-child(even) {
+        background: #223851; }

@@ -1,0 +1,7 @@
+@mixin tranformZ($deg) {
+  -webkit-transform: rotateZ($deg);
+  -moz-transform: rotateZ($deg);
+  -ms-transform: rotateZ($deg);
+  -o-transform: rotateZ($deg);
+  transform: rotateZ($deg);
+}

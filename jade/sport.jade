@@ -1,0 +1,51 @@
+extends layout
+block title
+  title Bong99 | Home
+block slider
+  .container_12
+    .grid_12
+      section#banner-sport
+        a(href=''): img(src='images/banner_sport.jpg' alt='content banner')
+    .clearfix
+block main
+  section.sport-page
+    .container_12
+      .grid_2
+        aside.account-trial
+          h3.title-account-trial
+            | tài khoảng dùng thử tại www.bongda88.com
+          .content-account-trial
+            ul
+              each val in [1,2,3,4,5]
+                li
+                  p
+                    span Username
+                    span as121331
+                  p
+                    span Password
+                    span as121331
+      .grid_7
+        .content-event-sport
+          .desc-info
+            p
+              a(href='#') &nbspwww.bong99.com&nbsp
+              | là trang quản lý giao dịch của trang
+              a(href='#') &nbspwww.bongda88.com.&nbsp
+              | Mọi đặt cược sẽ được tiến hành tại
+              a(href='#') &nbspwww.bongda88.com&nbsp
+              | và thanh toán qua
+              a(href='#') &nbspwww.bong99.com.&nbsp
+              | Đem lại sự tiện lợi và an toàn nhất cho quý khách
+          .iframe
+            iframe#iframe(src="event-sport.html")
+      .grid_3
+        aside.sport_right
+          a(href='#'): img(src='images/sport1.jpg' width='' height='' alt='bong99')
+          a(href='#'): img(src='images/sport2.jpg' width='' height='' alt='bong99')
+          a(href='#'): img(src='images/sport3.jpg' width='' height='' alt='bong99')
+          a(href='#'): img(src='images/sport4.jpg' width='' height='' alt='bong99')
+      .clearfix
+
+
+
+
