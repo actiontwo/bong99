@@ -513,33 +513,38 @@ body {
   background-position: -150px 0; }
 
 /* line 107, ../../jade/scss/_icons.scss */
+.iconsp-medium-question {
+  background-position: -125px -55px;
+  cursor: pointer; }
+
+/* line 112, ../../jade/scss/_icons.scss */
 .iconsp-medium-refresh {
   background-position: -98px -78px;
   cursor: pointer; }
 
-/* line 112, ../../jade/scss/_icons.scss */
+/* line 117, ../../jade/scss/_icons.scss */
 .iconsp-comment {
   background-position: -180px -36px;
   height: 13px;
   width: 14px; }
 
-/* line 117, ../../jade/scss/_icons.scss */
+/* line 122, ../../jade/scss/_icons.scss */
 .iconsp-question {
   background-position: -150px -30px; }
 
-/* line 120, ../../jade/scss/_icons.scss */
+/* line 125, ../../jade/scss/_icons.scss */
 .iconsp-guid-res {
   background-position: -124px -30px; }
 
-/* line 123, ../../jade/scss/_icons.scss */
+/* line 128, ../../jade/scss/_icons.scss */
 .iconsp-guid-paid {
   background-position: 0px -76px; }
 
-/* line 126, ../../jade/scss/_icons.scss */
+/* line 131, ../../jade/scss/_icons.scss */
 .iconsp-guid-account {
   background-position: -102px -55px; }
 
-/* line 129, ../../jade/scss/_icons.scss */
+/* line 134, ../../jade/scss/_icons.scss */
 .iconsp-guid-walk {
   background-position: -102px -30px; }
 
@@ -1342,5 +1347,43 @@ h3.title {
     /* line 25, ../../jade/scss/_history.scss */
     .history-page .history-content table tbody tr {
       border-top: 1px solid #ccc; }
+
+/* line 1, ../../jade/scss/_bet_history.scss */
+.bet-history-page {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #636363;
+  line-height: 22px;
+  background-color: #e1e1e1;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 0px #252525; }
+  /* line 11, ../../jade/scss/_bet_history.scss */
+  .bet-history-page .bet-history-content {
+    padding: 20px; }
+    /* line 13, ../../jade/scss/_bet_history.scss */
+    .bet-history-page .bet-history-content .bet-history-left,
+    .bet-history-page .bet-history-content .bet-history-right {
+      width: 470px;
+      display: inline-block; }
+      /* line 17, ../../jade/scss/_bet_history.scss */
+      .bet-history-page .bet-history-content .bet-history-left .provider,
+      .bet-history-page .bet-history-content .bet-history-right .provider {
+        color: #bb0000;
+        border-bottom: 1px solid #cccccc;
+        padding: 0 0 10px 0; }
+      /* line 22, ../../jade/scss/_bet_history.scss */
+      .bet-history-page .bet-history-content .bet-history-left .account,
+      .bet-history-page .bet-history-content .bet-history-right .account {
+        padding: 10px 0; }
+        /* line 24, ../../jade/scss/_bet_history.scss */
+        .bet-history-page .bet-history-content .bet-history-left .account i,
+        .bet-history-page .bet-history-content .bet-history-right .account i {
+          float: right;
+          cursor: pointer; }
+    /* line 30, ../../jade/scss/_bet_history.scss */
+    .bet-history-page .bet-history-content .bet-history-left {
+      margin-right: 44px; }
 
 /*# sourceMappingURL=style.css.map */
