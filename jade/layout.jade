@@ -23,9 +23,8 @@ html(lang='en')
           form#login-bar(action='/' method='post')
             .form-input
               input.input(type='text' placeholder='Username' name='username')
-            .form-input
+            .form-input.icon-input-question
               input.input(type='password' placeholder='Password' name ='password')
-              span.icon-input: i.iconsp-question
             button.btn.btn-orange Log in
           ul.register-bar
             li.current-time 22:45:54 (GMT +07:00)
@@ -41,13 +40,13 @@ html(lang='en')
       nav#top-menu
         .container_12
           ul.main-menu
-            li: a(href='daily.html') sports
-            li: a(href='casino.html') casino
+            li: a(href='sport.html') sports
+            li: a(href='#') casino
             li: a(href='help.html') trợ giúp
-            li: a(href='about-us.html') về chúng tôi
-            li: a(href='reponsibility.html') trách nhiệm
+            li: a(href='#') về chúng tôi
+            li: a(href='#') trách nhiệm
             li(data-menu='menu-id-1'): a(href='javascript:void(0)') riêng tư
-            li(data-menu='menu-id-2'): a(href='private.html') liên hệ
+            li(data-menu='menu-id-2'): a(href='contact.html') liên hệ
             li: a(href='daily.html') đại lý
         .container_12
           .wrapper-sub-menu
@@ -55,15 +54,15 @@ html(lang='en')
               li: a(href='widthraw-money.html')
                 i.iconsp-money-white
                 span Nạp tiền, rút tiền
-              li: a(href='tranfer_history.html')
+              li: a(href='history.html')
                 i.iconsp-tranfer-white
                 span Lịch sử giao dịch
-              li: a(href='bet_daily_history.html')
+              li: a(href='bet_history.html')
                 i.iconsp-list-white
                 span Lịch sử cá cược hằng ngày
-              li: a(href='accounting.html')
+              li: a(href='account_info.html')
                 i.iconsp-user-white
-                span Thông tin tài
+                span Thông tin tài khoản
           .clearfix
     block slider
     section.main-body

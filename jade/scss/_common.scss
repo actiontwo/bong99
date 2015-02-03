@@ -10,6 +10,7 @@ body {
   color: $fontColorMain;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  -webkit-text-size-adjust: 100%;
 }
 
 header {
@@ -91,3 +92,11 @@ select {
   z-index: 2;
 }
 
+
+
+.content-tooltip {
+  display: none;
+}
+.tooltip:hover + .content-tooltip {
+  display: block;
+}
