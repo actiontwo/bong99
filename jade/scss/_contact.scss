@@ -9,21 +9,11 @@
   .content-contact-page{
     background-color: #232f3b;
   }
-  h3.title {
-    display: block;
-    background: #b7b7b7;
-    color: #000000;
-    font-weight: bolder;
-    border-radius: 5px 5px 0px 0px;
-    font-size: 16px;
-    padding: 5px 15px;
-    box-shadow: 0px 1px 0px 0px #c3c3c3;
-    text-transform: uppercase;
-  }
   .contact-map {
     iframe {
       width: 90%;
       margin: 24px;
+      height: 522px;
     }
   }
   .contact-content {
