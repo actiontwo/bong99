@@ -12,7 +12,7 @@ article.news {
   border-radius: 2px;
   border: 2px solid #222d39;
   margin-bottom: 10px;
-  font-family: $aurora;
+//  font-family: $aurora;
 
   figure {
     position: relative;
@@ -30,7 +30,7 @@ article.news {
       position: absolute;
       width: 100%;
       bottom: 0;
-      font-size: 22px;
+      font-size: 15px;
       color: $yellow;
       min-height: 60px;
       padding: 10px;

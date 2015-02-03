@@ -526,17 +526,33 @@ body {
 .iconsp-guid-res {
   background-position: -124px -30px; }
 
-/* line 118, ../../jade/scss/_icons.scss */
+/* line 119, ../../jade/scss/_icons.scss */
 .iconsp-guid-paid {
   background-position: 0px -76px; }
 
-/* line 121, ../../jade/scss/_icons.scss */
+/* line 122, ../../jade/scss/_icons.scss */
 .iconsp-guid-account {
   background-position: -102px -55px; }
 
-/* line 124, ../../jade/scss/_icons.scss */
+/* line 125, ../../jade/scss/_icons.scss */
 .iconsp-guid-walk {
   background-position: -102px -30px; }
+
+/* line 128, ../../jade/scss/_icons.scss */
+.iconsp-money-white {
+  background-position: 0 -56px; }
+
+/* line 131, ../../jade/scss/_icons.scss */
+.iconsp-tranfer-white {
+  background-position: -75px -56px; }
+
+/* line 134, ../../jade/scss/_icons.scss */
+.iconsp-list-white {
+  background-position: -25px -56px; }
+
+/* line 137, ../../jade/scss/_icons.scss */
+.iconsp-user-white {
+  background-position: -50px -56px; }
 
 @font-face {
   font-family: "aurora";
@@ -655,7 +671,7 @@ select {
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
-  bottom: -30px;
+  bottom: 0;
   width: 100%; }
 
 /* LOADER */
@@ -689,7 +705,7 @@ select {
 
 /* line 86, ../../jade/scss/_bxslider.scss */
 .bx-wrapper .bx-pager.bx-default-pager a {
-  background: #666;
+  background: #fff;
   text-indent: -9999px;
   display: block;
   width: 10px;
@@ -703,7 +719,7 @@ select {
 /* line 99, ../../jade/scss/_bxslider.scss */
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-  background: #000; }
+  background: #e74c3c; }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 /* line 106, ../../jade/scss/_bxslider.scss */
@@ -853,9 +869,10 @@ select {
       opacity: 0.7; }
   /* line 52, ../../jade/scss/_header.scss */
   #header #top-menu {
-    border-bottom: 2px solid #e74c3c; }
-    /* line 54, ../../jade/scss/_header.scss */
-    #header #top-menu ul {
+    border-bottom: 2px solid #e74c3c;
+    position: relative; }
+    /* line 55, ../../jade/scss/_header.scss */
+    #header #top-menu .main-menu {
       background: #e74c3c;
       width: 820px;
       margin: 10px auto 0;
@@ -865,17 +882,53 @@ select {
       padding: 0 5px;
       position: relative;
       top: 2px; }
-      /* line 64, ../../jade/scss/_header.scss */
-      #header #top-menu ul li {
+      /* line 65, ../../jade/scss/_header.scss */
+      #header #top-menu .main-menu li {
         display: inline-block;
         text-align: center;
         padding: 2px 0px; }
-        /* line 68, ../../jade/scss/_header.scss */
-        #header #top-menu ul li:hover {
-          background: #000; }
-        /* line 71, ../../jade/scss/_header.scss */
-        #header #top-menu ul li a {
+        /* line 70, ../../jade/scss/_header.scss */
+        #header #top-menu .main-menu li a {
           padding: 5px 17px; }
+      /* line 74, ../../jade/scss/_header.scss */
+      #header #top-menu .main-menu li:hover,
+      #header #top-menu .main-menu .active-menu {
+        background: #34495e; }
+  /* line 80, ../../jade/scss/_header.scss */
+  #header .wrapper-sub-menu {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    left: 0; }
+  /* line 86, ../../jade/scss/_header.scss */
+  #header .sub-menu {
+    display: none;
+    width: 830px;
+    margin: 0 auto;
+    background: #34495e;
+    box-sizing: border-box; }
+    /* line 92, ../../jade/scss/_header.scss */
+    #header .sub-menu li {
+      display: table-cell;
+      text-align: center; }
+      /* line 95, ../../jade/scss/_header.scss */
+      #header .sub-menu li * {
+        vertical-align: middle; }
+      /* line 98, ../../jade/scss/_header.scss */
+      #header .sub-menu li a {
+        padding: 10px 0;
+        display: block;
+        font-size: 14px;
+        white-space: nowrap; }
+        /* line 103, ../../jade/scss/_header.scss */
+        #header .sub-menu li a span {
+          padding-left: 12px; }
+        /* line 106, ../../jade/scss/_header.scss */
+        #header .sub-menu li a:hover {
+          color: #e74c3c; }
+          /* line 108, ../../jade/scss/_header.scss */
+          #header .sub-menu li a:hover i {
+            background-position-y: -30px; }
 
 /* line 1, ../../jade/scss/_footer.scss */
 section#info-footer {
@@ -925,8 +978,7 @@ article.news {
   font-size: 30px;
   border-radius: 2px;
   border: 2px solid #222d39;
-  margin-bottom: 10px;
-  font-family: "aurora"; }
+  margin-bottom: 10px; }
   /* line 17, ../../jade/scss/_home.scss */
   article.news figure {
     position: relative; }
@@ -944,7 +996,7 @@ article.news {
       position: absolute;
       width: 100%;
       bottom: 0;
-      font-size: 22px;
+      font-size: 15px;
       color: #e4b31e;
       min-height: 60px;
       padding: 10px;
