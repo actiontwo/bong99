@@ -7,10 +7,12 @@ Version:0.1
 
 @import "_icons";
 @import "_fonts";
-@import "_header";
-@import "_footer  ";
 @import "_reset";
 @import "_common";
+@import "_header";
+@import "_footer";
+@import "_home";
+
 
 @media only screen and (max-width: 767px) and (min-width: 0px) {
   .container {
