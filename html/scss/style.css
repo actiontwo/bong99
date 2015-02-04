@@ -72,11 +72,11 @@ table {
 */
 /* line 17, ../../jade/scss/_grid.scss */
 body {
-  min-width: 1040px; }
+  min-width: 1032px; }
 
 /* Containers
 ----------------------------------------------------------------------------------------------------*/
-/* line 23, ../../jade/scss/_grid.scss */
+/* line 27, ../../jade/scss/_grid.scss */
 .container_12 {
   margin-left: auto;
   margin-right: auto;
@@ -84,7 +84,7 @@ body {
 
 /* Grid >> Global
 ----------------------------------------------------------------------------------------------------*/
-/* line 33, ../../jade/scss/_grid.scss */
+/* line 37, ../../jade/scss/_grid.scss */
 .grid_1,
 .grid_2,
 .grid_3,
@@ -103,7 +103,7 @@ body {
   margin-left: 5px;
   margin-right: 5px; }
 
-/* line 54, ../../jade/scss/_grid.scss */
+/* line 58, ../../jade/scss/_grid.scss */
 .push_1, .pull_1,
 .push_2, .pull_2,
 .push_3, .pull_3,
@@ -120,252 +120,252 @@ body {
 
 /* Grid >> Children (Alpha ~ First, Omega ~ Last)
 ----------------------------------------------------------------------------------------------------*/
-/* line 73, ../../jade/scss/_grid.scss */
+/* line 77, ../../jade/scss/_grid.scss */
 .alpha {
   margin-left: 0; }
 
-/* line 77, ../../jade/scss/_grid.scss */
+/* line 81, ../../jade/scss/_grid.scss */
 .omega {
   margin-right: 0; }
 
 /* Grid >> 12 Columns
 ----------------------------------------------------------------------------------------------------*/
-/* line 85, ../../jade/scss/_grid.scss */
+/* line 89, ../../jade/scss/_grid.scss */
 .container_12 .grid_1 {
   width: 76px; }
 
-/* line 89, ../../jade/scss/_grid.scss */
+/* line 93, ../../jade/scss/_grid.scss */
 .container_12 .grid_2 {
   width: 162px; }
 
-/* line 93, ../../jade/scss/_grid.scss */
+/* line 97, ../../jade/scss/_grid.scss */
 .container_12 .grid_3 {
   width: 248px; }
 
-/* line 97, ../../jade/scss/_grid.scss */
+/* line 101, ../../jade/scss/_grid.scss */
 .container_12 .grid_4 {
   width: 334px; }
 
-/* line 101, ../../jade/scss/_grid.scss */
+/* line 105, ../../jade/scss/_grid.scss */
 .container_12 .grid_5 {
   width: 420px; }
 
-/* line 105, ../../jade/scss/_grid.scss */
+/* line 109, ../../jade/scss/_grid.scss */
 .container_12 .grid_6 {
   width: 506px; }
 
-/* line 109, ../../jade/scss/_grid.scss */
+/* line 113, ../../jade/scss/_grid.scss */
 .container_12 .grid_7 {
   width: 592px; }
 
-/* line 113, ../../jade/scss/_grid.scss */
+/* line 117, ../../jade/scss/_grid.scss */
 .container_12 .grid_8 {
   width: 678px; }
 
-/* line 117, ../../jade/scss/_grid.scss */
+/* line 121, ../../jade/scss/_grid.scss */
 .container_12 .grid_9 {
   width: 764px; }
 
-/* line 121, ../../jade/scss/_grid.scss */
+/* line 125, ../../jade/scss/_grid.scss */
 .container_12 .grid_10 {
   width: 850px; }
 
-/* line 125, ../../jade/scss/_grid.scss */
+/* line 129, ../../jade/scss/_grid.scss */
 .container_12 .grid_11 {
   width: 936px; }
 
-/* line 129, ../../jade/scss/_grid.scss */
+/* line 133, ../../jade/scss/_grid.scss */
 .container_12 .grid_12 {
   width: 1022px; }
 
 /* Prefix Extra Space >> 12 Columns
 ----------------------------------------------------------------------------------------------------*/
-/* line 140, ../../jade/scss/_grid.scss */
+/* line 144, ../../jade/scss/_grid.scss */
 .container_12 .prefix_1 {
   padding-left: 86px; }
 
-/* line 144, ../../jade/scss/_grid.scss */
+/* line 148, ../../jade/scss/_grid.scss */
 .container_12 .prefix_2 {
   padding-left: 172px; }
 
-/* line 148, ../../jade/scss/_grid.scss */
+/* line 152, ../../jade/scss/_grid.scss */
 .container_12 .prefix_3 {
   padding-left: 258px; }
 
-/* line 152, ../../jade/scss/_grid.scss */
+/* line 156, ../../jade/scss/_grid.scss */
 .container_12 .prefix_4 {
   padding-left: 344px; }
 
-/* line 156, ../../jade/scss/_grid.scss */
+/* line 160, ../../jade/scss/_grid.scss */
 .container_12 .prefix_5 {
   padding-left: 430px; }
 
-/* line 160, ../../jade/scss/_grid.scss */
+/* line 164, ../../jade/scss/_grid.scss */
 .container_12 .prefix_6 {
   padding-left: 516px; }
 
-/* line 164, ../../jade/scss/_grid.scss */
+/* line 168, ../../jade/scss/_grid.scss */
 .container_12 .prefix_7 {
   padding-left: 602px; }
 
-/* line 168, ../../jade/scss/_grid.scss */
+/* line 172, ../../jade/scss/_grid.scss */
 .container_12 .prefix_8 {
   padding-left: 688px; }
 
-/* line 172, ../../jade/scss/_grid.scss */
+/* line 176, ../../jade/scss/_grid.scss */
 .container_12 .prefix_9 {
   padding-left: 774px; }
 
-/* line 176, ../../jade/scss/_grid.scss */
+/* line 180, ../../jade/scss/_grid.scss */
 .container_12 .prefix_10 {
   padding-left: 860px; }
 
-/* line 180, ../../jade/scss/_grid.scss */
+/* line 184, ../../jade/scss/_grid.scss */
 .container_12 .prefix_11 {
   padding-left: 946px; }
 
 /* Suffix Extra Space >> 12 Columns
 ----------------------------------------------------------------------------------------------------*/
-/* line 190, ../../jade/scss/_grid.scss */
+/* line 194, ../../jade/scss/_grid.scss */
 .container_12 .suffix_1 {
   padding-right: 86px; }
 
-/* line 194, ../../jade/scss/_grid.scss */
+/* line 198, ../../jade/scss/_grid.scss */
 .container_12 .suffix_2 {
   padding-right: 172px; }
 
-/* line 198, ../../jade/scss/_grid.scss */
+/* line 202, ../../jade/scss/_grid.scss */
 .container_12 .suffix_3 {
   padding-right: 258px; }
 
-/* line 202, ../../jade/scss/_grid.scss */
+/* line 206, ../../jade/scss/_grid.scss */
 .container_12 .suffix_4 {
   padding-right: 344px; }
 
-/* line 206, ../../jade/scss/_grid.scss */
+/* line 210, ../../jade/scss/_grid.scss */
 .container_12 .suffix_5 {
   padding-right: 430px; }
 
-/* line 210, ../../jade/scss/_grid.scss */
+/* line 214, ../../jade/scss/_grid.scss */
 .container_12 .suffix_6 {
   padding-right: 516px; }
 
-/* line 214, ../../jade/scss/_grid.scss */
+/* line 218, ../../jade/scss/_grid.scss */
 .container_12 .suffix_7 {
   padding-right: 602px; }
 
-/* line 218, ../../jade/scss/_grid.scss */
+/* line 222, ../../jade/scss/_grid.scss */
 .container_12 .suffix_8 {
   padding-right: 688px; }
 
-/* line 222, ../../jade/scss/_grid.scss */
+/* line 226, ../../jade/scss/_grid.scss */
 .container_12 .suffix_9 {
   padding-right: 774px; }
 
-/* line 226, ../../jade/scss/_grid.scss */
+/* line 230, ../../jade/scss/_grid.scss */
 .container_12 .suffix_10 {
   padding-right: 860px; }
 
-/* line 230, ../../jade/scss/_grid.scss */
+/* line 234, ../../jade/scss/_grid.scss */
 .container_12 .suffix_11 {
   padding-right: 946px; }
 
 /* Push Space >> 12 Columns
 ----------------------------------------------------------------------------------------------------*/
-/* line 240, ../../jade/scss/_grid.scss */
+/* line 244, ../../jade/scss/_grid.scss */
 .container_12 .push_1 {
   left: 86px; }
 
-/* line 244, ../../jade/scss/_grid.scss */
+/* line 248, ../../jade/scss/_grid.scss */
 .container_12 .push_2 {
   left: 172px; }
 
-/* line 248, ../../jade/scss/_grid.scss */
+/* line 252, ../../jade/scss/_grid.scss */
 .container_12 .push_3 {
   left: 258px; }
 
-/* line 252, ../../jade/scss/_grid.scss */
+/* line 256, ../../jade/scss/_grid.scss */
 .container_12 .push_4 {
   left: 344px; }
 
-/* line 256, ../../jade/scss/_grid.scss */
+/* line 260, ../../jade/scss/_grid.scss */
 .container_12 .push_5 {
   left: 430px; }
 
-/* line 260, ../../jade/scss/_grid.scss */
+/* line 264, ../../jade/scss/_grid.scss */
 .container_12 .push_6 {
   left: 516px; }
 
-/* line 264, ../../jade/scss/_grid.scss */
+/* line 268, ../../jade/scss/_grid.scss */
 .container_12 .push_7 {
   left: 602px; }
 
-/* line 268, ../../jade/scss/_grid.scss */
+/* line 272, ../../jade/scss/_grid.scss */
 .container_12 .push_8 {
   left: 688px; }
 
-/* line 272, ../../jade/scss/_grid.scss */
+/* line 276, ../../jade/scss/_grid.scss */
 .container_12 .push_9 {
   left: 774px; }
 
-/* line 276, ../../jade/scss/_grid.scss */
+/* line 280, ../../jade/scss/_grid.scss */
 .container_12 .push_10 {
   left: 860px; }
 
-/* line 280, ../../jade/scss/_grid.scss */
+/* line 284, ../../jade/scss/_grid.scss */
 .container_12 .push_11 {
   left: 946px; }
 
 /* Pull Space >> 12 Columns
 ----------------------------------------------------------------------------------------------------*/
-/* line 290, ../../jade/scss/_grid.scss */
+/* line 294, ../../jade/scss/_grid.scss */
 .container_12 .pull_1 {
   left: -86px; }
 
-/* line 294, ../../jade/scss/_grid.scss */
+/* line 298, ../../jade/scss/_grid.scss */
 .container_12 .pull_2 {
   left: -172px; }
 
-/* line 298, ../../jade/scss/_grid.scss */
+/* line 302, ../../jade/scss/_grid.scss */
 .container_12 .pull_3 {
   left: -258px; }
 
-/* line 302, ../../jade/scss/_grid.scss */
+/* line 306, ../../jade/scss/_grid.scss */
 .container_12 .pull_4 {
   left: -344px; }
 
-/* line 306, ../../jade/scss/_grid.scss */
+/* line 310, ../../jade/scss/_grid.scss */
 .container_12 .pull_5 {
   left: -430px; }
 
-/* line 310, ../../jade/scss/_grid.scss */
+/* line 314, ../../jade/scss/_grid.scss */
 .container_12 .pull_6 {
   left: -516px; }
 
-/* line 314, ../../jade/scss/_grid.scss */
+/* line 318, ../../jade/scss/_grid.scss */
 .container_12 .pull_7 {
   left: -602px; }
 
-/* line 318, ../../jade/scss/_grid.scss */
+/* line 322, ../../jade/scss/_grid.scss */
 .container_12 .pull_8 {
   left: -688px; }
 
-/* line 322, ../../jade/scss/_grid.scss */
+/* line 326, ../../jade/scss/_grid.scss */
 .container_12 .pull_9 {
   left: -774px; }
 
-/* line 326, ../../jade/scss/_grid.scss */
+/* line 330, ../../jade/scss/_grid.scss */
 .container_12 .pull_10 {
   left: -860px; }
 
-/* line 330, ../../jade/scss/_grid.scss */
+/* line 334, ../../jade/scss/_grid.scss */
 .container_12 .pull_11 {
   left: -946px; }
 
 /* `Clear Floated Elements
 ----------------------------------------------------------------------------------------------------*/
 /* http://sonspring.com/journal/clearing-floats */
-/* line 342, ../../jade/scss/_grid.scss */
+/* line 346, ../../jade/scss/_grid.scss */
 .clear {
   clear: both;
   display: block;
@@ -375,7 +375,7 @@ body {
   height: 0; }
 
 /* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
-/* line 353, ../../jade/scss/_grid.scss */
+/* line 357, ../../jade/scss/_grid.scss */
 .clearfix:before,
 .clearfix:after {
   content: '\0020';
@@ -385,7 +385,7 @@ body {
   width: 0;
   height: 0; }
 
-/* line 363, ../../jade/scss/_grid.scss */
+/* line 367, ../../jade/scss/_grid.scss */
 .clearfix:after {
   clear: both; }
 
@@ -393,7 +393,7 @@ body {
   The following zoom:1 rule is specifically for IE6 + IE7.
   Move to separate stylesheet if invalid CSS is a problem.
 */
-/* line 372, ../../jade/scss/_grid.scss */
+/* line 376, ../../jade/scss/_grid.scss */
 .clearfix {
   zoom: 1; }
 
@@ -587,60 +587,81 @@ body {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  float: left;
+  width: 100%; }
 
-/* line 16, ../../jade/scss/_common.scss */
+/* line 19, ../../jade/scss/_common.scss */
+html, body {
+  height: 100%; }
+
+/* line 22, ../../jade/scss/_common.scss */
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -256px; }
+
+/* line 27, ../../jade/scss/_common.scss */
+.page-wrap:after {
+  content: "";
+  display: block; }
+
+/* line 31, ../../jade/scss/_common.scss */
+.site-footer, .page-wrap:after {
+  height: 256px; }
+
+/* line 35, ../../jade/scss/_common.scss */
 header {
   background: url("img/bg-header.jpg") repeat; }
 
-/* line 20, ../../jade/scss/_common.scss */
+/* line 39, ../../jade/scss/_common.scss */
 footer {
   background: url("img/bg-footer.jpg") repeat;
   padding: 15px 0 30px 0; }
 
-/* line 25, ../../jade/scss/_common.scss */
+/* line 44, ../../jade/scss/_common.scss */
 a {
   color: inherit;
   text-decoration: none;
   font-size: 13px;
   line-height: 22px; }
 
-/* line 32, ../../jade/scss/_common.scss */
+/* line 51, ../../jade/scss/_common.scss */
 h1 {
   font-size: 22px;
   line-height: 24px; }
 
-/* line 37, ../../jade/scss/_common.scss */
+/* line 56, ../../jade/scss/_common.scss */
 h2 {
   font-size: 20px;
   line-height: 22px; }
 
-/* line 42, ../../jade/scss/_common.scss */
+/* line 61, ../../jade/scss/_common.scss */
 h3 {
   font-size: 16px;
   line-height: 20px; }
 
-/* line 47, ../../jade/scss/_common.scss */
+/* line 66, ../../jade/scss/_common.scss */
 h4 {
   font-size: 13px;
   line-height: 18px; }
 
-/* line 52, ../../jade/scss/_common.scss */
+/* line 71, ../../jade/scss/_common.scss */
 .btn {
   padding: 5px;
   border-radius: 5px;
   border: 0;
   color: white; }
 
-/* line 59, ../../jade/scss/_common.scss */
+/* line 78, ../../jade/scss/_common.scss */
 .btn-orange {
   background: #e74c3c; }
 
-/* line 63, ../../jade/scss/_common.scss */
+/* line 82, ../../jade/scss/_common.scss */
 .btn-blue {
   background: #34495e; }
 
-/* line 67, ../../jade/scss/_common.scss */
+/* line 86, ../../jade/scss/_common.scss */
 input,
 textarea,
 select {
@@ -651,28 +672,28 @@ select {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 500; }
 
-/* line 78, ../../jade/scss/_common.scss */
+/* line 97, ../../jade/scss/_common.scss */
 .bg-blue {
   background: #223851; }
 
-/* line 82, ../../jade/scss/_common.scss */
+/* line 101, ../../jade/scss/_common.scss */
 ::-webkit-input-placeholder,
 :-moz-placeholder,
 ::-moz-placeholder,
 :-ms-input-placeholder {
   color: #757575; }
 
-/* line 89, ../../jade/scss/_common.scss */
+/* line 108, ../../jade/scss/_common.scss */
 .main-body {
   background: url("img/bg-body.jpg") repeat;
   position: relative;
   z-index: 2; }
 
-/* line 97, ../../jade/scss/_common.scss */
+/* line 114, ../../jade/scss/_common.scss */
 .content-tooltip {
   display: none; }
 
-/* line 100, ../../jade/scss/_common.scss */
+/* line 118, ../../jade/scss/_common.scss */
 .tooltip:hover + .content-tooltip {
   display: block; }
 
@@ -859,27 +880,34 @@ select {
 #header {
   padding: 10px 0 0 0; }
   /* line 4, ../../jade/scss/_header.scss */
+  #header #logo img {
+    width: 75%; }
+  /* line 8, ../../jade/scss/_header.scss */
   #header form#login-bar {
     margin-bottom: 10px;
     text-align: right; }
-    /* line 7, ../../jade/scss/_header.scss */
+    /* line 11, ../../jade/scss/_header.scss */
+    #header form#login-bar button {
+      padding: 7px 16px;
+      cursor: pointer; }
+    /* line 15, ../../jade/scss/_header.scss */
     #header form#login-bar .form-input {
       display: inline;
       margin-right: 3px;
       position: relative; }
-      /* line 11, ../../jade/scss/_header.scss */
+      /* line 19, ../../jade/scss/_header.scss */
       #header form#login-bar .form-input input {
         width: 110px; }
-    /* line 15, ../../jade/scss/_header.scss */
+    /* line 23, ../../jade/scss/_header.scss */
     #header form#login-bar .icon-input-question {
       position: relative; }
-    /* line 18, ../../jade/scss/_header.scss */
+    /* line 26, ../../jade/scss/_header.scss */
     #header form#login-bar .btn {
       padding: 6px 20px;
       font-weight: 600;
       font-size: 13px;
       vertical-align: middle; }
-    /* line 24, ../../jade/scss/_header.scss */
+    /* line 32, ../../jade/scss/_header.scss */
     #header form#login-bar .icon-input-question:after {
       content: '?';
       display: inline-block;
@@ -897,44 +925,45 @@ select {
       -o-box-sizing: border-box;
       box-sizing: border-box;
       border-radius: 5px; }
-  /* line 41, ../../jade/scss/_header.scss */
+  /* line 49, ../../jade/scss/_header.scss */
   #header .register-bar {
     font-size: 13px;
     text-align: right; }
-    /* line 44, ../../jade/scss/_header.scss */
+    /* line 52, ../../jade/scss/_header.scss */
     #header .register-bar li {
       display: inline-block;
       vertical-align: middle;
       font-family: 'Helvetica Neue', sans-serif;
-      margin-left: 5px; }
-      /* line 49, ../../jade/scss/_header.scss */
+      margin-left: 5px;
+      font-weight: bold; }
+      /* line 58, ../../jade/scss/_header.scss */
       #header .register-bar li .btn {
         padding: 5px 19px;
         font-weight: 600; }
-        /* line 52, ../../jade/scss/_header.scss */
+        /* line 61, ../../jade/scss/_header.scss */
         #header .register-bar li .btn img {
           position: relative;
           top: 3px;
           margin-left: 5px; }
-        /* line 57, ../../jade/scss/_header.scss */
+        /* line 66, ../../jade/scss/_header.scss */
         #header .register-bar li .btn i {
           position: relative;
           top: 3px;
           left: -4px; }
-    /* line 64, ../../jade/scss/_header.scss */
+    /* line 73, ../../jade/scss/_header.scss */
     #header .register-bar button {
       padding: 5px 15px; }
-    /* line 67, ../../jade/scss/_header.scss */
+    /* line 76, ../../jade/scss/_header.scss */
     #header .register-bar .flag-active {
       opacity: 1 !important; }
-    /* line 71, ../../jade/scss/_header.scss */
+    /* line 80, ../../jade/scss/_header.scss */
     #header .register-bar .flag {
       opacity: 0.7; }
-  /* line 76, ../../jade/scss/_header.scss */
+  /* line 85, ../../jade/scss/_header.scss */
   #header #top-menu {
     border-bottom: 2px solid #e74c3c;
     position: relative; }
-    /* line 79, ../../jade/scss/_header.scss */
+    /* line 88, ../../jade/scss/_header.scss */
     #header #top-menu .main-menu {
       background: #e74c3c;
       width: 820px;
@@ -946,7 +975,7 @@ select {
       position: relative;
       top: 2px;
       display: table; }
-      /* line 90, ../../jade/scss/_header.scss */
+      /* line 99, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:before, #header #top-menu .main-menu:after {
         content: '';
         height: 1px;
@@ -955,64 +984,66 @@ select {
         display: inline-block;
         top: 0;
         border-top: 25px solid transparent; }
-      /* line 101, ../../jade/scss/_header.scss */
+      /* line 110, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:after {
         border-left: 12px solid #e74c3c;
         right: -13px; }
-      /* line 105, ../../jade/scss/_header.scss */
+      /* line 114, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:before {
         border-right: 12px solid #e74c3c;
         left: -13px; }
-      /* line 109, ../../jade/scss/_header.scss */
+      /* line 118, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu li {
         display: table-cell;
         text-align: center;
         padding: 2px 0px;
         z-index: 3;
         position: relative; }
-        /* line 116, ../../jade/scss/_header.scss */
+        /* line 125, ../../jade/scss/_header.scss */
         #header #top-menu .main-menu li a {
           padding: 5px 0; }
-      /* line 120, ../../jade/scss/_header.scss */
+      /* line 129, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu li:hover,
       #header #top-menu .main-menu .active-menu {
         background: #34495e; }
-  /* line 126, ../../jade/scss/_header.scss */
+  /* line 135, ../../jade/scss/_header.scss */
   #header .wrapper-sub-menu {
     position: absolute;
     width: 100%;
     z-index: 10;
     left: 0;
     top: 28px; }
-  /* line 133, ../../jade/scss/_header.scss */
+  /* line 142, ../../jade/scss/_header.scss */
   #header .sub-menu {
-    display: none;
+    display: table;
     width: 853px;
     margin: 0 auto;
     background: #34495e;
     box-sizing: border-box; }
-    /* line 139, ../../jade/scss/_header.scss */
+    /* line 148, ../../jade/scss/_header.scss */
     #header .sub-menu li {
       display: table-cell;
       text-align: center; }
-      /* line 142, ../../jade/scss/_header.scss */
+      /* line 151, ../../jade/scss/_header.scss */
       #header .sub-menu li * {
         vertical-align: middle; }
-      /* line 145, ../../jade/scss/_header.scss */
+      /* line 154, ../../jade/scss/_header.scss */
       #header .sub-menu li a {
         padding: 10px 0;
         display: block;
         font-size: 14px;
         white-space: nowrap; }
-        /* line 150, ../../jade/scss/_header.scss */
+        /* line 159, ../../jade/scss/_header.scss */
         #header .sub-menu li a span {
           padding-left: 12px; }
-        /* line 153, ../../jade/scss/_header.scss */
-        #header .sub-menu li a:hover {
-          color: #e74c3c; }
-          /* line 155, ../../jade/scss/_header.scss */
-          #header .sub-menu li a:hover i {
-            background-position-y: -30px; }
+    /* line 165, ../../jade/scss/_header.scss */
+    #header .sub-menu li:hover,
+    #header .sub-menu .active-submenu {
+      color: #e74c3c; }
+      /* line 168, ../../jade/scss/_header.scss */
+      #header .sub-menu li:hover i,
+      #header .sub-menu .active-submenu i {
+        background-position-y: -30px; }
 
 /* line 1, ../../jade/scss/_footer.scss */
 section#info-footer {
@@ -1028,7 +1059,7 @@ section#info-footer {
     margin-bottom: 15px; }
   /* line 14, ../../jade/scss/_footer.scss */
   section#info-footer .payment-method .content img {
-    width: 68px;
+    width: 82px;
     padding: 0 5px; }
   /* line 21, ../../jade/scss/_footer.scss */
   section#info-footer .social-media .content {
@@ -1061,7 +1092,6 @@ article.news {
   text-transform: uppercase;
   font-size: 30px;
   border-radius: 2px;
-  border: 2px solid #222d39;
   margin-bottom: 10px; }
   /* line 18, ../../jade/scss/_home.scss */
   article.news figure {
@@ -1268,7 +1298,7 @@ article.news {
   font-size: 12px;
   color: #636363;
   line-height: 22px;
-  padding-top: 20px;
+  padding-top: 55px;
   padding-bottom: 100px;
   border-radius: 5px;
   box-shadow: 0px 1px 0px 0px #252525; }
@@ -1379,15 +1409,15 @@ h3.title {
   /* line 14, ../../jade/scss/_sport.scss */
   .sport-page iframe#iframe {
     width: 100%;
-    height: 405px; }
+    height: 500px; }
   /* line 18, ../../jade/scss/_sport.scss */
   .sport-page .desc-info {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 15px;
     background: #34495e; }
     /* line 22, ../../jade/scss/_sport.scss */
     .sport-page .desc-info a {
-      font-size: 11px; }
+      font-size: 12px; }
       /* line 24, ../../jade/scss/_sport.scss */
       .sport-page .desc-info a:hover {
         color: #e74c3c; }
@@ -1400,29 +1430,31 @@ h3.title {
     padding: 15px; }
   /* line 37, ../../jade/scss/_sport.scss */
   .sport-page aside.account-trial {
-    border: 1px solid #e74c3c; }
-  /* line 41, ../../jade/scss/_sport.scss */
+    border: 1px solid #e74c3c;
+    margin-bottom: 10px; }
+  /* line 42, ../../jade/scss/_sport.scss */
   .sport-page h3.title-account-trial {
     background: #e74c3c;
-    padding: 10px;
+    padding: 10px 20px;
     text-transform: uppercase;
-    font-size: 11px; }
-  /* line 48, ../../jade/scss/_sport.scss */
+    font-size: 15px;
+    font-weight: 500; }
+  /* line 50, ../../jade/scss/_sport.scss */
   .sport-page .content-account-trial {
-    font-size: 12px; }
-    /* line 50, ../../jade/scss/_sport.scss */
+    font-size: 13px; }
+    /* line 52, ../../jade/scss/_sport.scss */
     .sport-page .content-account-trial li {
-      padding: 5px 10px; }
-      /* line 52, ../../jade/scss/_sport.scss */
+      padding: 10px 15px; }
+      /* line 54, ../../jade/scss/_sport.scss */
       .sport-page .content-account-trial li span:first-child {
         padding-right: 10px; }
-      /* line 55, ../../jade/scss/_sport.scss */
+      /* line 57, ../../jade/scss/_sport.scss */
       .sport-page .content-account-trial li p {
         margin-bottom: 5px; }
-      /* line 58, ../../jade/scss/_sport.scss */
+      /* line 60, ../../jade/scss/_sport.scss */
       .sport-page .content-account-trial li:nth-child(odd) {
         background: #34495e; }
-      /* line 61, ../../jade/scss/_sport.scss */
+      /* line 63, ../../jade/scss/_sport.scss */
       .sport-page .content-account-trial li:nth-child(even) {
         background: #223851; }
 
@@ -1473,54 +1505,97 @@ h3.title {
       /* line 43, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.credit label {
         vertical-align: top; }
-      /* line 46, ../../jade/scss/_signin_signup.scss */
+      /* line 47, ../../jade/scss/_signin_signup.scss */
+      .signin-page .signin-content .form-control.credit .checkbox-style .icon-checkbox {
+        background: url("img/icon-sprite.png") no-repeat -183px -15px; }
+      /* line 50, ../../jade/scss/_signin_signup.scss */
+      .signin-page .signin-content .form-control.credit .checkbox-style .checkbox-text {
+        margin-left: 5px; }
+        /* line 52, ../../jade/scss/_signin_signup.scss */
+        .signin-page .signin-content .form-control.credit .checkbox-style .checkbox-text p {
+          display: inline-block; }
+      /* line 56, ../../jade/scss/_signin_signup.scss */
+      .signin-page .signin-content .form-control.credit .checkbox-style .checkbox-input:checked + .icon-checkbox {
+        background-position: -183px 0px; }
+      /* line 60, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.credit .credit-list {
         display: inline-block;
         width: 246px; }
-        /* line 49, ../../jade/scss/_signin_signup.scss */
+        /* line 63, ../../jade/scss/_signin_signup.scss */
         .signin-page .signin-content .form-control.credit .credit-list div {
           margin-bottom: 6px; }
-          /* line 51, ../../jade/scss/_signin_signup.scss */
+          /* line 65, ../../jade/scss/_signin_signup.scss */
           .signin-page .signin-content .form-control.credit .credit-list div input {
             width: 13px;
             height: 13px; }
-          /* line 55, ../../jade/scss/_signin_signup.scss */
+          /* line 69, ../../jade/scss/_signin_signup.scss */
           .signin-page .signin-content .form-control.credit .credit-list div p {
             display: inline-block;
             color: #000000;
             font-size: 13px; }
-            /* line 59, ../../jade/scss/_signin_signup.scss */
+            /* line 73, ../../jade/scss/_signin_signup.scss */
             .signin-page .signin-content .form-control.credit .credit-list div p:last-child {
               color: #999999;
               font-size: 12px; }
-      /* line 67, ../../jade/scss/_signin_signup.scss */
+      /* line 81, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.get-info {
         color: #000; }
-        /* line 69, ../../jade/scss/_signin_signup.scss */
+        /* line 84, ../../jade/scss/_signin_signup.scss */
+        .signin-page .signin-content .form-control.get-info .checkbox-style .icon-checkbox {
+          background: url("img/icon-sprite.png") no-repeat -180px -92px; }
+        /* line 87, ../../jade/scss/_signin_signup.scss */
+        .signin-page .signin-content .form-control.get-info .checkbox-style .checkbox-input:checked + .icon-checkbox {
+          background-position: -180px -78px; }
+        /* line 91, ../../jade/scss/_signin_signup.scss */
         .signin-page .signin-content .form-control.get-info input {
           width: 13px;
           height: 13px;
           vertical-align: top; }
-        /* line 74, ../../jade/scss/_signin_signup.scss */
+        /* line 98, ../../jade/scss/_signin_signup.scss */
+        .signin-page .signin-content .form-control.get-info div:last-child label .icon-checkbox {
+          margin-top: -68px; }
+        /* line 103, ../../jade/scss/_signin_signup.scss */
         .signin-page .signin-content .form-control.get-info p {
           display: inline-block;
           width: 355px; }
-        /* line 79, ../../jade/scss/_signin_signup.scss */
+        /* line 108, ../../jade/scss/_signin_signup.scss */
         .signin-page .signin-content .form-control.get-info span:nth-child(1), .signin-page .signin-content .form-control.get-info span:nth-child(3) {
           color: #e74c3c; }
-      /* line 85, ../../jade/scss/_signin_signup.scss */
+      /* line 114, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.btn-submit {
         width: 146px; }
-      /* line 89, ../../jade/scss/_signin_signup.scss */
+      /* line 118, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control.capcha > div {
         margin: 10px 0 30px 150px; }
-      /* line 93, ../../jade/scss/_signin_signup.scss */
+      /* line 122, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control input {
         width: 246px; }
-      /* line 96, ../../jade/scss/_signin_signup.scss */
+      /* line 125, ../../jade/scss/_signin_signup.scss */
       .signin-page .signin-content .form-control select {
         width: 257px;
         text-transform: uppercase; }
+  /* line 131, ../../jade/scss/_signin_signup.scss */
+  .signin-page .checkbox-style {
+    width: 100%; }
+    /* line 133, ../../jade/scss/_signin_signup.scss */
+    .signin-page .checkbox-style * {
+      vertical-align: middle;
+      cursor: pointer; }
+    /* line 137, ../../jade/scss/_signin_signup.scss */
+    .signin-page .checkbox-style .checkbox-input {
+      display: none; }
+    /* line 140, ../../jade/scss/_signin_signup.scss */
+    .signin-page .checkbox-style .icon-checkbox {
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      background: url("img/icon-sprite.png") no-repeat -180px -92px; }
+    /* line 146, ../../jade/scss/_signin_signup.scss */
+    .signin-page .checkbox-style .checkbox-text {
+      margin-left: 10px; }
+    /* line 149, ../../jade/scss/_signin_signup.scss */
+    .signin-page .checkbox-style .checkbox-input:checked + .icon-checkbox {
+      background-position: -180px -78px; }
 
 /* line 1, ../../jade/scss/_history.scss */
 .history-page {
@@ -1529,7 +1604,7 @@ h3.title {
   color: #636363;
   line-height: 22px;
   background-color: #e1e1e1;
-  margin-top: 20px;
+  margin-top: 55px;
   margin-bottom: 100px;
   border-radius: 5px;
   box-shadow: 0px 1px 0px 0px #252525; }
@@ -1555,7 +1630,7 @@ h3.title {
   color: #636363;
   line-height: 22px;
   background-color: #e1e1e1;
-  margin-top: 20px;
+  margin-top: 55px;
   margin-bottom: 100px;
   border-radius: 5px;
   box-shadow: 0px 1px 0px 0px #252525; }
@@ -1593,7 +1668,7 @@ h3.title {
   color: #636363;
   line-height: 22px;
   background-color: #e1e1e1;
-  margin-top: 20px;
+  margin-top: 55px;
   margin-bottom: 100px;
   border-radius: 5px;
   box-shadow: 0px 1px 0px 0px #252525; }
@@ -1684,18 +1759,33 @@ h3.title {
   .casino-page .casino-banner {
     position: relative; }
     /* line 9, ../../jade/scss/_casino.scss */
+    .casino-page .casino-banner .download-banner,
+    .casino-page .casino-banner .play-main-banner {
+      position: absolute;
+      bottom: 30%;
+      right: 23%;
+      display: block;
+      width: 221px;
+      background: transparent;
+      height: 40px;
+      /* color: transparent; */
+      text-indent: -99999px; }
+    /* line 21, ../../jade/scss/_casino.scss */
+    .casino-page .casino-banner .download-banner {
+      bottom: 15%; }
+    /* line 24, ../../jade/scss/_casino.scss */
     .casino-page .casino-banner .play-download {
       position: absolute;
-      top: 64px;
-      right: 104px;
+      top: 18%;
+      right: 19%;
       text-transform: uppercase;
       text-align: center; }
-      /* line 15, ../../jade/scss/_casino.scss */
+      /* line 30, ../../jade/scss/_casino.scss */
       .casino-page .casino-banner .play-download h2 {
         font-size: 90px;
         display: block;
         line-height: 72px; }
-      /* line 20, ../../jade/scss/_casino.scss */
+      /* line 36, ../../jade/scss/_casino.scss */
       .casino-page .casino-banner .play-download a {
         color: #000;
         display: block;
@@ -1705,7 +1795,7 @@ h3.title {
         padding: 12px 0;
         font-size: 30px;
         margin-top: 20px; }
-        /* line 29, ../../jade/scss/_casino.scss */
+        /* line 45, ../../jade/scss/_casino.scss */
         .casino-page .casino-banner .play-download a:nth-child(2) {
           text-shadow: 0px 2px 2px #C2931B;
           box-shadow: 0px 2px 0px #92760b;
@@ -1723,7 +1813,7 @@ h3.title {
           /* w3c */
           filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe100', endColorstr='#ff9e00', GradientType=0);
           /* ie6-9 */ }
-        /* line 40, ../../jade/scss/_casino.scss */
+        /* line 56, ../../jade/scss/_casino.scss */
         .casino-page .casino-banner .play-download a:nth-child(3) {
           text-shadow: 0px 2px 2px #6ca800;
           box-shadow: 0px 2px 0px #5b6600;
@@ -1741,23 +1831,23 @@ h3.title {
           /* w3c */
           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7ee00', endColorstr='#65c600',GradientType=0 );
           /* ie6-9 */ }
-  /* line 55, ../../jade/scss/_casino.scss */
+  /* line 71, ../../jade/scss/_casino.scss */
   .casino-page .casino-content .game {
     position: relative;
     margin-top: 8px; }
-    /* line 58, ../../jade/scss/_casino.scss */
+    /* line 74, ../../jade/scss/_casino.scss */
     .casino-page .casino-content .game .game-info {
       position: absolute;
       top: 0;
       left: 0;
       width: 188px;
       padding: 10px; }
-      /* line 64, ../../jade/scss/_casino.scss */
+      /* line 80, ../../jade/scss/_casino.scss */
       .casino-page .casino-content .game .game-info h4.title {
         font-size: 18px;
         text-transform: uppercase;
         margin-bottom: 6px; }
-      /* line 69, ../../jade/scss/_casino.scss */
+      /* line 85, ../../jade/scss/_casino.scss */
       .casino-page .casino-content .game .game-info p {
         line-height: 17px;
         border-bottom: 1px solid #fff;
@@ -1765,7 +1855,7 @@ h3.title {
         text-align: justify;
         margin-bottom: 10px;
         padding-bottom: 10px; }
-      /* line 77, ../../jade/scss/_casino.scss */
+      /* line 93, ../../jade/scss/_casino.scss */
       .casino-page .casino-content .game .game-info a {
         position: relative;
         display: block;
@@ -1793,7 +1883,7 @@ h3.title {
         /* w3c */
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe100', endColorstr='#ff9e00', GradientType=0);
         /* ie6-9 */ }
-        /* line 97, ../../jade/scss/_casino.scss */
+        /* line 113, ../../jade/scss/_casino.scss */
         .casino-page .casino-content .game .game-info a:after {
           position: absolute;
           content: '';

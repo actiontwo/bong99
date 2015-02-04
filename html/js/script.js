@@ -1,9 +1,9 @@
 $(document).ready(function () {
   $('#main-slider .slider').bxSlider();
 
-  showMenuList();
+//  showMenuList();
   ramdomNews();
-
+//  calcHeight();
 });
 
 var showMenuList = function () {
@@ -27,7 +27,21 @@ var ramdomNews = function () {
     var numberPost = figureNew.length;
     var showNews = Math.floor(Math.random() * numberPost);
     $(this).find('.figure-news').hide();
-    console.log (showNews);
+    console.log(showNews);
     $(this).find('.figure-news:eq(' + showNews + ')').show();
   });
+};
+
+var calcHeight = function () {
+  var home = $('.home-page');
+  var html = $('html');
+  var windows = $(window);
+  heightWD = windows.outerHeight();
+  alert(heightWD);
+  heightHTML = html.outerHeight();
+
+  alert(heightHTML);
+  if (heightWD < heightHTML) {
+    html.css({height:'3000'});
+  }
 };

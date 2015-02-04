@@ -11,6 +11,25 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   -webkit-text-size-adjust: 100%;
+  float: left;
+  width: 100%;
+}
+
+
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -256px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 256px;
 }
 
 header {
@@ -92,11 +111,15 @@ select {
   z-index: 2;
 }
 
-
-
 .content-tooltip {
   display: none;
 }
+
 .tooltip:hover + .content-tooltip {
   display: block;
 }
+
+
+
+
+

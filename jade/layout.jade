@@ -2,7 +2,8 @@ doctype html
 html(lang='en')
   head
     meta(charset='UTF-8')
-    //meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+    //meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes')
+    //meta(name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=yes")
     block title
 
     // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
@@ -14,61 +15,50 @@ html(lang='en')
     link(href='scss/style.css', type='text/css', rel='stylesheet')
 
   body
-    header#header
-      .container_12
-        .grid_3
-          figure#logo
-            a(href='index.html'): img(src='images/logo.png' width='' height='' alt='bong99')
-        .grid_6.push_3
-          form#login-bar(action='/' method='post')
-            .form-input
-              input.input(type='text' placeholder='Username' name='username')
-            .form-input.icon-input-question
-              input.input(type='password' placeholder='Password' name ='password')
-            button.btn.btn-orange Log in
-          ul.register-bar
-            li.current-time 22:45:54 (GMT +07:00)
-            li: a.btn.btn-blue
-              i.iconsp-comment
-              | Live Chat
-            li: a(href='signin_signup.html').btn.btn-blue Đăng ký
-            li
-              span.btn.btn-blue English
-                a.flag.flag-active(href=''): img(src='images/fag_eng.png' alt='United Kingdom' height='15' width='20')
-                a.flag(href=''): img(src='images/fag_vn.png' alt='VietNam' height='15' width='20')
-      .clearfix
-      nav#top-menu
+    .page-wrap
+      header#header
         .container_12
-          ul.main-menu
-            li: a(href='sport.html') sports
-            li: a(href='#') casino
-            li: a(href='help.html') trợ giúp
-            li: a(href='#') về chúng tôi
-            li: a(href='#') trách nhiệm
-            li(data-menu='menu-id-1'): a(href='javascript:void(0)') riêng tư
-            li(data-menu='menu-id-2'): a(href='contact.html') liên hệ
-            li: a(href='daily.html') đại lý
-        .container_12
-          .wrapper-sub-menu
-            ul#menu-id-1.sub-menu
-              li: a(href='widthraw-money.html')
-                i.iconsp-money-white
-                span Nạp tiền, rút tiền
-              li: a(href='history.html')
-                i.iconsp-tranfer-white
-                span Lịch sử giao dịch
-              li: a(href='bet_history.html')
-                i.iconsp-list-white
-                span Lịch sử cá cược hằng ngày
-              li: a(href='account_info.html')
-                i.iconsp-user-white
-                span Thông tin tài khoản
-          .clearfix
-    block slider
-    section.main-body
-      block main
+          .grid_3
+            figure#logo
+              a(href='index.html'): img(src='images/logo.png' width='' height='' alt='bong99')
+          .grid_8.push_1
+            form#login-bar(action='/' method='post')
+              .form-input
+                input.input(type='text' placeholder='Username' name='username')
+              .form-input.icon-input-question
+                input.input(type='password' placeholder='Password' name ='password')
+              button.btn.btn-orange Log in
+            ul.register-bar
+              li.current-time 22:45:54 (GMT +07:00)
+              li: a.btn.btn-blue
+                i.iconsp-comment
+                | Live Chat
+              li: a(href='signin_signup.html').btn.btn-blue Đăng ký
+              li
+                span.btn.btn-blue English
+                  a.flag.flag-active(href=''): img(src='images/fag_eng.png' alt='United Kingdom' height='15' width='20')
+                  a.flag(href=''): img(src='images/fag_vn.png' alt='VietNam' height='15' width='20')
+        .clearfix
+        nav#top-menu
+          .container_12
+            ul.main-menu
+              li: a(href='sport.html') sports
+              li: a(href='casino.html') casino
+              li: a(href='help.html') trợ giúp
+              li: a(href='#') về chúng tôi
+              li: a(href='#') trách nhiệm
+              li(data-menu='menu-id-1'): a(href='javascript:void(0)') riêng tư
+              li(data-menu='menu-id-2'): a(href='contact.html') liên hệ
+              li: a(href='daily.html') đại lý
+          .container_12
+            block submenu
 
-    footer#footer
+            .clearfix
+      block slider
+      section.main-body
+        block main
+
+    footer#footer.site-footer
       .container_12
         section#info-footer
           .grid_4.sponsor

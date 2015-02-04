@@ -13,14 +13,14 @@
   }
   iframe#iframe {
     width: 100%;
-    height: 405px;
+    height: 500px;
   }
   .desc-info {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 15px;
     background: $blue;
     a {
-      font-size: 11px;
+      font-size: 12px;
       &:hover {
         color: $orange;
       }
@@ -36,19 +36,21 @@
 
   aside.account-trial {
     border: 1px solid $orange;
+    margin-bottom: 10px;
   }
 
   h3.title-account-trial {
     background: $orange;
-    padding: 10px;
+    padding: 10px 20px;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 15px;
+    font-weight: 500;
   }
 
   .content-account-trial {
-    font-size: 12px;
+    font-size: 13px;
     li {
-      padding: 5px 10px;
+      padding: 10px 15px;
       span:first-child {
         padding-right: 10px;
       }
