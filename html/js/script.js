@@ -2,7 +2,8 @@ $(document).ready(function () {
   $('#main-slider .slider').bxSlider();
 
 //  showMenuList();
-  ramdomNews();
+//  ramdomNews();
+  ramdomNewsOption2();
 //  calcHeight();
 });
 
@@ -32,6 +33,16 @@ var ramdomNews = function () {
   });
 };
 
+var ramdomNewsOption2 = function () {
+  var news = $('.news');
+  var figureNew = $('.news:eq(0)').find('.figure-news');
+  news.find('.figure-news').hide();
+  var numberPost = figureNew.length;
+  var showNews = Math.floor(Math.random() * numberPost);
+  news.find('.figure-news:eq('+showNews+')').show();
+
+};
+
 var calcHeight = function () {
   var home = $('.home-page');
   var html = $('html');
@@ -42,6 +53,6 @@ var calcHeight = function () {
 
   alert(heightHTML);
   if (heightWD < heightHTML) {
-    html.css({height:'3000'});
+    html.css({height: '3000'});
   }
 };
