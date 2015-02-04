@@ -30,6 +30,7 @@ html, body {
 }
 .site-footer, .page-wrap:after {
   height: 256px;
+  @include  boxsizing();
 }
 
 header {

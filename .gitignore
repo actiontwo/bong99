@@ -5,4 +5,6 @@ doc/
 .sass-cache/
 .DS_Store
 /nbproject/private/
-html/*.html
+html/**/*.html
+html/**/style.css
+html/**/*.css.*
