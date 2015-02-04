@@ -8,7 +8,7 @@ block main
         i.iconsp-medium-dropdown
       .account-info-content
         ul.account-info-left
-         li
+          li
             label Email / Tên đăng nhập:&nbsp;
             span Mohamad Ibrahim Movic
           li
@@ -37,3 +37,19 @@ block main
                 | Muốn liên hệ giá?
                 br
                 | Vui lòng liên hệ hỗ trợ.
+
+block submenu
+  .wrapper-sub-menu
+    ul#menu-id-1.sub-menu
+      li: a(href='widthraw-money.html')
+        i.iconsp-money-white
+        span Nạp tiền, rút tiền
+      li: a(href='history.html')
+        i.iconsp-tranfer-white
+        span Lịch sử giao dịch
+      li: a(href='bet_history.html')
+        i.iconsp-list-white
+        span Lịch sử cá cược hằng ngày
+      li.active-submenu: a(href='account_info.html')
+        i.iconsp-user-white
+        span Thông tin tài khoản
