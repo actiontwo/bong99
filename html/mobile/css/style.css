@@ -449,7 +449,7 @@ select {
   margin: 10px 0;
   display: block;
   width: 100%;
-  border-top: 1px solid #999999; }
+  border-top: 1px solid #cfcfcf; }
 /* line 14, ../../../jade/mobile/css/_about.scss */
 .page p {
   margin: 12px 0; }
@@ -528,8 +528,56 @@ select {
       vertical-align: middle;
       margin-left: 10px; }
 
+/* line 1, ../../../jade/mobile/css/_private.scss */
+.private-page {
+  color: #636363;
+  font-size: 12px; }
+  /* line 4, ../../../jade/mobile/css/_private.scss */
+  .private-page h3.header {
+    background: #b7b7b7;
+    border-bottom: 1px solid #919191;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px 0;
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: bold; }
+  /* line 14, ../../../jade/mobile/css/_private.scss */
+  .private-page h3.title {
+    text-align: left; }
+  /* line 17, ../../../jade/mobile/css/_private.scss */
+  .private-page .line {
+    border-bottom: 3px solid #f1f1f1; }
+  /* line 20, ../../../jade/mobile/css/_private.scss */
+  .private-page .private-content {
+    padding: 12px;
+    background-color: #e1e1e1; }
+    /* line 24, ../../../jade/mobile/css/_private.scss */
+    .private-page .private-content .account-info li {
+      border-bottom: 1px solid #cccccc;
+      padding: 15px 0; }
+      /* line 27, ../../../jade/mobile/css/_private.scss */
+      .private-page .private-content .account-info li label {
+        color: #000;
+        display: inline-block; }
+      /* line 31, ../../../jade/mobile/css/_private.scss */
+      .private-page .private-content .account-info li span {
+        margin-left: 4px;
+        display: inline-block; }
+      /* line 35, ../../../jade/mobile/css/_private.scss */
+      .private-page .private-content .account-info li .edit {
+        display: inline-block;
+        color: #e74c3c;
+        float: right; }
+      /* line 40, ../../../jade/mobile/css/_private.scss */
+      .private-page .private-content .account-info li i {
+        float: right;
+        position: relative;
+        top: -8px;
+        right: -2px; }
+
 @media only screen and (max-width: 767px) and (min-width: 0px) {
-  /* line 21, ../../../jade/mobile/css/style.scss */
+  /* line 22, ../../../jade/mobile/css/style.scss */
   .container {
     width: 100%; } }
 
