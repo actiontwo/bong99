@@ -23,160 +23,124 @@ Version:0.1
 
 /* line 20, ../../../jade/mobile/css/_icons.scss */
 .iconsp-large-phone {
-  background-position: 0 0; }
-
-/* line 23, ../../../jade/mobile/css/_icons.scss */
-.iconsp-large-phone:hover {
   background-position: 0 -87px; }
 
-/* line 27, ../../../jade/mobile/css/_icons.scss */
+/* line 24, ../../../jade/mobile/css/_icons.scss */
 .iconsp-large-viber {
-  background-position: -87px 0; }
-
-/* line 30, ../../../jade/mobile/css/_icons.scss */
-.iconsp-large-viber:hover {
   background-position: -87px -87px; }
 
-/* line 34, ../../../jade/mobile/css/_icons.scss */
+/* line 28, ../../../jade/mobile/css/_icons.scss */
 .iconsp-large-email {
-  background-position: -174px 0; }
-
-/* line 37, ../../../jade/mobile/css/_icons.scss */
-.iconsp-large-email:hover {
   background-position: -174px -87px; }
 
-/* line 41, ../../../jade/mobile/css/_icons.scss */
+/* line 32, ../../../jade/mobile/css/_icons.scss */
 .iconsp-large-facebook {
-  background-position: -261px 0; }
-
-/* line 44, ../../../jade/mobile/css/_icons.scss */
-.iconsp-large-facebook:hover {
   background-position: -261px -87px; }
 
-/* line 48, ../../../jade/mobile/css/_icons.scss */
+/* line 36, ../../../jade/mobile/css/_icons.scss */
 .iconsp-large-zalo {
-  background-position: -348px 0; }
-
-/* line 51, ../../../jade/mobile/css/_icons.scss */
-.iconsp-large-zalo:hover {
   background-position: -348px -87px; }
 
-/* line 55, ../../../jade/mobile/css/_icons.scss */
+/* line 40, ../../../jade/mobile/css/_icons.scss */
 .iconsp-large-penguin {
-  background-position: -435px 0; }
-
-/* line 58, ../../../jade/mobile/css/_icons.scss */
-.iconsp-large-penguin:hover {
   background-position: -435px -87px; }
 
-/* line 62, ../../../jade/mobile/css/_icons.scss */
+/* line 44, ../../../jade/mobile/css/_icons.scss */
 .iconsp-large-wechat {
-  background-position: -522px 0; }
-
-/* line 65, ../../../jade/mobile/css/_icons.scss */
-.iconsp-large-wechat:hover {
   background-position: -522px -87px; }
 
-/* line 69, ../../../jade/mobile/css/_icons.scss */
+/* line 48, ../../../jade/mobile/css/_icons.scss */
 .iconsp-large-skype {
-  background-position: -609px 0; }
-
-/* line 72, ../../../jade/mobile/css/_icons.scss */
-.iconsp-large-skype:hover {
   background-position: -609px -87px; }
 
-/* line 76, ../../../jade/mobile/css/_icons.scss */
+/* line 52, ../../../jade/mobile/css/_icons.scss */
 .iconsp-large-yahoo {
-  background-position: -696px 0; }
-
-/* line 79, ../../../jade/mobile/css/_icons.scss */
-.iconsp-large-yahoo:hover {
   background-position: -696px -87px; }
 
-/* line 83, ../../../jade/mobile/css/_icons.scss */
+/* line 56, ../../../jade/mobile/css/_icons.scss */
 .iconsp-medium-facebook {
   background-position: 0 0; }
 
-/* line 87, ../../../jade/mobile/css/_icons.scss */
+/* line 60, ../../../jade/mobile/css/_icons.scss */
 .iconsp-medium-line {
   background-position: -30px 0; }
 
-/* line 91, ../../../jade/mobile/css/_icons.scss */
+/* line 64, ../../../jade/mobile/css/_icons.scss */
 .iconsp-medium-skype {
   background-position: -60px 0; }
 
-/* line 95, ../../../jade/mobile/css/_icons.scss */
+/* line 68, ../../../jade/mobile/css/_icons.scss */
 .iconsp-medium-viber {
   background-position: -90px 0; }
 
-/* line 99, ../../../jade/mobile/css/_icons.scss */
+/* line 72, ../../../jade/mobile/css/_icons.scss */
 .iconsp-medium-yahoo {
   background-position: -120px 0; }
 
-/* line 103, ../../../jade/mobile/css/_icons.scss */
+/* line 76, ../../../jade/mobile/css/_icons.scss */
 .iconsp-medium-zalo {
   background-position: -150px 0; }
 
-/* line 107, ../../../jade/mobile/css/_icons.scss */
+/* line 80, ../../../jade/mobile/css/_icons.scss */
 .iconsp-medium-question {
   background-position: -125px -55px;
   cursor: pointer;
   width: 25px; }
 
-/* line 113, ../../../jade/mobile/css/_icons.scss */
+/* line 86, ../../../jade/mobile/css/_icons.scss */
 .iconsp-medium-refresh {
   background-position: -98px -78px;
   cursor: pointer; }
 
-/* line 118, ../../../jade/mobile/css/_icons.scss */
+/* line 91, ../../../jade/mobile/css/_icons.scss */
 .iconsp-medium-comment {
   background-position: -147px -54px;
   cursor: pointer; }
 
-/* line 123, ../../../jade/mobile/css/_icons.scss */
+/* line 96, ../../../jade/mobile/css/_icons.scss */
 .iconsp-medium-dropdown {
   background-position: -173px -55px;
   cursor: pointer; }
 
-/* line 128, ../../../jade/mobile/css/_icons.scss */
+/* line 101, ../../../jade/mobile/css/_icons.scss */
 .iconsp-comment {
   background-position: -180px -36px;
   height: 13px;
   width: 14px; }
 
-/* line 133, ../../../jade/mobile/css/_icons.scss */
+/* line 106, ../../../jade/mobile/css/_icons.scss */
 .iconsp-question {
   background-position: -150px -30px; }
 
-/* line 136, ../../../jade/mobile/css/_icons.scss */
+/* line 109, ../../../jade/mobile/css/_icons.scss */
 .iconsp-guid-res {
   background-position: -124px -30px; }
 
-/* line 140, ../../../jade/mobile/css/_icons.scss */
+/* line 113, ../../../jade/mobile/css/_icons.scss */
 .iconsp-guid-paid {
   background-position: 0px -76px; }
 
-/* line 143, ../../../jade/mobile/css/_icons.scss */
+/* line 116, ../../../jade/mobile/css/_icons.scss */
 .iconsp-guid-account {
   background-position: -102px -55px; }
 
-/* line 146, ../../../jade/mobile/css/_icons.scss */
+/* line 119, ../../../jade/mobile/css/_icons.scss */
 .iconsp-guid-walk {
   background-position: -102px -30px; }
 
-/* line 149, ../../../jade/mobile/css/_icons.scss */
+/* line 122, ../../../jade/mobile/css/_icons.scss */
 .iconsp-money-white {
   background-position: 0 -56px; }
 
-/* line 152, ../../../jade/mobile/css/_icons.scss */
+/* line 125, ../../../jade/mobile/css/_icons.scss */
 .iconsp-tranfer-white {
   background-position: -75px -56px; }
 
-/* line 155, ../../../jade/mobile/css/_icons.scss */
+/* line 128, ../../../jade/mobile/css/_icons.scss */
 .iconsp-list-white {
   background-position: -25px -56px; }
 
-/* line 158, ../../../jade/mobile/css/_icons.scss */
+/* line 131, ../../../jade/mobile/css/_icons.scss */
 .iconsp-user-white {
   background-position: -50px -56px; }
 
@@ -501,10 +465,10 @@ select {
   line-height: 21px; }
 
 /* line 31, ../../../jade/mobile/css/_about.scss */
-.about-footer .content a.btn {
+.footer-2 .content a.btn {
   padding: 8px 20px; }
 /* line 35, ../../../jade/mobile/css/_about.scss */
-.about-footer .content ul li {
+.footer-2 .content ul li {
   display: inline-block;
   padding: 10px 5px 0 5px; }
 
@@ -544,8 +508,28 @@ select {
         .bank-page .bank-list li:nth-child(7) img {
           top: 20px; }
 
+/* line 1, ../../../jade/mobile/css/_contact.scss */
+.contact-page {
+  padding: 12px;
+  color: #686868;
+  font-size: 14px;
+  line-height: 21px; }
+  /* line 6, ../../../jade/mobile/css/_contact.scss */
+  .contact-page .contact-list {
+    color: #e74c3c; }
+    /* line 8, ../../../jade/mobile/css/_contact.scss */
+    .contact-page .contact-list span {
+      display: inline-block;
+      zoom: 60%;
+      vertical-align: middle; }
+    /* line 13, ../../../jade/mobile/css/_contact.scss */
+    .contact-page .contact-list label {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 10px; }
+
 @media only screen and (max-width: 767px) and (min-width: 0px) {
-  /* line 20, ../../../jade/mobile/css/style.scss */
+  /* line 21, ../../../jade/mobile/css/style.scss */
   .container {
     width: 100%; } }
 
