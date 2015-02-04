@@ -1,3 +1,19 @@
-a{
-  color: #fff;
+@charset "utf-8";
+/*
+Theme Name: Fari Advice Theme
+Version:0.1
+ */
+
+
+@import "_icons";
+@import "_fonts";
+@import "_header";
+@import "_footer  ";
+@import "_reset";
+@import "_common";
+
+@media only screen and (max-width: 767px) and (min-width: 0px) {
+  .container {
+    width: 100%;
+  }
 }

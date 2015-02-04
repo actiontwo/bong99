@@ -1,0 +1,42 @@
+#header {
+  background-color: #222e39;
+  padding: 13px 13px 0px 13px;
+  position: relative;
+  #menu {
+    display: inline-block;
+    position: absolute;
+    left: 12px;
+    top: 18px;
+    img {
+      width: 30px;
+    }
+  }
+
+  #logo {
+    text-align: center;
+    img {
+      width: 70px;
+    }
+  }
+
+  #livechat {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    background-color: #34495e;
+    border-radius: 6px;
+    color: #fff;
+    position: absolute;
+    right: 12px;
+    top: 16px;
+    span {
+      margin-left: 8px;
+      color: #fff;
+      font-size: 11px;
+    }
+    i {
+      position: relative;
+      top: 3px;
+    }
+  }
+}
