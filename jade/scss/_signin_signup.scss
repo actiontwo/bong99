@@ -43,6 +43,20 @@
         label {
           vertical-align: top;
         }
+        .checkbox-style {
+          .icon-checkbox {
+            background: url("img/icon-sprite.png") no-repeat -183px -15px;
+          }
+          .checkbox-text {
+            margin-left: 5px;
+            p {
+              display: inline-block;
+            }
+          }
+          .checkbox-input:checked + .icon-checkbox {
+            background-position: -183px 0px;
+          }
+        }
         .credit-list {
           display: inline-block;
           width: 246px;
@@ -66,10 +80,25 @@
       }
       &.get-info {
         color: #000;
+        .checkbox-style {
+          .icon-checkbox {
+            background: url("img/icon-sprite.png") no-repeat -180px -92px;
+          }
+          .checkbox-input:checked + .icon-checkbox {
+            background-position: -180px -78px;
+          }
+        }
         input {
           width: 13px;
           height: 13px;
           vertical-align: top;
+        }
+        div:last-child {
+          label {
+            .icon-checkbox {
+              margin-top: -68px;
+            }
+          }
         }
         p {
           display: inline-block;
@@ -97,6 +126,28 @@
         width: 257px;
         text-transform: uppercase;
       }
+    }
+  }
+  .checkbox-style {
+    width: 100%;
+    * {
+      vertical-align: middle;
+      cursor: pointer;
+    }
+    .checkbox-input {
+      display: none;
+    }
+    .icon-checkbox {
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      background: url("img/icon-sprite.png") no-repeat -180px -92px;
+    }
+    .checkbox-text {
+      margin-left: 10px;
+    }
+    .checkbox-input:checked + .icon-checkbox {
+      background-position: -180px -78px;
     }
   }
 }
