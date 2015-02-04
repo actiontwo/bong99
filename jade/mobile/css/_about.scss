@@ -1,0 +1,39 @@
+.about-page {
+  img {
+    width: 100%;
+  }
+  .about-content {
+    padding: 12px;
+    color: #686868;
+    font-size: 14px;
+    line-height: 21px;
+    h3.title {
+      text-transform: uppercase;
+      color: #000;
+      text-align: center;
+    }
+    .line {
+      border-bottom: 3px solid #cccccc;
+      margin: 10px 0;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #999999;
+    }
+    p {
+      margin: 12px 0;
+    }
+  }
+}
+.about-footer {
+  .content {
+    a.btn {
+      padding: 8px 20px;
+    }
+    ul {
+      li {
+        display: inline-block;
+        padding: 10px 5px 0 5px;
+      }
+    }
+  }
+}

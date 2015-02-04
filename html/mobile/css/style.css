@@ -373,37 +373,37 @@ select {
       top: 3px; }
 
 /* line 1, ../../../jade/mobile/css/_footer.scss */
-#footer {
+.footer {
   background-color: #e7e7e7;
   padding-top: 13px; }
   /* line 4, ../../../jade/mobile/css/_footer.scss */
-  #footer .content {
+  .footer .content {
     color: #000;
     text-align: center;
     background-color: #fff;
     padding: 17px 0;
     position: relative; }
     /* line 10, ../../../jade/mobile/css/_footer.scss */
-    #footer .content .btn {
+    .footer .content .btn {
       padding: 4px 18px;
       font-size: 14px;
       letter-spacing: 1px; }
     /* line 15, ../../../jade/mobile/css/_footer.scss */
-    #footer .content .help {
+    .footer .content .help {
       position: absolute;
       left: 12px;
       top: 10px; }
     /* line 20, ../../../jade/mobile/css/_footer.scss */
-    #footer .content .contact {
+    .footer .content .contact {
       position: absolute;
       right: 12px;
       top: 10px; }
     /* line 25, ../../../jade/mobile/css/_footer.scss */
-    #footer .content span {
+    .footer .content span {
       display: block;
       text-align: center; }
   /* line 30, ../../../jade/mobile/css/_footer.scss */
-  #footer .copyright {
+  .footer .copyright {
     font-size: 12px;
     color: #868686;
     text-align: center;
@@ -473,8 +473,41 @@ select {
     .home-page .home-app a:first-child {
       margin-right: 4%; }
 
+/* line 2, ../../../jade/mobile/css/_about.scss */
+.about-page img {
+  width: 100%; }
+/* line 5, ../../../jade/mobile/css/_about.scss */
+.about-page .about-content {
+  padding: 12px;
+  color: #686868;
+  font-size: 14px;
+  line-height: 21px; }
+  /* line 10, ../../../jade/mobile/css/_about.scss */
+  .about-page .about-content h3.title {
+    text-transform: uppercase;
+    color: #000;
+    text-align: center; }
+  /* line 15, ../../../jade/mobile/css/_about.scss */
+  .about-page .about-content .line {
+    border-bottom: 3px solid #cccccc;
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #999999; }
+  /* line 22, ../../../jade/mobile/css/_about.scss */
+  .about-page .about-content p {
+    margin: 12px 0; }
+
+/* line 29, ../../../jade/mobile/css/_about.scss */
+.about-footer .content a.btn {
+  padding: 8px 20px; }
+/* line 33, ../../../jade/mobile/css/_about.scss */
+.about-footer .content ul li {
+  display: inline-block;
+  padding: 10px 5px 0 5px; }
+
 @media only screen and (max-width: 767px) and (min-width: 0px) {
-  /* line 18, ../../../jade/mobile/css/style.scss */
+  /* line 19, ../../../jade/mobile/css/style.scss */
   .container {
     width: 100%; } }
 
