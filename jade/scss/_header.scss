@@ -1,9 +1,17 @@
 #header {
   padding: 10px 0 0 0;
-
+  #logo {
+    img {
+      width: 75%;
+    }
+  }
   form#login-bar {
     margin-bottom: 10px;
     text-align: right;
+    button {
+      padding: 7px 16px;
+      cursor: pointer;
+    }
     .form-input {
       display: inline;
       margin-right: 3px;
@@ -37,6 +45,7 @@
       vertical-align: middle;
       font-family: 'Helvetica Neue', sans-serif;
       margin-left: 5px;
+      font-weight: bold;
       .btn {
         padding: 5px 19px;
         img {

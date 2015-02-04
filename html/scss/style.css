@@ -859,18 +859,25 @@ select {
 #header {
   padding: 10px 0 0 0; }
   /* line 4, ../../jade/scss/_header.scss */
+  #header #logo img {
+    width: 75%; }
+  /* line 8, ../../jade/scss/_header.scss */
   #header form#login-bar {
     margin-bottom: 10px;
     text-align: right; }
-    /* line 7, ../../jade/scss/_header.scss */
+    /* line 11, ../../jade/scss/_header.scss */
+    #header form#login-bar button {
+      padding: 7px 16px;
+      cursor: pointer; }
+    /* line 15, ../../jade/scss/_header.scss */
     #header form#login-bar .form-input {
       display: inline;
       margin-right: 3px;
       position: relative; }
-    /* line 12, ../../jade/scss/_header.scss */
+    /* line 20, ../../jade/scss/_header.scss */
     #header form#login-bar .icon-input-question {
       position: relative; }
-    /* line 15, ../../jade/scss/_header.scss */
+    /* line 23, ../../jade/scss/_header.scss */
     #header form#login-bar .icon-input-question:after {
       content: '?';
       display: inline-block;
@@ -888,43 +895,44 @@ select {
       -o-box-sizing: border-box;
       box-sizing: border-box;
       border-radius: 5px; }
-  /* line 32, ../../jade/scss/_header.scss */
+  /* line 40, ../../jade/scss/_header.scss */
   #header .register-bar {
     font-size: 13px;
     text-align: right; }
-    /* line 35, ../../jade/scss/_header.scss */
+    /* line 43, ../../jade/scss/_header.scss */
     #header .register-bar li {
       display: inline-block;
       vertical-align: middle;
       font-family: 'Helvetica Neue', sans-serif;
-      margin-left: 5px; }
-      /* line 40, ../../jade/scss/_header.scss */
+      margin-left: 5px;
+      font-weight: bold; }
+      /* line 49, ../../jade/scss/_header.scss */
       #header .register-bar li .btn {
         padding: 5px 19px; }
-        /* line 42, ../../jade/scss/_header.scss */
+        /* line 51, ../../jade/scss/_header.scss */
         #header .register-bar li .btn img {
           position: relative;
           top: 3px;
           margin-left: 5px; }
-        /* line 47, ../../jade/scss/_header.scss */
+        /* line 56, ../../jade/scss/_header.scss */
         #header .register-bar li .btn i {
           position: relative;
           top: 3px;
           left: -4px; }
-    /* line 54, ../../jade/scss/_header.scss */
+    /* line 63, ../../jade/scss/_header.scss */
     #header .register-bar button {
       padding: 5px 15px; }
-    /* line 57, ../../jade/scss/_header.scss */
+    /* line 66, ../../jade/scss/_header.scss */
     #header .register-bar .flag-active {
       opacity: 1 !important; }
-    /* line 61, ../../jade/scss/_header.scss */
+    /* line 70, ../../jade/scss/_header.scss */
     #header .register-bar .flag {
       opacity: 0.7; }
-  /* line 66, ../../jade/scss/_header.scss */
+  /* line 75, ../../jade/scss/_header.scss */
   #header #top-menu {
     border-bottom: 2px solid #e74c3c;
     position: relative; }
-    /* line 69, ../../jade/scss/_header.scss */
+    /* line 78, ../../jade/scss/_header.scss */
     #header #top-menu .main-menu {
       background: #e74c3c;
       width: 820px;
@@ -936,7 +944,7 @@ select {
       position: relative;
       top: 2px;
       display: table; }
-      /* line 80, ../../jade/scss/_header.scss */
+      /* line 89, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:before, #header #top-menu .main-menu:after {
         content: '';
         height: 1px;
@@ -945,62 +953,62 @@ select {
         display: inline-block;
         top: 0;
         border-top: 25px solid transparent; }
-      /* line 91, ../../jade/scss/_header.scss */
+      /* line 100, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:after {
         border-left: 12px solid #e74c3c;
         right: -13px; }
-      /* line 95, ../../jade/scss/_header.scss */
+      /* line 104, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu:before {
         border-right: 12px solid #e74c3c;
         left: -13px; }
-      /* line 99, ../../jade/scss/_header.scss */
+      /* line 108, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu li {
         display: table-cell;
         text-align: center;
         padding: 2px 0px;
         z-index: 3;
         position: relative; }
-        /* line 106, ../../jade/scss/_header.scss */
+        /* line 115, ../../jade/scss/_header.scss */
         #header #top-menu .main-menu li a {
           padding: 5px 0; }
-      /* line 110, ../../jade/scss/_header.scss */
+      /* line 119, ../../jade/scss/_header.scss */
       #header #top-menu .main-menu li:hover,
       #header #top-menu .main-menu .active-menu {
         background: #34495e; }
-  /* line 116, ../../jade/scss/_header.scss */
+  /* line 125, ../../jade/scss/_header.scss */
   #header .wrapper-sub-menu {
     position: absolute;
     width: 100%;
     z-index: 10;
     left: 0;
     top: 28px; }
-  /* line 123, ../../jade/scss/_header.scss */
+  /* line 132, ../../jade/scss/_header.scss */
   #header .sub-menu {
     display: none;
     width: 853px;
     margin: 0 auto;
     background: #34495e;
     box-sizing: border-box; }
-    /* line 129, ../../jade/scss/_header.scss */
+    /* line 138, ../../jade/scss/_header.scss */
     #header .sub-menu li {
       display: table-cell;
       text-align: center; }
-      /* line 132, ../../jade/scss/_header.scss */
+      /* line 141, ../../jade/scss/_header.scss */
       #header .sub-menu li * {
         vertical-align: middle; }
-      /* line 135, ../../jade/scss/_header.scss */
+      /* line 144, ../../jade/scss/_header.scss */
       #header .sub-menu li a {
         padding: 10px 0;
         display: block;
         font-size: 14px;
         white-space: nowrap; }
-        /* line 140, ../../jade/scss/_header.scss */
+        /* line 149, ../../jade/scss/_header.scss */
         #header .sub-menu li a span {
           padding-left: 12px; }
-        /* line 143, ../../jade/scss/_header.scss */
+        /* line 152, ../../jade/scss/_header.scss */
         #header .sub-menu li a:hover {
           color: #e74c3c; }
-          /* line 145, ../../jade/scss/_header.scss */
+          /* line 154, ../../jade/scss/_header.scss */
           #header .sub-menu li a:hover i {
             background-position-y: -30px; }
 
