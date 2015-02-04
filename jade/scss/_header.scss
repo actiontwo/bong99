@@ -8,9 +8,18 @@
       display: inline;
       margin-right: 3px;
       position: relative;
+      input{
+        width: 110px;
+      }
     }
     .icon-input-question{
       position: relative;
+    }
+    .btn {
+      padding: 6px 20px;
+      font-weight: 600;
+      font-size: 13px;
+      vertical-align: middle;
     }
     .icon-input-question:after {
       content: '?';
@@ -39,6 +48,7 @@
       margin-left: 5px;
       .btn {
         padding: 5px 19px;
+        font-weight: 600;
         img {
           position: relative;
           top: 3px;

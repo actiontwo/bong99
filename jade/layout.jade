@@ -7,7 +7,7 @@ html(lang='en')
 
     // HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
     //if lt IE 9
-      script(src='js/html5shiv.min.js')
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js')
       script(src='js/respond.min.js')
     // stylesheet
     link(href='http://fonts.googleapis.com/css?family=Roboto:400,700,900,500' rel='stylesheet' type='text/css')
@@ -31,7 +31,7 @@ html(lang='en')
             li: a.btn.btn-blue
               i.iconsp-comment
               | Live Chat
-            li: a.btn.btn-blue Đăng ký
+            li: a(href='signin_signup.html').btn.btn-blue Đăng ký
             li
               span.btn.btn-blue English
                 a.flag.flag-active(href=''): img(src='images/fag_eng.png' alt='United Kingdom' height='15' width='20')
