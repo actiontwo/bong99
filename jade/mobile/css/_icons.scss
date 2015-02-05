@@ -78,14 +78,16 @@
 }
 
 .iconsp-medium-question {
-   background-position: -125px -55px;
-   cursor: pointer;
-    width: 25px;
+  background-position: -125px -58px;
+  cursor: pointer;
+  width: 25px;
+  height: 20px;
  }
 
 .iconsp-medium-refresh {
   background-position: -98px -78px;
   cursor: pointer;
+  width: 28px;
 }
 
 .iconsp-medium-comment {
@@ -97,7 +99,17 @@
   background-position: -173px -55px;
   cursor: pointer;
 }
-
+.iconsp-medium-account {
+  background-position: -126px -80px;
+}
+.iconsp-medium-deposit {
+  background-position: -200px 0px;
+  width: 34px;
+}
+.iconsp-medium-withdraw {
+  background-position: -200px -30px;
+  width: 34px;
+}
 .iconsp-comment {
   background-position: -180px -36px;
   height: 13px;
