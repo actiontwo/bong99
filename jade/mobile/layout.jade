@@ -13,14 +13,15 @@ html(lang='en')
     link(href='css/style.css', type='text/css', rel='stylesheet')
   body
       .container
-        header#header
-          figure#logo
-            a(href='home.html'): img(src='images/logo.png' width='' height=''
-            alt='bong99')
-          #livechat
-            a(href="")
-              i.iconsp-comment
-              span Live Chat
+        block header
+          header#header
+            figure#logo
+              a(href='home.html'): img(src='images/logo.png' width='' height=''
+              alt='bong99')
+            #livechat
+              a(href="")
+                i.iconsp-comment
+                span Live Chat
         block main
 
         block footer

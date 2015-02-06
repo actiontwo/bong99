@@ -54,15 +54,13 @@
     .content {
       padding: 12px;
       .play-now {
+        margin-bottom: 10px;
         position: relative;
         img {
-          &:first-child {
-            margin-top: 12px;
-          }
           &:last-child {
             width: 32%;
             position: absolute;
-            top: 42%;
+            top: 32%;
             left: 8%;
           }
         }
