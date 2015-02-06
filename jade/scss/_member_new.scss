@@ -37,8 +37,13 @@
         margin-right: 5px;
         select {
           width: 100%;
-          padding: 0;
+          padding: 0 0 0 10px;
           font-size: 12px;
+        }
+        &:last-child {
+          select {
+            padding-left: 2px;
+          }
         }
       }
     }
