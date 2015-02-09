@@ -35,10 +35,8 @@
       &.birthday div {
         width: 15%;
         margin-right: 5px;
-        select {
+        .k-widget {
           width: 100%;
-          padding: 0 0 0 10px;
-          font-size: 12px;
         }
         &:last-child {
           select {
@@ -86,6 +84,17 @@ h3.title {
     border-radius: 3px;
     overflow: hidden;
     vertical-align: middle;
+    .k-widget {
+      width: 161px;
+      span.k-dropdown-wrap {
+        height: 30px;
+        background-color: #fff;
+        span.k-input {
+          padding-top: 6px;
+          padding-left: 2px;
+        }
+      }
+    }
   }
   input{
     width: 150px;
@@ -93,25 +102,6 @@ h3.title {
     padding: 0;
     border: 1px solid #bdbdbd;
     padding: 0 5px;
-  }
-  select {
-    background: transparent;
-    appearance: none; /* CSS3 */
-    -webkit-appearance: none; /* Safari and Chrome */
-    -moz-appearance: none; /* Firefox */
-    -ms-appearance: none; /* Internet Explorer */
-    -o-appearance: none; /* Opera */
-    width: 161px;
-    height: 30px;
-    border: 1px solid #bdbdbd;
-    padding: 0 7px;
-    border-style: none;
-    &:focus {
-      outline: 0;
-    }
-  }
-  select::-ms-expand {
-    display: none;
   }
   .btn-submit {
     width: 90px;
@@ -125,4 +115,10 @@ h3.title {
     position: relative;
     left: 150px;
   }
+}
+.k-state-selected, .k-state-selected:link, .k-state-selected:visited, .k-list>.k-state-selected, .k-list>.k-state-highlight, .k-panel>.k-state-selected, .k-ghost-splitbar-vertical, .k-ghost-splitbar-horizontal, .k-draghandle.k-state-selected:hover, .k-scheduler .k-scheduler-toolbar .k-state-selected, .k-scheduler .k-today.k-state-selected, .k-marquee-color {
+  background-color: #e74c3c;
+}
+.k-list {
+  background-color: #fff;
 }

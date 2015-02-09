@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $('#main-slider .slider').bxSlider();
+  $(".size").kendoDropDownList();
 
 //  showMenuList();
 //  ramdomNews();

@@ -26,13 +26,15 @@
       .select-style {
         background: url(img/polygon.png) no-repeat 98% #fff;
       }
+      .k-widget {
+        width: 257px;
+        text-transform: uppercase;
+      }
       &.birthday {
         width: 100%;
         margin-right: 5px;
-        select {
+        .k-widget {
           width: 77px;
-          font-size: 10px;
-          padding-left: 16px;
         }
         .select-style {
           background: url(img/polygon.png) no-repeat 94% #fff;
