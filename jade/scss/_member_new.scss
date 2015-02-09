@@ -78,11 +78,14 @@ h3.title {
   label {
     width: 148px;
     display: inline-block;
+    vertical-align: middle;
   }
   .select-style {
     background: url(img/polygon.png) no-repeat 94% #fff;
     display: inline-block;
     border-radius: 3px;
+    overflow: hidden;
+    vertical-align: middle;
   }
   input{
     width: 150px;
@@ -93,15 +96,22 @@ h3.title {
   }
   select {
     background: transparent;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+    appearance: none; /* CSS3 */
+    -webkit-appearance: none; /* Safari and Chrome */
+    -moz-appearance: none; /* Firefox */
+    -ms-appearance: none; /* Internet Explorer */
+    -o-appearance: none; /* Opera */
     width: 161px;
     height: 30px;
     border: 1px solid #bdbdbd;
     padding: 0 7px;
+    border-style: none;
     &:focus {
       outline: 0;
     }
+  }
+  select::-ms-expand {
+    display: none;
   }
   .btn-submit {
     width: 90px;

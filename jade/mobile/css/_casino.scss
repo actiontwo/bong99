@@ -26,6 +26,7 @@
     ul {
       text-transform: uppercase;
       display: table;
+      width: 100%;
       li {
         display: table-cell;
         font-weight: bold;
@@ -56,13 +57,11 @@
       .play-now {
         margin-bottom: 10px;
         position: relative;
-        img {
-          &:last-child {
-            width: 32%;
-            position: absolute;
-            top: 32%;
-            left: 8%;
-          }
+        a {
+          width: 32%;
+          position: absolute;
+          top: 32%;
+          left: 8%;
         }
       }
       .casino-bxslider {
