@@ -128,5 +128,54 @@
         }
       }
     }
+    .withdraw {
+      font-size: 14px;
+      margin-top: 30px;
+      label {
+        margin-bottom: 10px;
+        display: block;
+      }
+      .form-control {
+        margin-bottom: 17px;
+        &.birthday {
+          .form-group {
+            display: table;
+            width: 100%;
+          }
+          .select-style {
+            display: table-cell;
+            width: 30%;
+            padding: 0 3px;
+            &:last-child {
+              padding-right: 0;
+            }
+            &:first-child {
+              padding-left: 0;
+            }
+          }
+          .k-widget {
+            width: 100%;
+          }
+          &:last-child {
+            select {
+              padding-left: 2px;
+            }
+          }
+        }
+        input {
+          width: 100%;
+          border: 1px solid #ccc;
+          height: 34px;
+        }
+        button {
+          width: 100%;
+          border-radius: 5px;
+          border: none;
+          color: #ffffff;
+          font-size: 14px;
+          padding: 8px 0;
+        }
+      }
+    }
   }
 }
