@@ -34,15 +34,21 @@
         background-color: #eeeeee;
         vertical-align: middle;
         width: 25%;
-        a {
-          width: 100%;
-          font-size: 12px;
-          height: 30px;
+        .table-cell {
           display: inline-block;
-          padding: 15px 0;
-          line-height: 16px;
-          &:focus {
-            outline: 0;
+          a {
+            width: 100%;
+            font-size: 12px;
+            height: 30px;
+            display: table-cell;
+            padding: 15px 0;
+            line-height: 16px;
+            vertical-align: middle;
+            padding-right: 19%;
+            padding-left: 19%;
+            &:focus {
+              outline: 0;
+            }
           }
         }
         &.ui-tabs-active {
