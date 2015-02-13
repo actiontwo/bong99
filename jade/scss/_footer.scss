@@ -18,12 +18,17 @@ section#info-footer {
     }
   }
 
-  .social-media .content {
-    width: 182px;
-    margin: 15px 0;
-    li {
-      padding-right: 14px;
-      margin-bottom: 10px;
+  .social-media {
+    .title {
+      margin-left: 20px;
+    }
+    .content {
+      width: 182px;
+      margin: 15px 0 15px 20px;
+      li {
+        padding-right: 14px;
+        margin-bottom: 10px;
+      }
     }
   }
 }

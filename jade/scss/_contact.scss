@@ -11,13 +11,14 @@
   }
   .contact-map {
     iframe {
-      width: 90%;
-      margin: 24px;
+      width: 100%;
+      margin: 24px 0 24px 10px;
       height: 522px;
     }
   }
   .contact-content {
-//    padding-right: 25px;
+    margin-left: 40px;
+    width: 547px;
     figure#logo {
       border-bottom: 1px solid #FFFFFF;
       padding: 24px 0 20px 0;
