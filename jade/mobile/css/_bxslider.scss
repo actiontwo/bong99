@@ -123,6 +123,16 @@
 
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
+  top: 5%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 100px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+.bx-wrapper .bx-controls-direction a span {
+  position: absolute;
   top: 50%;
   margin-top: -16px;
   outline: 0;
